@@ -1,0 +1,118 @@
+\providecommand{\latin}[1]{#1}
+\makeatletter
+\providecommand{\doi}
+  {\begingroup\let\do\@makeother\dospecials
+  \catcode`\{=1 \catcode`\}=2 \doi@aux}
+\providecommand{\doi@aux}[1]{\endgroup\texttt{#1}}
+\makeatother
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{11}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[Ervin and Lineberger(1991)Ervin, and Lineberger]{erv91}
+Ervin,~K.~M.; Lineberger,~W.~C. Photoelectron spectra of dicarbon(1-) and
+  ethynyl(1-). \emph{The Journal of Physical Chemistry} \textbf{1991},
+  \emph{95}, 1167--1177\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jahn and Teller(1937)Jahn, and Teller]{jah37}
+Jahn,~H.~A.; Teller,~E. Stability of polyatomic molecules in degenerate
+  electronic states - {I O}rbital degeneracy. \emph{Proceedings of the Royal
+  Society of London A: Mathematical, Physical and Engineering Sciences}
+  \textbf{1937}, \emph{161}, 220--235\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tarroni and Carter(2003)Tarroni, and Carter]{tar03}
+Tarroni,~R.; Carter,~S. Theoretical calculation of vibronic levels of {C$_2$H}
+  and {C$_2$D} to 10 000 cm−1. \emph{The Journal of Chemical Physics}
+  \textbf{2003}, \emph{119}, 12878--12889\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sanov(2014)]{san14}
+Sanov,~A. Laboratory-Frame Photoelectron Angular Distributions in Anion
+  Photodetachment: Insight into Electronic Structure and Intermolecular
+  Interactions. \emph{Annual Review of Physical Chemistry} \textbf{2014},
+  \emph{65}, 341--363\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Cavanagh \latin{et~al.}(2007)Cavanagh, Gibson, Gale, Dedman, Roberts,
+  and Lewis]{cav07}
+Cavanagh,~S.~J.; Gibson,~S.~T.; Gale,~M.~N.; Dedman,~C.~J.; Roberts,~E.~H.;
+  Lewis,~B.~R. {High resolution velocity-map imaging photoelectron spectroscopy
+  of the O$^-$ fine-structure transitions}. \emph{Physical Review A}
+  \textbf{2007}, \emph{76}, 052708\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[DeVine \latin{et~al.}(2017)DeVine, Weichman, Laws, Chang, Babin,
+  Balerdi, Xie, Malbon, Lineberger, Yarkony, Field, Gibson, Ma, Guo, and
+  Neumark]{dev17}
+DeVine,~J.~A.; Weichman,~M.~L.; Laws,~B.; Chang,~J.; Babin,~M.~C.; Balerdi,~G.;
+  Xie,~C.; Malbon,~C.~L.; Lineberger,~W.~C.; Yarkony,~D.~R. \latin{et~al.}
+  Encoding of vinylidene isomerization in its anion photoelectron spectrum.
+  \emph{Science} \textbf{2017}, \emph{358}, 336--339\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dedman \latin{et~al.}(2001)Dedman, Roberts, Gibson, and Lewis]{ded01}
+Dedman,~C.~J.; Roberts,~E.~H.; Gibson,~S.~T.; Lewis,~B.~R. Fast 1 kV
+  metal-oxide-semiconductor field-effect transistor switch. \emph{Review of
+  Scientific Instruments} \textbf{2001}, \emph{72}, 3718--3720\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gascooke \latin{et~al.}(2017)Gascooke, Gibson, and Lawrance]{gas17}
+Gascooke,~J.~R.; Gibson,~S.~T.; Lawrance,~W.~D. A “circularisation” method
+  to repair deformations and determine the centre of velocity map images.
+  \emph{The Journal of Chemical Physics} \textbf{2017}, \emph{147},
+  013924\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hansen and Law(1985)Hansen, and Law]{han85}
+Hansen,~E.~W.; Law,~P.-L. Recursive methods for computing the Abel transform
+  and its inverse. \emph{Journal of the Optical Society of America A}
+  \textbf{1985}, \emph{2}, 510--520\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hickstein \latin{et~al.}(2016)Hickstein, Yurchak, Das, Shih, and
+  Gibson]{pya16}
+Hickstein,~D.~D.; Yurchak,~R.; Das,~D.; Shih,~C.-Y.; Gibson,~S.~T. {PyAbel}
+  (v0.7): A Python package for Abel transforms.
+  https://github.com/PyAbel/PyAbel, 2016\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

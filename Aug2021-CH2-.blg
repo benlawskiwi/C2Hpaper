@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Aug2021-CH2-.aux
+The style file: achemso.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: acs-Aug2021-CH2-.bib
+Database file #2: C2H.bib.bib
+Warning--I didn't find a database entry for "law19"
+achemso 2018/02/05 v3.11a
+You've used 11 entries,
+            2536 wiz_defined-function locations,
+            833 strings with 9084 characters,
+and the built_in function-call counts, 3956 in all, are:
+= -- 314
+> -- 235
+< -- 9
++ -- 93
+- -- 82
+* -- 428
+:= -- 531
+add.period$ -- 20
+call.type$ -- 11
+change.case$ -- 4
+chr.to.int$ -- 2
+cite$ -- 11
+duplicate$ -- 213
+empty$ -- 257
+format.name$ -- 97
+if$ -- 755
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 88
+num.names$ -- 30
+pop$ -- 17
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 10
+stack$ -- 0
+substring$ -- 226
+swap$ -- 231
+text.length$ -- 20
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 74
+warning$ -- 0
+while$ -- 39
+width$ -- 0
+write$ -- 156
+(There was 1 warning)
