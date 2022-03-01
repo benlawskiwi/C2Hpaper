@@ -1,0 +1,60 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+\title{C2H}
+\author{z.levey }
+\date{October 2021}
+
+\begin{document}
+
+The photoelectron spectrum of C2H -- including vibronic coupling effects -- is simulated using a quasidiabatic Hamiltonian, which has been described in detail elsewhere, and will only be briefly discussed below.
+Complications brought about by the vibronic interactions between strongly coupled electronic states in the adiabatic representation can be avoided -- in principle -- via a transformation to a diabatic model. A useful, diabatic nuclear kinetic energy operator is achieved by representing the wave function of the molecule as a product of electronic wave functions with electronic coordinates at a 'frozen' reference geometry, and vibrational wavefunctions.
+The electronic states responsible for the failure of the adiabatic model may be isolated (in the diabatic basis) from the rest of the electronic states (in the adiabatic basis). This mixing of states prevents the electronic Hamiltonian from being strictly diagonal. However, if the frozen electronic states are well-chosen, then the off-diagonal terms in the kinetic energy operator are small and can be effectively neglected. This resulting electronic basis is the quasidiabatic representation.
+
+The potential energy matrix, V, that appropriately describes the low-lying vibronic states of C2H, can be written
+
+\begin{equation*}
+\boldsymbol{V} = 
+\begin{pmatrix}
+    \Delta_0^X + \sum\limits_i F^{X}_{i}q_{i} + \frac{1}{2}\sum\limits_i F^{X}_{ij}q_{i}q_{j}  &
+    \sum\limits_i \lambda_{i}^{XA}q_{i} \\
+    \sum\limits_i \lambda_{i}^{AX}q_{i} &
+    \Delta_0^A + \sum\limits_i F^{A}_{i}q_{i} + \frac{1}{2}\sum\limits_i F^{A}_{ij}q_{i}q_{j} \\  
+\end{pmatrix}
+\end{equation*}
+
+The diagonal terms of $\boldsymbol{V}$ represent the quasidiabatic potential energy surfaces, and contain force constants F associated with the normal modes i,j. $\Delta_0$ is the vertical electron detachment energy from C2H$^-$ to the neutral $\tilde{X}^2\Sigma^+$ ground state of C2H, denoted X, and the low-lying $\tilde{A}^2\Pi$ excited state, denoted A.  
+The off-diagonal terms of $\boldsymbol{V}$ contain the coupling constants between the quasidiabatic electronic states, $\lambda$.
+The adiabatic potential energy surfaces, $\nu_x$ and $\nu_a$, are obtained through the diagonalization of $\boldsymbol{V}$ and are equal to the quasidiabatic surfaces at a reference geometry, $R_0$. Additionally, this applies to all structures displaced from $R_0$ along totally symmetric coordinates, but loses this correspondence along coupling coordinates, particularly at a conical intersection. 
+Therefore, all force constants in the diagonal blocks of $\boldsymbol{V}$ in the quasidiabatic representation that are associated with totally symmetric coordinates are equivalent to those obtained in the adiabatic representation and, thus, can be generated using standard ab initio quantum-chemical calculations.
+
+
+\begin{equation*}
+F^X_i = \left(\frac{\delta\nu}{\delta q_i}\right)_{R_0} ; \quad F^X_i = \left(\frac{\delta\nu^2}{\delta q_i\delta q_j}\right)_{R_0} ;\quad ...
+\end{equation*}
+
+\begin{equation*}
+\forall i,j...\in\Gamma{_tot.symm.},
+\end{equation*}
+
+For the case in which the normal modes, ij, correspond to coupling modes, the diabatic force constants $F_{ij}$ and the adiabatic force constants are not equal due to the off-diagonal coupling terms, and are instead written
+
+\begin{equation*}
+F^{X(A)}_{ij} = f_{ij}^{X(A)} + \frac{2\lambda_{i}\lambda_{j}}{\Delta^{A(X)}_{X(A)}}, \quad \Delta^{A}_{B} = E_A - E_X,
+\end{equation*}
+
+where $F_{ij}$ and $f_{ij}$ are the quasidiabatic and adiabatic force constants, respectively. $\Delta^{A}_{X}$ is equal to the vertical energy difference between the coupled states X and A at the reference geometry. 
+Furthermore, due to the large geometrical differences between the reference and final states, force fields are not calculated at the reference geometry -- on the adiabatic surface -- but rather, are calculated at the minima of the final states and are transformed into the basis of the reduced normal coordinates of the reference state. This is known as "adiabatic parametrization", and is necessary to generate reasonable diabatic force constants.
+
+Lastly, the off-diagonal terms of $\boldsymbol{V}$ are the coupling constants between the vibronically mixed final states and were determined analytically. ***Need John's help...Did we do any transformation to make PJT quasidiabatic...***
+
+The adiabatic potential energy surfaces were calculated using the coupled-cluster method with single, double and triple excitations (CCSDT). A restricted Hartree-Fock (RHF) reference function was used, along with the atomic natural orbital (ANO) basis set. The basis included...***help*** (ANO2). The geometries for each state were determined using a RHF-CCSDT/ANO2 optimization procedure based on analytic gradients. The quadratic force constants were calculated from harmonic frequency calculations based on analytic derivatives. Table 1 \& 2 presents all parameters that have been used in the Hamiltonians of this work ***to be completed by Zach***.
+
+
+
+
+
+
+
+\end{document}
