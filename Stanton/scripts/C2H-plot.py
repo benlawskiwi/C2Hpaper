@@ -40,7 +40,7 @@ plt.xlim(-630,4225)
 
 plt.plot((0,0),(0,0),'C0',label=r'$\Sigma$ Symmetry')
 plt.plot((0,0),(0,0),'C1',label=r'$\Pi$ Symmetry')
-plt.legend(loc=1,fontsize=10,frameon=False)
+plt.legend(loc=9,fontsize=10,frameon=False)
 
 ax.spines['top'].set_visible(False)
 ax.spines['left'].set_visible(False)

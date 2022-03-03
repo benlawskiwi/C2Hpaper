@@ -1,15 +1,15 @@
-This is BibTeX, Version 0.99d (TeX Live 2020)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Aug2021-CH2-.aux
 The style file: achemso.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: acs-Aug2021-CH2-.bib
-Database file #2: C2H.bib
+Database file #2: C2H.bib.bib
 Warning--I didn't find a database entry for "tar03"
 Warning--I didn't find a database entry for "law19"
-achemso 2019-02-14 v3.12a
+achemso 2018/02/05 v3.11a
 You've used 10 entries,
-            2538 wiz_defined-function locations,
+            2536 wiz_defined-function locations,
             826 strings with 8894 characters,
 and the built_in function-call counts, 3597 in all, are:
 = -- 280
