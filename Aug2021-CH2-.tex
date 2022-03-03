@@ -97,11 +97,75 @@ where $\psi_e^\xi$ is the diabatic electronic wavefunction, and $\phi_{fkm}^\xi$
 	\label{fig:3}
 \end{figure}
 
-Tarroni and Carter~\cite{tar03} have demonstrated that a large number of admixed vibronic levels may be calculated using the potential energy surfaces in Fig.~\ref{fig:3}. In fact, over 100 vibronic levels have been calculated, upto 6,400~cm$^{-1}$ above the $\tilde{X}$ state origin. However assigning these levels to experimental spectra has remained a challenge, partly due to the large number of calculated vibronic levels, and partly due to the resolution of the experimental data in the literature. 
+Tarroni and Carter~\cite{tar03} have demonstrated that a large number of admixed vibronic levels may be calculated using the potential energy surfaces in Fig.~\ref{fig:3}. In fact, over 100 vibronic levels have been calculated, up to 6,400~cm$^{-1}$ above the $\tilde{X}$ state origin. However assigning these levels to experimental spectra has remained a challenge, partly due to the large number of calculated vibronic levels, and partly due to the resolution of the experimental data in the literature. 
 
 %The total number of vibronic levels that need to be considered may be reduced, by examining the symmetry of the level. Conservation of angular momentum dictates only transitions from the anion $\tilde{X}\,^1\Sigma^+$ origin to neutral states with $\Sigma^+$ or $\Pi$ symmetry will be allowed.
 
+\subsection{Coupling Calculations}
+In order to guide spectral assignment of C$_2$H and astronomical searches for other C$_n$H radicals, transition intensities are also needed. However, due to the strong vibronic coupling interactions, this can not be obtained via standard quantum chemistry methods. To account for these interactions, the photoelectron spectrum of the C$_2$H$^-$ anion was simulated using a quasidiabatic Hamiltonian of the type advocated by Koeppel, Domcke and Cederbaum (KDC, reference here).   In this approach, the Hamiltonian is represented in a basis of quasidiabatic (slowly varying) electronic  states for which the kinetic energy operator can be assumed diagonal.   For C$_2$H, the KDC Hamiltonian comprises three states - the two components of the $^2\Pi$ state and the ground $^2\Sigma$ state - and is then projected onto a vibrational basis, usually chosen as a direct product of harmonic oscillators.  Diagonalization of the corresponding matrix yields the molecular states (which are given in terms of a Born-Huang expansion), and the squared projections of the corresponding eigenvectors onto the ground state of the anion yield the relative intensities. The latter is automatically true if the photodetachment cross sections for the $^2\Sigma$ and $^2\Pi$ states are assumed equal, but different cross sections of the two states can be incorporated by scaling the intensities of states according to their (vibronic) symmetry. 
+
+Details of the construction and parametrization of KDC Hamiltonians can be found elsewhere in the literature (references), and the procedure followed will be discussed here only briefly.   The present calculations use the so-called quadratic vibronic coupling (QVC) model.  For the system at hand, the QVC model Hamiltonian  assumes the following form
+
+where the summations run over the dimensionless normal modes ($q_i$) that serve as the coordinate system for the problem.   For convenience, the latter are chosen to be those of the anion, which considerably facilitates calculation of the spectral intensities.  In Eq. 1, the diagonal terms of V (excluding those that carry the Renner-Teller coupling constant $\eta$) represent the quasidiabatic potential energy surfaces of the $\Sigma$, and the two components of the $\Pi$ state, chosen here as those in which the unpaired electron lies within or is perpendicular to an arbitrarily chosen plane, designated as A(a') and A(a''), respectively. $\Delta_0^X$ is the separation of the anion and $\Sigma$ states at the origin of the coordinate system (the vertical electron detachment energy), and $\Delta_0^{Pi}$ is the gap between anion and $\Pi$ states at the same geometry.   
+
+For the modes of $\sigma$ symmetry ($q_1$ and $q_3$), the diabatic forces ($F_i$) and force constants ($F_{ij}$) coincide with those of the adiabatic potential energy surfaces.   However, for the bending mode, the diabatic (F22) and adiabatic (f22) force constants differ, and the parametrization is somewhat more involved.   For each component of the $\Pi$ state, either the 2a or 2b component of the bending vibration will maintain the A' electronic symmetry that is needed to couple with the X state.  Designating these as 2a for the A(a') state and 2b for the A(a'') state (as is implicit in Eq. 1), the diabatic force constants for the bending mode in the X and A states can be written as 
+
+where the Renner-Teller interaction strength ($\eta$) is determined from 
+
+once the interstate coupling ($\lambda$ which is calculated analytically in this work, see below) is known.
+
+When the potential in Eq. 1 is diagonalized, the adiabatic states that are used for its parametrization are precisely recovered through second order in displacement. To parametrize this Hamiltonian, the equation-of-motion coupled-cluster method known as EOMIP-CCSDT has been used … (Zach goes from here)…
+
+
+
+\begin{equation}
+V = \bordermatrix{ & X & A(a') & A(a'') \cr
+	X & {\Delta_0^X+F_1^Xq_1+F_3^Xq_3+   
+		\frac{1}{2} \Sigma_{ij}F^X_{ij}q_iq_j}& 0 & 1 \cr
+	A(a') & 1 & \Delta^A_0+F^A_1q_1+F^A_3q_3+\frac{1}{2}\sum_{ij}F^A_{ij}q_iq_j+\frac{1}{2}\eta(q_{3a}^2-q_{3b}^2) & 0 \cr
+	A(a'') & 0 & 1 & 0 } \qquad
+\end{equation}
+
+\subsection{Simulated Spectra}
+The above method was employed to simulate the photoelectron spectrum of C$_2$H$^-$, with the calculated transitions compared to the experimental data in Figure a. The positions of the $^2\Pi$ levels have been shifted by 1,220~cm$^{-1}$ to account for the EOMIP-CCSDT calculations overestimating the effective $^2\Pi$ Term energy. Excellent agreement is seen below the A state origin (xxx cm$^{-1}$) in both the position and intensity of the calculated transitions. This includes the Herzberg-Tellar coupled transitions, with $\Pi$ symmetry. 
+
+The calculations also show good agreement near the conical intersection, correctly predicting that the A state origin is spread over 5 prominent transitions. The relative calculated intensities are also a good match to the experimental data. Peak e may appear overestimated in the calculations, however this may be explained by the Wigner threshold law reducing the intensity of the experimental peak as it is close to threshold at 355nm. The simulated spectrum slightly underestimates the splitting between the vibronic levels, however this may be linked to the overestimation of the gap between the $^2\Sigma$ and $^2\Pi$ surfaces. 
+
+The deuterated spectrum of C$_2$D$^-$ was also simulated using the same approach, and is shown in Figure b. Again, there is excellent agreement in the intensity and calculated positions of the transitions on the X state surface. Near the A state origin, 3 strong transitions are calculated, which may be assigned to the 3 dominant peaks in the experimental spectrum (a,b,c). Two transitions are calculated at the position of peak a, however due to the small spacing this may not be resolved in the experimental data. The calculated transition for peak c appears to slightly underestimate both the intensity and splitting compared to the experimental data.
+
+The calculated transitions were used to simulate the photoelectron spectrum at 266~nm, as shown in Figure c. Gaussians were fitted to the transitions with a FWHM of 20~cm$^{-1}$ to match the resolution of the experimental data. This figure demonstrates that the method used in this work does in excellent job in qualitatively predicting the photoelectron spectrum of molecules involving complex vibronic coupling interactions. This result also confirms that the method is able to calculate the intensity and position of levels higher up the coupled A state surface. Near the $3^0$ transitions (5,000~cm$^1$) only peak f appears to be missing from the simulated spectrum.
+
+Overall, figures a-c show that the quasiadiabatic approach is a reliable method for simulating the spectra of molecules when strong vibornic coupling interactions are involved. This method may be expanded to other C$_n$H radicals that possess similar complexities, in order to help guide the search for new molecules to be found in space.
+
 \subsection{Photoelectron Angular Distributions}
+Symmetry considerations may be employed to help verify the assignments from the calculations above. The EOMIP-CCSDT calculations determine the symmetry of each transitions, either $\Sigma$ or $\Pi$. Experimentally, this may be compared directly to symmetries obtained from the corresponding photoelectron angular distributions. As the detachment laser is linearly polarized, the angular distribution of the electrons in Fig.~\ref{fig:1} may be linked to the symmetry of the detachment orbital. For polarised light, the differential cross section is given by   
+\begin{equation}
+	\frac{\text{d}\sigma}{\text{d}\Omega}=\frac{\sigma_{\text{total}}}{4\pi}[1+\beta P_{2}(\cos\theta)],
+	\label{eq:beta1}
+\end{equation}
+where $\theta$ is the angle between the ejected electron and the (vertical) 
+laser polarization, and $P_2$ is the second-order Legendre polynomial. The anisotropy parameter $\beta$ provides a quantitative measure of the angular distribution, and can range from -1 to +2 for a pure parallel and perpendicular transition respectively.** From Eq.~(\ref{eq:beta1}), $\beta$ may be determined for each transition in a photoelectron spectrum from the slope of I($\theta$) vs $P_2(\cos\theta)$. 
+
+
+
+
+Through conservation of angular momentum, it can be shown that $\beta$ may also be expressed in terms of partial waves and dipole matrix elements. Explicitly,
+\begin{equation}
+	\beta_{\ell} = \frac{[\ell(\ell-1)\chi_{\ell,\ell-1}^2+(\ell+1)(\ell+2)\chi_{\ell,\ell+1}^2-6\ell(\ell+1)\chi_{\ell,\ell-1}\chi_{\ell,\ell+1}\cos\delta_{\ell+1,\ell-1}]/(2\ell+1)}{\ell\chi_{\ell,\ell-1}^2+(\ell+1)\chi_{\ell,\ell+1}^2},
+	\label{eq:cooper-zare}
+\end{equation}
+where $\ell$ is the electron orbital angular momentum of the parent anion 
+orbital, $\chi_{\ell,\ell\pm1}$ is the radial 
+dipole matrix element for the transition from an orbital $\ell$ to 
+each of the $\ell\pm1$ partial waves, and $\delta_{\ell+1,\ell-1}$ is 
+the phase shift between the two ($\ell\pm1$) partial waves.  
+
+
+
+ Photodetachment to the ground state of C$_2$H$^-$ $(\tilde{X}\,^1\Sigma^+)$ involves ejecting an electron from an $s-$like $5\sigma_g$ orbital, whereas detachment to the excited $(\tilde{A}\,^2\Pi)$ state occurs from a $p-$like $1\pi_u$ orbital.
+
+
+
 Symmetry considerations can be employed to help assign the admixed structure in the experimental photoelectron spectra around the $\tilde{A}^2\Pi$ origin. As the detachment laser is linearly polarized, the angular distribution of the electrons in Fig.~\ref{fig:1} may be linked to the symmetry of the detachment orbital. For polarised light, the differential cross section is given by   
 \begin{equation}
 \frac{\text{d}\sigma}{\text{d}\Omega}=\frac{\sigma_{\text{total}}}{4\pi}[1+\beta P_{2}(\cos\theta)],
