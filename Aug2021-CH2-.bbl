@@ -8,7 +8,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{10}
+\begin{mcitethebibliography}{9}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -30,15 +30,6 @@
 Ervin,~K.~M.; Lineberger,~W.~C. Photoelectron spectra of dicarbon(1-) and
   ethynyl(1-). \emph{The Journal of Physical Chemistry} \textbf{1991},
   \emph{95}, 1167--1177\relax
-\mciteBstWouldAddEndPuncttrue
-\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
-{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
-\EndOfBibitem
-\bibitem[Jahn and Teller(1937)Jahn, and Teller]{jah37}
-Jahn,~H.~A.; Teller,~E. Stability of polyatomic molecules in degenerate
-  electronic states - {I O}rbital degeneracy. \emph{Proceedings of the Royal
-  Society of London A: Mathematical, Physical and Engineering Sciences}
-  \textbf{1937}, \emph{161}, 220--235\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax

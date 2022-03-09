@@ -53,7 +53,7 @@ plt.yticks([])
 plt.xticks([0,1000,2000,3000,4000])
 ax.set_xticklabels(['0','1000','2000','3000','4000'],fontsize=14)
 plt.minorticks_on()
-plt.xlabel('Wavenumber (cm$^{-1}$)',fontsize=14)
+plt.xlabel('Excitation Energy (cm$^{-1}$)',fontsize=14)
 ax.tick_params(width=1.5)
 plt.setp(ax.spines.values(), linewidth=1.5)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  3 MAR 2022 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  8 MAR 2022 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -180,16 +180,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 6.
-<C2H-plot.pdf, id=1, 412.08876pt x 334.86835pt>
+<C2H-plot.pdf, id=1, 412.08876pt x 335.8721pt>
 File: C2H-plot.pdf Graphic file (type pdf)
 <use C2H-plot.pdf>
 Package pdftex.def Info: C2H-plot.pdf  used on input line 9.
-(pdftex.def)             Requested size: 210.08702pt x 170.71652pt.
-<C2D-plot.pdf, id=2, 412.08876pt x 334.86835pt>
+(pdftex.def)             Requested size: 209.45824pt x 170.71652pt.
+<C2D-plot.pdf, id=2, 412.08876pt x 335.8721pt>
 File: C2D-plot.pdf Graphic file (type pdf)
 <use C2D-plot.pdf>
 Package pdftex.def Info: C2D-plot.pdf  used on input line 9.
-(pdftex.def)             Requested size: 210.08702pt x 170.71652pt.
+(pdftex.def)             Requested size: 209.45824pt x 170.71652pt.
 
 
 Package textpos Warning: environment textblock* not in vertical mode. 
@@ -238,9 +238,9 @@ Here is how much of TeX's memory you used:
  39i,19n,56p,230b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</u
 sr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Fig5.pdf (1 page, 62248 bytes).
+Output written on Fig5.pdf (1 page, 63216 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 101 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  7 MAR 2022 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  9 MAR 2022 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,17 +506,7 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 LaTeX Warning: Unused global option(s):
     [12pt].
 
-(./Aug2021-CH2-.aux
-
-LaTeX Warning: Label `eq:beta1' multiply defined.
-
-
-LaTeX Warning: Label `eq:cooper-zare' multiply defined.
-
-
-LaTeX Warning: Label `eq:1' multiply defined.
-
-)
+(./Aug2021-CH2-.aux)
 \openout1 = `Aug2021-CH2-.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -691,91 +681,83 @@ File: figures/Fig5.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/Fig5.pdf  used on input line 129.
 (pdftex.def)             Requested size: 281.8561pt x 447.22935pt.
  [11 <./figures/Fig5.pdf>]
-<figures/266-plot.pdf, id=304, 426.45493pt x 334.86835pt>
+<figures/266-plot.pdf, id=306, 426.45493pt x 335.8721pt>
 File: figures/266-plot.pdf Graphic file (type pdf)
 <use figures/266-plot.pdf>
 Package pdftex.def Info: figures/266-plot.pdf  used on input line 139.
-(pdftex.def)             Requested size: 281.8561pt x 221.33058pt.
- [12 <./figures/266-plot.pdf>] [13] [14]
+(pdftex.def)             Requested size: 281.8561pt x 221.99402pt.
+ [12 <./figures/266-plot.pdf>] [13]
+<figures/PAD.pdf, id=362, 504.01097pt x 360.00786pt>
+File: figures/PAD.pdf Graphic file (type pdf)
+<use figures/PAD.pdf>
+Package pdftex.def Info: figures/PAD.pdf  used on input line 173.
+(pdftex.def)             Requested size: 234.87769pt x 167.76996pt.
+ [14]
+<figures/plotBeta.pdf, id=368, 469.07007pt x 337.69923pt>
+File: figures/plotBeta.pdf Graphic file (type pdf)
+<use figures/plotBeta.pdf>
+Package pdftex.def Info: figures/plotBeta.pdf  used on input line 183.
+(pdftex.def)             Requested size: 281.8561pt x 202.91995pt.
+ [15 <./figures/PAD.pdf>]
 
-LaTeX Warning: Reference `fig:4' on page 15 undefined on input line 197.
-
-[15]
-
-LaTeX Warning: Reference `fig:4' on page 16 undefined on input line 231.
-
-[16]
-
-LaTeX Warning: Reference `fig:C2H-355' on page 17 undefined on input line 255.
-
-[17]
-
-Package natbib Warning: Citation `law19' on page 18 undefined on input line 265
+Package natbib Warning: Citation `law19' on page 16 undefined on input line 199
 .
 
-[18] (./Aug2021-CH2-.bbl
+[16 <./figures/plotBeta.pdf>] (./Aug2021-CH2-.bbl
 
-! Package mciteplus Error: Entry Status for cite key `jah37' under tracking ID 
+! Package mciteplus Error: Entry Status for cite key `san14' under tracking ID 
 `main' is undefined, treating it as a head entry.
 
 See the mciteplus package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 ...n and Teller(1937)Jahn, and Teller]{jah37}
-                                                  
+l.37 \bibitem[Sanov(2014)]{san14}
+                                 
 I don't have a record of the head/tail status of this citation. Possible reason
 s include the use of a cite command that is not mciteplus aware, the use of `\n
 ocite{*}', or a problem with the tracking ID and/or aux file handles. `\mciteEr
 rorOnUnknownfalse' can be used to disable this error message.
 
-[19])
+[17])
 
 Package natbib Warning: There were undefined citations.
 
-[20] (./Aug2021-CH2-.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[18] (./Aug2021-CH2-.aux) ) 
 Here is how much of TeX's memory you used:
- 15033 strings out of 494847
- 278650 string characters out of 6179079
- 341187 words of memory out of 5000000
- 18217 multiletter control sequences out of 15000+600000
+ 15034 strings out of 494847
+ 278782 string characters out of 6179079
+ 340066 words of memory out of 5000000
+ 18216 multiletter control sequences out of 15000+600000
  549426 words of font info for 61 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,11n,94p,10412b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.60
-0pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0800.
-600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx144
-0.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0
-800.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecb
-x1728.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cbx1095.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecrm1200.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecss1200.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecti1200.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/ecss1000.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecss1440.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecsx2074.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/helvetic/uhvr8a.pfb>
-Output written on Aug2021-CH2-.pdf (20 pages, 1295929 bytes).
+ 60i,8n,94p,10412b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfou
+r/jknappen/ec/ecbx1200.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecbx0800.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/l
+jfour/jknappen/ec/ecbx1440.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk
+/ljfour/jknappen/ec/ecrm0800.600pk> </home/bal121/.texlive2017/texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/bal121/.texlive2017/texmf-var/font
+s/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/bal121/.texlive2017/texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/bal121/.texlive2017/texmf-var/
+fonts/pk/ljfour/jknappen/ec/ecss1200.600pk> </home/bal121/.texlive2017/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/bal121/.texlive2017/texmf-
+var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </home/bal121/.texlive2017/texm
+f-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/bal121/.texlive2017/te
+xmf-var/fonts/pk/ljfour/jknappen/ec/ecsx2074.600pk></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on Aug2021-CH2-.pdf (18 pages, 1326436 bytes).
 PDF statistics:
- 745 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
+ 834 PDF objects out of 1000 (max. 8388607)
+ 211 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,45 +8,45 @@ Database file #2: C2H.bib.bib
 Warning--I didn't find a database entry for "tar03"
 Warning--I didn't find a database entry for "law19"
 achemso 2018/02/05 v3.11a
-You've used 10 entries,
+You've used 9 entries,
             2536 wiz_defined-function locations,
-            826 strings with 8894 characters,
-and the built_in function-call counts, 3597 in all, are:
-= -- 280
-> -- 222
-< -- 8
-+ -- 88
-- -- 78
-* -- 387
-:= -- 486
-add.period$ -- 18
-call.type$ -- 10
+            816 strings with 8570 characters,
+and the built_in function-call counts, 3270 in all, are:
+= -- 249
+> -- 209
+< -- 7
++ -- 83
+- -- 74
+* -- 350
+:= -- 444
+add.period$ -- 16
+call.type$ -- 9
 change.case$ -- 4
 chr.to.int$ -- 2
-cite$ -- 10
-duplicate$ -- 196
-empty$ -- 228
-format.name$ -- 90
-if$ -- 682
+cite$ -- 9
+duplicate$ -- 179
+empty$ -- 203
+format.name$ -- 83
+if$ -- 617
 int.to.chr$ -- 0
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 82
-num.names$ -- 27
-pop$ -- 16
+newline$ -- 76
+num.names$ -- 24
+pop$ -- 15
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 9
+skip$ -- 8
 stack$ -- 0
-substring$ -- 192
-swap$ -- 216
-text.length$ -- 18
+substring$ -- 168
+swap$ -- 201
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 67
+type$ -- 60
 warning$ -- 0
-while$ -- 35
+while$ -- 31
 width$ -- 0
-write$ -- 143
+write$ -- 130
 (There were 2 warnings)

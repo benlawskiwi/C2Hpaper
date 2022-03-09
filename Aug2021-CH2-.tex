@@ -149,110 +149,44 @@ The results from Figures~\ref{fig:C2H-plot} and~\ref{fig:266-plot} confirm that 
 %Overall, figures a-c show that the quasiadiabatic approach is a reliable method for simulating the spectra of molecules when strong vibornic coupling interactions are involved. This method may be expanded to other C$_n$H radicals that possess similar complexities, in order to help guide the search for new molecules to be found in space.
 
 \subsection{Photoelectron Angular Distributions}
-Symmetry considerations may be employed to help verify the assignments from the calculations above. The EOMIP-CCSDT calculations determine the symmetry of each transitions, either $\Sigma$ or $\Pi$. Experimentally, this may be compared directly to symmetries obtained from the corresponding photoelectron angular distributions. As the detachment laser is linearly polarized, the angular distribution of the electrons in Fig.~\ref{fig:1} may be linked to the symmetry of the detachment orbital. For polarised light, the differential cross section is given by   
+Symmetry considerations may be employed to verify the spectral assignments from the calculations above. The quasiadiabatic Hamiltonian approach is able to determine the symmetry of each individual vibronic state, either $\Sigma$ or $\Pi$, which may be compared directly to the experimental electron anisotropy of each transition. The VMIs from this work (Figure~\ref{fig:1}) were obtained using a linearly polarized detachment laser. Therefore, the differential cross section of emitted electrons is given by  
 \begin{equation}
 	\frac{\text{d}\sigma}{\text{d}\Omega}=\frac{\sigma_{\text{total}}}{4\pi}[1+\beta P_{2}(\cos\theta)],
 	\label{eq:beta1}
 \end{equation}
 where $\theta$ is the angle between the ejected electron and the (vertical) 
-laser polarization, and $P_2$ is the second-order Legendre polynomial. The anisotropy parameter $\beta$ provides a quantitative measure of the angular distribution, and can range from -1 to +2 for a pure parallel and perpendicular transition respectively.** From Eq.~(\ref{eq:beta1}), $\beta$ may be determined for each transition in a photoelectron spectrum from the slope of I($\theta$) vs $P_2(\cos\theta)$. 
+laser polarization, and $P_2$ is the second-order Legendre polynomial. The anisotropy parameter $\beta$ provides a quantitative measure of the anisotropy, and can range from -1 to +2 for purely perpendicular and parallel transition respectively. Through conservation of angular momentum, $\beta$ may be described in terms of the detachment partial waves, which are linked to the symmetry of the parent detachment orbital. This is discussed in detail elsewhere [cite], and will be only briefly described for the case of C$_2$H$^-$ here. 
 
-
-
-
-Through conservation of angular momentum, it can be shown that $\beta$ may also be expressed in terms of partial waves and dipole matrix elements. Explicitly,
-\begin{equation}
-	\beta_{\ell} = \frac{[\ell(\ell-1)\chi_{\ell,\ell-1}^2+(\ell+1)(\ell+2)\chi_{\ell,\ell+1}^2-6\ell(\ell+1)\chi_{\ell,\ell-1}\chi_{\ell,\ell+1}\cos\delta_{\ell+1,\ell-1}]/(2\ell+1)}{\ell\chi_{\ell,\ell-1}^2+(\ell+1)\chi_{\ell,\ell+1}^2},
-	\label{eq:cooper-zare}
-\end{equation}
-where $\ell$ is the electron orbital angular momentum of the parent anion 
-orbital, $\chi_{\ell,\ell\pm1}$ is the radial 
-dipole matrix element for the transition from an orbital $\ell$ to 
-each of the $\ell\pm1$ partial waves, and $\delta_{\ell+1,\ell-1}$ is 
-the phase shift between the two ($\ell\pm1$) partial waves.  
-
-
-
- Photodetachment to the ground state of C$_2$H$^-$ $(\tilde{X}\,^1\Sigma^+)$ involves ejecting an electron from an $s-$like $5\sigma_g$ orbital, whereas detachment to the excited $(\tilde{A}\,^2\Pi)$ state occurs from a $p-$like $1\pi_u$ orbital.
-
-
-
-Symmetry considerations can be employed to help assign the admixed structure in the experimental photoelectron spectra around the $\tilde{A}^2\Pi$ origin. As the detachment laser is linearly polarized, the angular distribution of the electrons in Fig.~\ref{fig:1} may be linked to the symmetry of the detachment orbital. For polarised light, the differential cross section is given by   
-\begin{equation}
-\frac{\text{d}\sigma}{\text{d}\Omega}=\frac{\sigma_{\text{total}}}{4\pi}[1+\beta P_{2}(\cos\theta)],
-\label{eq:beta1}
-\end{equation}
-where $\theta$ is the angle between the ejected electron and the (vertical) 
-laser polarization, and $P_2$ is the second-order Legendre polynomial. The anisotropy parameter $\beta$ provides a quantitative measure of the angular distribution, and can range from -1 to +2 for a pure parallel and perpendicular transition respectively.** From Eq.~(\ref{eq:beta1}), $\beta$ may be determined for each transition in a photoelectron spectrum from the slope of I($\theta$) vs $P_2(\cos\theta)$. Through conservation of angular momentum, it can be shown that $\beta$ may also be expressed in terms of partial waves and dipole matrix elements. Explicitly,
-	\begin{equation}
-\beta_{\ell} = \frac{[\ell(\ell-1)\chi_{\ell,\ell-1}^2+(\ell+1)(\ell+2)\chi_{\ell,\ell+1}^2-6\ell(\ell+1)\chi_{\ell,\ell-1}\chi_{\ell,\ell+1}\cos\delta_{\ell+1,\ell-1}]/(2\ell+1)}{\ell\chi_{\ell,\ell-1}^2+(\ell+1)\chi_{\ell,\ell+1}^2},
-\label{eq:cooper-zare}
-\end{equation}
-where $\ell$ is the electron orbital angular momentum of the parent anion 
-orbital, $\chi_{\ell,\ell\pm1}$ is the radial 
-dipole matrix element for the transition from an orbital $\ell$ to 
-each of the $\ell\pm1$ partial waves, and $\delta_{\ell+1,\ell-1}$ is 
-the phase shift between the two ($\ell\pm1$) partial waves.  
-
-As the radial dipole matrix elements will vary with electron kinetic energy, so too will $\beta$. Therefore, measuring anisotropy parameters at a range of energies will reveal the character of the detachment orbital. Anisotropy parameters were calculated for all resolved transitions in the C$_2$H$^-$ photoelectron spectra from $266-355$~nm, as shown in Fig.~\ref{fig:4}.
-
-
-
-
-Photodetachment to the ground state of C$_2$H$^-$ $(\tilde{X}\,^1\Sigma^+)$ involves ejecting an electron from an $s-$like $5\sigma_g$ orbital, whereas detachment to the excited $(\tilde{A}\,^2\Pi)$ state occurs from a $p-$like $1\pi_u$ orbital.  For a pure $s$ and $p$ orbital, the energy dependence of the anisotropy parameter may be described by Equations (\ref{eq:b-s}) and (\ref{eq:b-p}) respectively,
-\begin{equation}
-\beta_s = 2,
-\label{eq:b-s}
-\end{equation}
-and,
-\begin{equation}
-\beta_p = \frac{2\text{A}_1^2\epsilon^2-4\text{A}_1\epsilon\cos\delta_{2,0}}{1+2\text{A}_1^2\epsilon^2},
-\label{eq:b-p}
-\end{equation}
-where the Hanstorp coefficient A$_1$ relates to the ratio of radial matrix elements $\frac{\chi_{1,2}}{\chi_{1,0}}$ and $\delta_{2,0}$ represents the partial wave phase shift. As molecular orbitals may not be pure, we can describe the detachment from C$_2$H$^-$ using the mixed $sp$ model of Sanov~\cite{san14},
+Photodetachment to the ground state of C$_2$H$^-$ $(\tilde{X}\,^1\Sigma^+)$ involves ejecting an electron from an $s-$like $5\sigma_g$ orbital, whereas detachment to the excited $(\tilde{A}\,^2\Pi)$ state occurs from a $p-$like $1\pi_u$ orbital. Therefore, the electron anisotropies may be described using the mixed $sp$ model,
 \begin{equation}
 \beta(\epsilon)_{sp} = \frac{2Z\epsilon+2\text{A}_1\epsilon^2-4\epsilon\cos\delta_{\ell\pm 1}}{\frac{1}{\text{A}_1}+2\text{A}_1\epsilon^2+Z\epsilon}
 \label{eq:beta-sanov}
 \end{equation}  
-where $f$ is the percentage of $p$ character of the orbital,
+where $\epsilon$ is the electron kinetic energy, $A_1$ is the $s\rightarrow p$ Hanstorp coefficient, $f$ is the percentage of $p$ orbital character,
 \begin{equation}
 Z = \frac{1-f}{f}\frac{8}{3}~~ \text{and} ~~ |\psi\rangle = \sqrt{1-f}|s\rangle + \sqrt{f}|p\rangle.
 \end{equation}
 
-Therefore, calculating the anisotropy parameter for a given transition will reveal the symmetry of the state, which can be compared to the symmetry of the calculated vibronic levels. However this is complicated by the presence of HT coupling, which allows for the electronic character of two surfaces to be mixed via a vibrational promoting mode. As shown in the Supplementary Materials, the transition dipole moment for a HT coupled transition may be rewritten as
-\begin{align}
-\mu_{\alpha}^{a-n} &= \langle \Psi_{\text{anion}}|\vec{\mu_{\alpha}}|\Psi_{\text{neutral}}\rangle\\
-&= \mu_{\alpha:0}^{\tilde{X}-\tilde{X}}\langle\chi_{ms}''|\chi_{jt}'\rangle+\gamma_{kr,jt}\mu_{a:0}^{\tilde{A}-\tilde{X}}\langle\chi_{ms}''|Q_n|\chi_{kr}'\rangle
-\label{eq:1}
-\end{align}  
-where $\mu_{\alpha:0}^{\tilde{X}-\tilde{X}}$ and $\mu_{a:0}^{\tilde{A}-\tilde{X}}$ are the electronic transition moments for the $\tilde{X}\leftarrow\tilde{X}$ and $\tilde{A}\leftarrow\tilde{X}$ transitions, $\chi_{ms}'',~\chi_{jt}',~$and$~\chi_{kr}'$ are the nuclear components of the anion and neutral respectively, and $\gamma_{kr,jt}$ is the vibronic coupling constant. Therefore, HT coupled transitions on the $\tilde{X}^2\Sigma^+$ surface are expected to have anisotropy parameters that reflect the coupled $\tilde{A}^2\Pi$ surface.
+From Eq.~(\ref{eq:beta-sanov}) it can be seen that detachment from a pure $s$ orbital will have a positive anisotropy ($\beta=+2$), whereas detachment from a pure $p$ orbital will have a negative anisotropy for electron kinetic energies $\epsilon < 2/A_1$. Therefore, measuring the anisotropy will determine the electronic character of each individual transition, which may be compared to the calculated symmetries in Figure~\ref{fig:C2H-plot}. The anisotropy parameters were measured for every detachment wavelength and prominent transition in the C$_2$H$^-$ photoelectron spectra from this work, and are presented in Figure~S1. Fitting Eq.~(\ref{eq:beta-sanov}) to the $^2\Pi$ state detachment with f=0.9 produces a Hanstorp coefficient of $A_1$=0.66(4)~eV$^{-1}$. 
 
+\begin{figure}[th!]
+	\includegraphics[width=0.5\textwidth]{figures/PAD.pdf}
+	\caption{cat}
+	\label{fig:S1}
+\end{figure}
 
-Anisotropy parameters were calculated for all strong transitions in the C$_2$H$^-$ photoelectron spectra from $355-266$~nm, as shown in Fig.~\ref{fig:4}. 
+The sign (+/-) of $\beta$ can be used to assign each vibronic level to either the $^2\Sigma^+$ $\leftarrow^1\Sigma^+$ or $^2\Pi$ $\leftarrow^1\Sigma^+$ electronic transition respectively. This is particularly useful around the $\tilde{A} ^2\Pi$ origin, where the two states overlap. It is important to note that the HT coupled transitions on the $\tilde{X} ^2\Sigma^+$ surface have negative anisotropies and $\Pi$ symmetry. This is discussed in more detail in the Supplementary Materials.
 
+A plot of the anisotropy parameters for C$_2$H$^-$ detachment at 300~nm is presented in Figure~\ref{fig:beta}, alongside the experimental spectrum. By plotting $\beta\times I$ the sign (+/-) of each individual transition can be easily identified. All of the transitions above the $\tilde{A} ^2\Pi$ origin have a negative anisotropy, except for peak f. This confirms the assignment of this peak to the highly excited $\Sigma$ transition $\tilde{X}(0,6,1$). The nearby peak h is assigned to the admixed $\Pi$ transition $\tilde{X}(0,3,2)\tilde{A}(0,0,0)$. The other two peaks in this region j and k are assigned to highly excited HT coupled $\Pi$ transitions $\tilde{X}(0,7,1)$ and $\tilde{X}(0,11,0)$. The assignments for all peaks in the C$_2$H$^-$ and C$_2$D$^-$ photoelectron spectra are presented in the Supplementary Materials Table~S1.
 
-%--------------------------------------------
-%--Keep this for later (discussion or PAD)---
-%--------------------------------------------
-HT coupling allows for the electronic character of two surfaces to be mixed via a vibrational promoting mode. As shown in the Supplementary Materials, the transition dipole moment for a HT coupled transition may be rewritten as
-\begin{align}
-\mu_{\alpha}^{a-n} &= \langle \Psi_{\text{anion}}|\vec{\mu_{\alpha}}|\Psi_{\text{neutral}}\rangle\\
-&= \mu_{\alpha:0}^{\tilde{X}-\tilde{X}}\langle\chi_{ms}''|\chi_{jt}'\rangle+\gamma_{kr,jt}\mu_{a:0}^{\tilde{A}-\tilde{X}}\langle\chi_{ms}''|Q_n|\chi_{kr}'\rangle
-\label{eq:1}
-\end{align}  
-where $\mu_{\alpha:0}^{\tilde{X}-\tilde{X}}$ and $\mu_{a:0}^{\tilde{A}-\tilde{X}}$ are the electronic transition moments for the $\tilde{X}\leftarrow\tilde{X}$ and $\tilde{A}\leftarrow\tilde{X}$ transitions, $\chi_{ms}'',~\chi_{jt}',~$and$~\chi_{kr}'$ are the nuclear components of the anion and neutral respectively, and $\gamma_{kr,jt}$ is the vibronic coupling constant. By comparing Eq.~(\ref{eq:1}) to a Taylor series expansion of the transition dipole moment in $Q_n$ about the anion equilibrium geometry, one can see that the vibronic coupling constant may be defined as,
-\begin{equation}
-\left(\frac{\partial\mu_{\alpha}^{\tilde{X}-\tilde{X}}}{\partial Q_n}\right)_0 = \gamma_{kr,jt}\mu_{a:0}^{\tilde{A}-\tilde{X}}.
-\label{eq:2}
-\end{equation}
-Equation~(\ref{eq:2}) shows that information about the vibronic coupling interaction between the neutral $\tilde{A}-\tilde{X}$ states may be obtained from determining the slope of the $\tilde{X}-\tilde{X}$ electronic transition moment along the vibrational promoting mode coordinate $Q_n$.
+\begin{figure}[th!]
+	\includegraphics[width=0.6\textwidth]{figures/plotBeta.pdf}
+	\caption{cat}
+	\label{fig:beta}
+\end{figure}
 
-
-
-%--------------------------------------------------------------------------------
-%---------------------------------------------------------------------------------
-
-The resolution attainable using velocity-map imaging is dependent on the energy of the photoelectrons, $\Delta\epsilon\propto\epsilon$. Therefore, measurements close to threshold will provide the highest energy resolution, while shorter wavelength measurements will map a greater extent of the neutral vibrational structure. This variation is illustrated in Fig.~\ref{fig:1}(b), which shows the photoelectron spectra of C$_2$H$^-$ resulting from photodetachment at 266~nm, 300~nm, 310~nm, 320~nm, and 355~nm. In the shorter wavelength measurements, spectral structure related to the $\tilde{A}\,^2\Pi$ state is observed up to 6000~cm$^{-1}$ above the $\tilde{A}$ sate origin. A high resolution photoelectron spectrum of C$_2$H$^-$ detachment at 355~nm extracted from a 2048$\times$2048 image, similar to Fig.~\ref{fig:1}(a), via an inverse Abel transformation, is shown in Fig.~\ref{fig:C2H-355}
+This result demonstrates how experimental anisotropies and calculated transition intensities can be used to help assign and understand vibronically coupled spectra. This is particularly useful in regions where there a large number of potential vibronic states, making definitive assignments based on energetics alone difficult.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
  
