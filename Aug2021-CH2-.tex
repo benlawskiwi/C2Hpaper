@@ -103,26 +103,26 @@ Details of the construction and parametrization of KDC Hamiltonians can be found
 H &= T_n1+V\\
 V &= \bordermatrix{ & X & A(a') & A(a'') \cr
 	X &\substack{\Delta_0^X+F_1^Xq_1+F_3^Xq_3+\\ 
-		\frac{1}{2} \sum_{ij}F^X_{ij}q_iq_j}& \lambda q_{3a} & \lambda q_{3b} \cr
-	A(a') & \lambda q_{3a} & \substack{\Delta^A_0+F^A_1q_1+F^A_3q_3\\+\frac{1}{2}\sum_{ij}F^A_{ij}q_iq_j+\\\frac{1}{2}\eta(q_{3a}^2-q_{3b}^2)} & \eta q_{3a}q_{3b} \cr
-	A(a'') & \lambda q_{3b} & \eta q_{3a}q_{3b} & \substack{\Delta_0^A+F_1^Aq_1+F_3^Aq_3\\+\frac{1}{2}\sum_{ij}F_{ij}^Aq_iq_j\\-\frac{1}{2}\eta(q_{3a}^2-q_{3b}^2) } } \qquad
+		\frac{1}{2} \sum_{ij}F^X_{ij}q_iq_j}& \lambda q_{2a} & \lambda q_{2b} \cr
+	A(a') & \lambda q_{2a} & \substack{\Delta^A_0+F^A_1q_1+F^A_3q_3\\+\frac{1}{2}\sum_{ij}F^A_{ij}q_iq_j+\\\frac{1}{2}\eta(q_{2a}^2-q_{2b}^2)} & \eta q_{2a}q_{2b} \cr
+	A(a'') & \lambda q_{2b} & \eta q_{2a}q_{2b} & \substack{\Delta_0^A+F_1^Aq_1+F_3^Aq_3\\+\frac{1}{2}\sum_{ij}F_{ij}^Aq_iq_j\\-\frac{1}{2}\eta(q_{2a}^2-q_{2b}^2) } } \qquad
 \label{eq:calc1}
 \end{align}
 
-where the summations run over the dimensionless normal modes ($q_i$) that serve as the coordinate system for the problem.   For convenience, the latter are chosen to be those of the anion, which considerably facilitates calculation of the spectral intensities.  In Eq.~(\ref{eq:calc1}), the diagonal terms of V (excluding those that carry the Renner-Teller coupling constant $\eta$) represent the quasidiabatic potential energy surfaces of the $\Sigma$, and the two components of the $\Pi$ state, chosen here as those in which the unpaired electron lies within or is perpendicular to an arbitrarily chosen plane, designated as A(a$'$) and A(a$''$), respectively. $\Delta_0^X$ is the separation of the anion and $\Sigma$ states at the origin of the coordinate system (the vertical electron detachment energy), and $\Delta_0^{\Pi}$ is the gap between anion and $\Pi$ states at the same geometry.   
+where the summations run over the dimensionless normal modes ($q_i$) that serve as the coordinate system for the problem.   For convenience, the latter are chosen to be those of the anion, which considerably facilitates calculation of the spectral intensities.  In Eq.~(\ref{eq:calc1}), the diagonal terms of V (excluding those that carry the Renner-Teller coupling constant $\eta$) represent the quasidiabatic potential energy surfaces of the $\Sigma$, and the two components of the $\Pi$ state, chosen here as those in which the unpaired electron lies within or is perpendicular to an arbitrarily chosen plane, designated as A(a$'$) and A(a$''$), respectively. $\Delta_0^X$ is the separation of the anion and $\Sigma$ states at the origin of the coordinate system (the vertical electron detachment energy), and $\Delta_0^{A}$ is the gap between anion and $\Pi$ states at the same geometry.   
 
 For the modes of $\sigma$ symmetry ($q_1$ and $q_3$), the diabatic forces ($F_i$) and force constants ($F_{ij}$) coincide with those of the adiabatic potential energy surfaces.   However, for the bending mode, the diabatic (F$_{22}$) and adiabatic (f$_{22}$) force constants differ, and the parametrization is somewhat more involved.   For each component of the $\Pi$ state, either the 2a or 2b component of the bending vibration will maintain the A$'$ electronic symmetry that is needed to couple with the X state.  Designating these as 2a for the A(a$'$) state and 2b for the A(a$''$) state (as is implicit in Eq.~\ref{eq:calc1}), the diabatic force constants for the bending mode in the X and A states can be written as 
 
 \begin{align}
-F_{33}^X &= f_{33}^X+\frac{2\lambda^2}{(\Delta_0^A-\Delta_0^X)}\\
-F_{33}^A &= f_{3a3a}^{A(a')}-\frac{2\lambda^2}{(\Delta_0^A-\Delta_0^X)}-\eta
+F_{22}^X &= f_{22}^X+\frac{2\lambda^2}{(\Delta_0^A-\Delta_0^X)}\\
+F_{22}^A &= f_{2a2a}^{A(a')}-\frac{2\lambda^2}{(\Delta_0^A-\Delta_0^X)}-\eta
 \label{eq:calc2}
 \end{align}
 
 where the Renner-Teller interaction strength ($\eta$) is determined from 
 
 \begin{equation}
-\eta = \frac{1}{2}\left[ f_{3a3a}^{A(a')}-f_{3b3b}^{A(a')}-\frac{2\lambda^2}{(\Delta_0^A-\Delta_0^X)}\right]
+\eta = \frac{1}{2}\left[ f_{2a2a}^{A(a')}-f_{2b2b}^{A(a')}-\frac{2\lambda^2}{(\Delta_0^A-\Delta_0^X)}\right]
 \label{eq:calc3}
 \end{equation}
 
@@ -227,7 +227,7 @@ In standard operation, the energy distribution of the detached electrons is obta
 \end{acknowledgement}
 
 % Create the reference section using BibTeX: 
-\bibliography{C2H.bib}
+\bibliography{2022C2H.bib}
 
 \end{document}
 % ****** End of file apstemplate.tex ******

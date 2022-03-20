@@ -8,7 +8,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{9}
+\begin{mcitethebibliography}{7}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -30,15 +30,6 @@
 Ervin,~K.~M.; Lineberger,~W.~C. Photoelectron spectra of dicarbon(1-) and
   ethynyl(1-). \emph{The Journal of Physical Chemistry} \textbf{1991},
   \emph{95}, 1167--1177\relax
-\mciteBstWouldAddEndPuncttrue
-\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
-{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
-\EndOfBibitem
-\bibitem[Sanov(2014)]{san14}
-Sanov,~A. Laboratory-Frame Photoelectron Angular Distributions in Anion
-  Photodetachment: Insight into Electronic Structure and Intermolecular
-  Interactions. \emph{Annual Review of Physical Chemistry} \textbf{2014},
-  \emph{65}, 341--363\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -85,15 +76,6 @@ Gascooke,~J.~R.; Gibson,~S.~T.; Lawrance,~W.~D. A “circularisation” method
 Hansen,~E.~W.; Law,~P.-L. Recursive methods for computing the Abel transform
   and its inverse. \emph{Journal of the Optical Society of America A}
   \textbf{1985}, \emph{2}, 510--520\relax
-\mciteBstWouldAddEndPuncttrue
-\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
-{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
-\EndOfBibitem
-\bibitem[Hickstein \latin{et~al.}(2016)Hickstein, Yurchak, Das, Shih, and
-  Gibson]{pya16}
-Hickstein,~D.~D.; Yurchak,~R.; Das,~D.; Shih,~C.-Y.; Gibson,~S.~T. {PyAbel}
-  (v0.7): A Python package for Abel transforms.
-  https://github.com/PyAbel/PyAbel, 2016\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
