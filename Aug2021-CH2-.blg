@@ -1,53 +1,53 @@
-This is BibTeX, Version 0.99d (TeX Live 2020)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Aug2021-CH2-.aux
 The style file: achemso.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: acs-Aug2021-CH2-.bib
-Database file #2: 2022C2H.bib
+Database file #2: 2022C2H.bib.bib
 Warning--I didn't find a database entry for "tar03"
 Warning--I didn't find a database entry for "pya16"
 Warning--I didn't find a database entry for "law19"
-achemso 2019-02-14 v3.12a
-You've used 7 entries,
-            2538 wiz_defined-function locations,
-            803 strings with 8145 characters,
-and the built_in function-call counts, 2691 in all, are:
-= -- 202
-> -- 173
-< -- 6
-+ -- 69
-- -- 62
-* -- 292
-:= -- 362
-add.period$ -- 12
-call.type$ -- 7
+achemso 2018/02/05 v3.11a
+You've used 17 entries,
+            2536 wiz_defined-function locations,
+            891 strings with 10714 characters,
+and the built_in function-call counts, 6419 in all, are:
+= -- 510
+> -- 373
+< -- 10
++ -- 147
+- -- 130
+* -- 681
+:= -- 856
+add.period$ -- 30
+call.type$ -- 17
 change.case$ -- 4
 chr.to.int$ -- 2
-cite$ -- 7
-duplicate$ -- 147
-empty$ -- 165
-format.name$ -- 69
-if$ -- 505
+cite$ -- 17
+duplicate$ -- 355
+empty$ -- 445
+format.name$ -- 147
+if$ -- 1271
 int.to.chr$ -- 0
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 64
-num.names$ -- 18
-pop$ -- 11
+newline$ -- 124
+num.names$ -- 48
+pop$ -- 35
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 7
+skip$ -- 19
 stack$ -- 0
-substring$ -- 146
-swap$ -- 169
-text.length$ -- 12
+substring$ -- 371
+swap$ -- 383
+text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 46
+type$ -- 110
 warning$ -- 0
-while$ -- 25
+while$ -- 63
 width$ -- 0
-write$ -- 106
+write$ -- 234
 (There were 3 warnings)

@@ -8,7 +8,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{7}
+\begin{mcitethebibliography}{17}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -30,6 +30,93 @@
 Ervin,~K.~M.; Lineberger,~W.~C. Photoelectron spectra of dicarbon(1-) and
   ethynyl(1-). \emph{The Journal of Physical Chemistry} \textbf{1991},
   \emph{95}, 1167--1177\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[K\"{o}uppel \latin{et~al.}(1984)K\"{o}uppel, Domcke, and
+  Cederbaum]{kou84}
+K\"{o}uppel,~H.; Domcke,~W.; Cederbaum,~L.~S. \emph{Advances in Chemical
+  Physics}; {John Wiley \& Sons, Ltd}, 1984; pp 59--246\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Domcke \latin{et~al.}(1981)Domcke, Köppel, and Cederbaum]{dom81}
+Domcke,~W.; Köppel,~H.; Cederbaum,~L. Spectroscopic effects of conical
+  intersections of molecular potential energy surfaces. \emph{Molecular
+  Physics} \textbf{1981}, \emph{43}, 851--875\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Pacher \latin{et~al.}(1993)Pacher, Cederbaum, and Köppel]{pac93}
+Pacher,~T.; Cederbaum,~L.~S.; Köppel,~H. \emph{Advances in Chemical Physics};
+  John Wiley & Sons, Ltd, 1993; pp 293--391\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stanton(2011)]{sta11}
+Stanton,~J.~F. Quantitative vibronic coupling calculations. The visible
+  spectrum of propadienylidene. \emph{Faraday Discuss.} \textbf{2011},
+  \emph{150}, 331--343\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stanton(2021)]{sta21}
+Stanton,~J.~F. Why the CC Stretch in HCC Is So Anharmonic. \emph{The Journal of
+  Physical Chemistry A} \textbf{2021}, \emph{125}, 7694--7698\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ichino \latin{et~al.}(2006)Ichino, Gianola, Lineberger, and
+  Stanton]{ich06}
+Ichino,~T.; Gianola,~A.~J.; Lineberger,~W.~C.; Stanton,~J.~F. Nonadiabatic
+  effects in the photoelectron spectrum of the pyrazolide-d3 anion: Three-state
+  interactions in the pyrazolyl-d3 radical. \emph{The Journal of Chemical
+  Physics} \textbf{2006}, \emph{125}, 084312\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ichino \latin{et~al.}(2008)Ichino, Wren, Vogelhuber, Gianola,
+  Lineberger, and Stanton]{ich08}
+Ichino,~T.; Wren,~S.~W.; Vogelhuber,~K.~M.; Gianola,~A.~J.; Lineberger,~W.~C.;
+  Stanton,~J.~F. The vibronic level structure of the cyclopentadienyl radical.
+  \emph{The Journal of Chemical Physics} \textbf{2008}, \emph{129},
+  084310\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ichino \latin{et~al.}(2009)Ichino, Gauss, and Stanton]{ich09}
+Ichino,~T.; Gauss,~J.; Stanton,~J.~F. Quasidiabatic states described by
+  coupled-cluster theory. \emph{The Journal of Chemical Physics} \textbf{2009},
+  \emph{130}, 174105\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Weichman \latin{et~al.}(2017)Weichman, Cheng, Kim, Stanton, and
+  Neumark]{wei17}
+Weichman,~M.~L.; Cheng,~L.; Kim,~J.~B.; Stanton,~J.~F.; Neumark,~D.~M.
+  Low-lying vibronic level structure of the ground state of the methoxy
+  radical: Slow electron velocity-map imaging (SEVI) spectra and
+  Köppel-Domcke-Cederbaum (KDC) vibronic Hamiltonian calculations. \emph{The
+  Journal of Chemical Physics} \textbf{2017}, \emph{146}, 224309\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Carter \latin{et~al.}(2000)Carter, Handy, Puzzarini, Tarroni, and
+  Palmieri]{car00}
+Carter,~S.; Handy,~N.~C.; Puzzarini,~C.; Tarroni,~R.; Palmieri,~P. A
+  variational method for the calculation of spin-rovibronic energy levels of
+  triatomic molecules with three interacting electronic states. \emph{Molecular
+  Physics} \textbf{2000}, \emph{98}, 1697--1712\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
