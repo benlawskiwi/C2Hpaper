@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  21 MAR 2022 12:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  31 MAR 2022 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -637,8 +637,17 @@ LaTeX Font Info:    Try loading font information for T1+cmss on input line 25.
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
-<figures/Fig1.pdf, id=30, 340.00024pt x 175.31699pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `dou97' on page 2 undefined on input line 30.
+
+[2]
+
+Package natbib Warning: Citation `tar03.tar04' on page 3 undefined on input lin
+e 46.
+
+[3] [4]
+<figures/Fig1.pdf, id=31, 340.00024pt x 175.31699pt>
 File: figures/Fig1.pdf Graphic file (type pdf)
 <use figures/Fig1.pdf>
 Package pdftex.def Info: figures/Fig1.pdf  used on input line 55.
@@ -652,17 +661,11 @@ n/12 ^^E[](2\OML/cmm/m/it/12 A[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  []\OT1/cmr
 /m/n/12 ^^E[](1\OML/cmm/m/it/12 A[]\OT1/cmr/m/n/12 )$\T1/cmr/m/n/12 ).
  []
 
-<figures/Fig3.pdf, id=140, 332.24126pt x 202.7575pt>
+<figures/Fig3.pdf, id=141, 332.24126pt x 202.7575pt>
 File: figures/Fig3.pdf Graphic file (type pdf)
 <use figures/Fig3.pdf>
 Package pdftex.def Info: figures/Fig3.pdf  used on input line 89.
 (pdftex.def)             Requested size: 234.87769pt x 143.34006pt.
-
-Package natbib Warning: Citation `tar03' on page 7 undefined on input line 90.
-
-
-Package natbib Warning: Citation `tar03' on page 7 undefined on input line 90.
-
 [7] [8 <./figures/Fig3.pdf>] [9] [10]
 <figures/Fig5.pdf, id=212, 219.99991pt x 349.03299pt>
 File: figures/Fig5.pdf Graphic file (type pdf)
@@ -696,10 +699,341 @@ Package natbib Warning: Citation `pya16' on page 17 undefined on input line 216
 Package natbib Warning: Citation `law19' on page 17 undefined on input line 216
 .
 
-[17] (./Aug2021-CH2-.bbl
+[17] (./Aug2021-CH2-.bbl [18]
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.99 ...lecular rotational constants}. \emph{\apj}
+                                                   \textbf{1982}, \emph{254},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \less 
+                      
+l.127   C$\less
+               $sub$\greater$2$\less$/sub$\greater$H {IN} {HIGH}-{MASS}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \greater 
+                         
+l.127   C$\less$sub$\greater
+                            $2$\less$/sub$\greater$H {IN} {HIGH}-{MASS}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \less 
+                      
+l.127   C$\less$sub$\greater$2$\less
+                                    $/sub$\greater$H {IN} {HIGH}-{MASS}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \greater 
+                         
+l.127   C$\less$sub$\greater$2$\less$/sub$\greater
+                                                  $H {IN} {HIGH}-{MASS}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.144   \emph{\apj}
+                    \textbf{1994}, \emph{437}, 678\relax
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[19]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.185   C\$\backslash
+                     {}mathsf\{\_\{4\}H^-\}\$, the second interstellar anion*.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192   Thaddeus]{bru07}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192   Thaddeus]{bru07}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192   Thaddeus]{bru07}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no √ in font cmr12!
+Missing character: There is no º in font cmr12!
+! Undefined control sequence.
+l.195   $\less
+              $sub$\greater$8$\less$/sub$\greater$ H
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.195   $\less$sub$\greater
+                           $8$\less$/sub$\greater$ H
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.195   $\less$sub$\greater$8$\less
+                                   $/sub$\greater$ H
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.195   $\less$sub$\greater$8$\less$/sub$\greater
+                                                 $ H
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.196   $\less
+              $sup$\greater$-$\less$/sup$\greater$ in {TMC}-1. \emph{The
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.196   $\less$sup$\greater
+                           $-$\less$/sup$\greater$ in {TMC}-1. \emph{The
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.196   $\less$sup$\greater$-$\less
+                                   $/sup$\greater$ in {TMC}-1. \emph{The
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.196   $\less$sup$\greater$-$\less$/sup$\greater
+                                                 $ in {TMC}-1. \emph{The
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203   Markwick-Kemper, and Jewell]{rem07}
+                                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.203   Markwick-Kemper, and Jewell]{rem07}
+                                           
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.203   Markwick-Kemper, and Jewell]{rem07}
+                                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--203
+[]\T1/cmr/m/n/12 Cernicharo, J.,; GuÈlin, M.,; Ag˙n-dez, M.,; Kawaguchi,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--203
+\T1/cmr/m/n/12 K.,; Mc-Carthy, M.,; Thad-deus, P., As-tro-nom-i-cal de-tec-tion
+ of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--203
+\T1/cmr/m/n/12 C$$\OMS/cmsy/m/n/12 n[]\OML/cmm/m/it/12 mathsf\OMS/cmsy/m/n/12 f
+[]f\OT1/cmr/m/n/12 4\OMS/cmsy/m/n/12 g\OML/cmm/m/it/12 H[]\OMS/cmsy/m/n/12 g\OT
+1/cmr/m/n/12 $\OML/cmm/m/it/12 ; thesecondinterstellaranion \OMS/cmsy/m/n/12 ^^
+C \OML/cmm/m/it/12 :[][]; []; L\OT1/cmr/m/n/12 37 \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (350.83589pt too wide) in paragraph at lines 183--203
+\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 L\OT1/cmr/m/n/12 40\OML/cmm/m/it/12 :[]Brn
+ken;  []S:\OT1/cmr/m/n/12 ; \OML/cmm/m/it/12 Gupta;  []H:\OT1/cmr/m/n/12 ; \OML
+/cmm/m/it/12 Gottlieb;  []C: []A:\OT1/cmr/m/n/12 ; \OML/cmm/m/it/12 McCarthy;  
+[]M: []C:\OT1/cmr/m/n/12 ; \OML/cmm/m/it/12 Thaddeus;  []P:DetectionoftheCarbon
+ChainNegativeIonC$$sub$$\OT1/cmr/m/n/12 8$$\OML/cmm/m/it/12 =sub$$H$$sup$$\OMS/
+cmsy/m/n/12 ^^@$$\OML/cmm/m/it/12 =sup$$in[] \OMS/cmsy/m/n/12 ^^@
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.203   Markwick-Kemper, and Jewell]{rem07}
+                                           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Undefined control sequence.
+<recently read> \mathplus 
+                          
+l.206   C8H toward {IRC} $\mathplus
+                                   $10 216. \emph{The Astrophysical Journal}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mathplus 
+                          
+l.234   Low-Mass Protostar {IRAS} 04368$\mathplus
+                                                 $2557 in L1527. \emph{The
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[20] [21]
+! Undefined control sequence.
+<recently read> \aap 
+                     
+l.354 ...ns in the Magellanic Clouds}. \emph{\aap}
+                                                   \textbf{1999}, \emph{344},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \apjl 
+                      
+l.407   \emph{\apjl}
+                     \textbf{1981}, \emph{251}, L119\relax
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.416   radical CCH}. \emph{\apj}
+                                  \textbf{1983}, \emph{264}, 740--745\relax
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[22]
+! Undefined control sequence.
+<recently read> \aap 
+                     
+l.432 ...l radical, CCH, up to 1 THz}. \emph{\aap}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 479--486
+[]\T1/cmr/m/n/12 Hsu, Y.; Shiu, Y.; Lin, C. Laser‚Äêin-duced flu-o-res-cence sp
+ec-troscopy of CCH
+ []
+
+[23]
 ! Misplaced alignment tab character &.
-l.55   John Wiley &
-                    Sons, Ltd, 1993; pp 293--391\relax
+l.580   John Wiley &
+                     Sons, Ltd, 1993; pp 293--391\relax
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -707,23 +1041,23 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[18] [19])
+[24] [25])
 
 Package natbib Warning: There were undefined citations.
 
-[20] (./Aug2021-CH2-.aux) ) 
+[26] (./Aug2021-CH2-.aux) ) 
 Here is how much of TeX's memory you used:
- 15071 strings out of 494847
- 279383 string characters out of 6179079
- 341622 words of memory out of 5000000
- 18253 multiletter control sequences out of 15000+600000
- 549426 words of font info for 61 fonts, out of 8000000 for 9000
+ 15314 strings out of 494847
+ 283362 string characters out of 6179079
+ 345666 words of memory out of 5000000
+ 18493 multiletter control sequences out of 15000+600000
+ 551580 words of font info for 64 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,18n,94p,10412b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,18n,94p,10412b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/bal121/.texlive2017/texmf-var/fonts/pk/ljfou
 r/jknappen/ec/ecbx1200.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecbx0800.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/l
-jfour/jknappen/ec/ecbx1440.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk
+our/jknappen/ec/ecbx1440.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk/l
+jfour/jknappen/ec/ecbx0800.600pk> </home/bal121/.texlive2017/texmf-var/fonts/pk
 /ljfour/jknappen/ec/ecrm0800.600pk> </home/bal121/.texlive2017/texmf-var/fonts/
 pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/bal121/.texlive2017/texmf-var/font
 s/pk/ljfour/jknappen/ec/ecbx1095.600pk> </home/bal121/.texlive2017/texmf-var/fo
@@ -744,10 +1078,10 @@ mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Aug2021-CH2-.pdf (20 pages, 1350413 bytes).
+Output written on Aug2021-CH2-.pdf (26 pages, 1384359 bytes).
 PDF statistics:
- 857 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
+ 921 PDF objects out of 1000 (max. 8388607)
+ 235 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

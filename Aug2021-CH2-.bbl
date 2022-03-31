@@ -8,7 +8,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{17}
+\begin{mcitethebibliography}{74}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -26,10 +26,535 @@
   {\relax}
   {\relax}
 
+\bibitem[Frenklach \latin{et~al.}(1985)Frenklach, Clary, Gardiner, and
+  Stein]{fre85}
+Frenklach,~M.; Clary,~D.~W.; Gardiner,~W.~C.; Stein,~S.~E. Detailed kinetic
+  modeling of soot formation in shock-tube pyrolysis of acetylene.
+  \emph{Symposium (International) on Combustion} \textbf{1985}, \emph{20}, 887
+  -- 901, Twentieth Symposium (International) on Combustion\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Boullart \latin{et~al.}(1996)Boullart, Devriendt, Borms, and
+  Peeters]{bou96}
+Boullart,~W.; Devriendt,~K.; Borms,~R.; Peeters,~J. Identification of the
+  Sequence CH(2Π) + C2H2 → C3H2 + H (and C3H + H2) Followed by C3H2 + O →
+  C2H + HCO (or H + CO) as C2H Source in C2H2/O/H Atomic Flames. \emph{The
+  Journal of Physical Chemistry} \textbf{1996}, \emph{100}, 998--1007\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Irvine \latin{et~al.}(1991)Irvine, Ohishi, and Kaifu]{wil91}
+Irvine,~W.~M.; Ohishi,~M.; Kaifu,~N. Chemical abundances in cold, dark
+  interstellar clouds. \emph{Icarus} \textbf{1991}, \emph{91}, 2--6\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Vuitton \latin{et~al.}(2001)Vuitton, Scemama, Gazeau, Chaquin, and
+  Bénilan]{vui01}
+Vuitton,~V.; Scemama,~A.; Gazeau,~M.-C.; Chaquin,~P.; Bénilan,~Y. IR and UV
+  spectroscopic data for polyynes: Predictions for long carbon chain compounds
+  in Titan's atmosphere. \emph{Advances in Space Research} \textbf{2001},
+  \emph{27}, 283--288\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wilson and Atreya(2003)Wilson, and Atreya]{wil03}
+Wilson,~E.; Atreya,~S. Chemical sources of haze formation in Titan's
+  atmosphere. \emph{Planetary and Space Science} \textbf{2003}, \emph{51},
+  1017--1033, Surfaces and Atmospheres of the Outer Planets their Satellites
+  and Ring Systems\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dobrijevic \latin{et~al.}(2016)Dobrijevic, Loison, Hickson, and
+  Gronoff]{dob16}
+Dobrijevic,~M.; Loison,~J.; Hickson,~K.; Gronoff,~G. {1D}-coupled photochemical
+  model of neutrals, cations and anions in the atmosphere of {Titan}.
+  \emph{Icarus} \textbf{2016}, \emph{268}, 313 -- 339\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jackson \latin{et~al.}(1996)Jackson, Blunt, Lin, Green, Olivera, Fink,
+  Bao, Urdahl, Mohammad, and Zahedi]{jac96}
+Jackson,~W.~M.; Blunt,~V.; Lin,~H.; Green,~M.; Olivera,~G.; Fink,~W.~H.;
+  Bao,~Y.; Urdahl,~R.~S.; Mohammad,~F.; Zahedi,~M. Non-adiabatic interactions
+  in excited {C$_2$H} molecules and their relationship to {C$_2$} formation in
+  comets. \emph{Astrophysics and Space Science} \textbf{1996}, \emph{236},
+  29--47\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Ziurys} \latin{et~al.}(1982){Ziurys}, {Saykally}, {Plambeck}, and
+  {Erickson}]{ziu82}
+{Ziurys},~L.~M.; {Saykally},~R.~J.; {Plambeck},~R.~L.; {Erickson},~N.~R.
+  {Detection of the N = 3-2 transition of CCH in Orion and determination of the
+  molecular rotational constants}. \emph{\apj} \textbf{1982}, \emph{254},
+  94--99\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gupta \latin{et~al.}(2009)Gupta, Gottlieb, McCarthy, and
+  Thaddeus]{gup09}
+Gupta,~H.; Gottlieb,~C.~A.; McCarthy,~M.~C.; Thaddeus,~P. A {SURVEY} {OF} C4H,
+  C6H, {AND} C6H{\textendash}{WITH} {THE} {GREEN} {BANK} {TELESCOPE}. \emph{The
+  Astrophysical Journal} \textbf{2009}, \emph{691}, 1494--1500\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Beuther \latin{et~al.}(2008)Beuther, Semenov, Henning, and
+  Linz]{beu08}
+Beuther,~H.; Semenov,~D.; Henning,~T.; Linz,~H. Ethynyl ({C$_2$H}) in Massive
+  Star formation: Tracing the Initial Conditions? \emph{The Astrophysical
+  Journal Letters} \textbf{2008}, \emph{675}, L33\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jiang(蒋雪健) \latin{et~al.}(2015)Jiang(蒋雪健), Liu, Zhang,
+  Wang, Zhang, Li, Gao, and Gu]{jia15}
+Jiang(蒋雪健),~X.-J.; Liu,~H.~B.; Zhang,~Q.; Wang,~J.; Zhang,~Z.-Y.; Li,~J.;
+  Gao,~Y.; Gu,~Q. {SMA} {OBSERVATIONS} {OF}
+  C$\less$sub$\greater$2$\less$/sub$\greater$H {IN} {HIGH}-{MASS}
+  {STAR}-{FORMING} {REGIONS}. \emph{The Astrophysical Journal} \textbf{2015},
+  \emph{808}, 114\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Fulara(1993)]{ful93}
+Fulara,~L. D. F. P. M. J.~P.,~J. Laboratory evidence for highly unsaturated
+  hydrocarbons as carriers of some of the diffuse interstellar bands.
+  \emph{Nature} \textbf{1993}, \emph{366}, 439--441\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Watson}(1994)]{wat94}
+{Watson},~J. K.~G. {Homologous Series of Diffuse Interstellar Bands}.
+  \emph{\apj} \textbf{1994}, \emph{437}, 678\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Fulara and Krełowski(2000)Fulara, and Krełowski]{ful00}
+Fulara,~J.; Krełowski,~J. Origin of diffuse interstellar bands: spectroscopic
+  studies of their possible carriers. \emph{New Astronomy Reviews}
+  \textbf{2000}, \emph{44}, 581--597\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Schmidt Timothy~W.(2005)]{sch05}
+Schmidt Timothy~W.,~S. R.~G. The Optical Spectroscopy of Extraterrestrial
+  Molecules. \emph{Australian Journal of Chemistry} \textbf{2005}, \emph{58},
+  69--81\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Millar \latin{et~al.}(2017)Millar, Walsh, and Field]{mil17}
+Millar,~T.~J.; Walsh,~C.; Field,~T.~A. Negative Ions in Space. \emph{Chemical
+  Reviews} \textbf{2017}, \emph{117}, 1765--1795, PMID: 28112897\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[McCarthy \latin{et~al.}(2006)McCarthy, Gottlieb, Gupta, and
+  Thaddeus]{mcc06}
+McCarthy,~M.~C.; Gottlieb,~C.~A.; Gupta,~H.; Thaddeus,~P. Laboratory and
+  Astronomical Identification of the Negative Molecular Ion C6H-. \emph{The
+  Astrophysical Journal} \textbf{2006}, \emph{652}, L141--L144\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Cernicharo, J.} \latin{et~al.}(2007){Cernicharo, J.}, {Gu\'elin, M.},
+  {Ag\'undez, M.}, {Kawaguchi, K.}, {McCarthy, M.}, and {Thaddeus, P.}]{cer07}
+{Cernicharo, J.},; {Gu\'elin, M.},; {Ag\'undez, M.},; {Kawaguchi, K.},;
+  {McCarthy, M.},; {Thaddeus, P.}, Astronomical detection of
+  C\$\backslash{}mathsf\{\_\{4\}H^-\}\$, the second interstellar anion*.
+  \emph{A\&A} \textbf{2007}, \emph{467}, L37--L40\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Brünken \latin{et~al.}(2007)Brünken, Gupta, Gottlieb, McCarthy, and
+  Thaddeus]{bru07}
+Brünken,~S.; Gupta,~H.; Gottlieb,~C.~A.; McCarthy,~M.~C.; Thaddeus,~P.
+  Detection of the Carbon Chain Negative Ion C
+  $\less$sub$\greater$8$\less$/sub$\greater$ H
+  $\less$sup$\greater$-$\less$/sup$\greater$ in {TMC}-1. \emph{The
+  Astrophysical Journal} \textbf{2007}, \emph{664}, L43--L46\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Remijan \latin{et~al.}(2007)Remijan, Hollis, Lovas, Cordiner, Millar,
+  Markwick-Kemper, and Jewell]{rem07}
+Remijan,~A.~J.; Hollis,~J.~M.; Lovas,~F.~J.; Cordiner,~M.~A.; Millar,~T.~J.;
+  Markwick-Kemper,~A.~J.; Jewell,~P.~R. Detection of C8H-and Comparison with
+  C8H toward {IRC} $\mathplus$10 216. \emph{The Astrophysical Journal}
+  \textbf{2007}, \emph{664}, L47--L50\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Cordiner \latin{et~al.}(2013)Cordiner, Buckle, Wirström, Olofsson,
+  and Charnley]{cor13}
+Cordiner,~M.~A.; Buckle,~J.~V.; Wirström,~E.~S.; Olofsson,~A. O.~H.;
+  Charnley,~S.~B. {ON} {THE} {UBIQUITY} {OF} {MOLECULAR} {ANIONS} {IN} {THE}
+  {DENSE} {INTERSTELLAR} {MEDIUM}. \emph{The Astrophysical Journal}
+  \textbf{2013}, \emph{770}, 48\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sakai \latin{et~al.}(2010)Sakai, Shiino, Hirota, Sakai, and
+  Yamamoto]{sak10}
+Sakai,~N.; Shiino,~T.; Hirota,~T.; Sakai,~T.; Yamamoto,~S. {LONG}
+  {CARBON}-{CHAIN} {MOLECULES} {AND} {THEIR} {ANIONS} {IN} {THE} {STARLESS}
+  {CORE}, {LUPUS}-1A. \emph{The Astrophysical Journal} \textbf{2010},
+  \emph{718}, L49--L52\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sakai \latin{et~al.}(2007)Sakai, Sakai, and Yamamoto]{sak07}
+Sakai,~N.; Sakai,~T.; Yamamoto,~S. Tentative Detection of C4H- toward the
+  Low-Mass Protostar {IRAS} 04368$\mathplus$2557 in L1527. \emph{The
+  Astrophysical Journal} \textbf{2007}, \emph{673}, L71--L74\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Herbst and Osamura(2008)Herbst, and Osamura]{her08}
+Herbst,~E.; Osamura,~Y. Calculations on the Formation Rates and Mechanisms for
+  {CnH} Anions in Interstellar and Circumstellar Media. \emph{The Astrophysical
+  Journal} \textbf{2008}, \emph{679}, 1670--1679\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bastian \latin{et~al.}(2019)Bastian, Michaelsen, Meyer, and
+  Wester]{bas19}
+Bastian,~B.; Michaelsen,~T.; Meyer,~J.; Wester,~R. Anionic Carbon Chain Growth
+  in Reactions of
+  {\textdollar}$\lbrace$$\lbrace${\textbackslash}rm$\lbrace$C$\rbrace$$\rbrace$$\rbrace${\_}$\lbrace$2$\rbrace${\^{}}$\lbrace$-$\rbrace${\textdollar},
+  {\textdollar}$\lbrace$$\lbrace${\textbackslash}rm$\lbrace$C$\rbrace$$\rbrace$$\rbrace${\_}$\lbrace$4$\rbrace${\^{}}$\lbrace$-$\rbrace${\textdollar},
+  {\textdollar}$\lbrace$$\lbrace${\textbackslash}rm$\lbrace$C$\rbrace$$\rbrace$$\rbrace${\_}$\lbrace$6$\rbrace${\^{}}$\lbrace$-$\rbrace${\textdollar},
+  C2H-, C4H-, and C6H- with C2H2. \emph{The Astrophysical Journal}
+  \textbf{2019}, \emph{878}, 162\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Vuitton \latin{et~al.}(2009)Vuitton, Lavvas, Yelle, Galand, Wellbrock,
+  Lewis, Coates, and Wahlund]{vui09}
+Vuitton,~V.; Lavvas,~P.; Yelle,~R.; Galand,~M.; Wellbrock,~A.; Lewis,~G.;
+  Coates,~A.; Wahlund,~J.-E. Negative ion chemistry in Titan's upper
+  atmosphere. \emph{Planetary and Space Science} \textbf{2009}, \emph{57},
+  1558--1572, Surfaces and Atmospheres of the Outer Planets, Their Satellites
+  and Ring Systems: Part V\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Desai \latin{et~al.}(2017)Desai, Coates, Wellbrock, Vuitton, Crary,
+  Gonz{\'{a}}lez-Caniulef, Shebanits, Jones, Lewis, Waite, Cordiner, Taylor,
+  Kataria, Wahlund, Edberg, and Sittler]{des17}
+Desai,~R.~T.; Coates,~A.~J.; Wellbrock,~A.; Vuitton,~V.; Crary,~F.~J.;
+  Gonz{\'{a}}lez-Caniulef,~D.; Shebanits,~O.; Jones,~G.~H.; Lewis,~G.~R.;
+  Waite,~J.~H. \latin{et~al.}  Carbon Chain Anions and the Growth of Complex
+  Organic Molecules in Titan's Ionosphere. \emph{The Astrophysical Journal}
+  \textbf{2017}, \emph{844}, L18\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mukundan and Bhardwaj(2018)Mukundan, and Bhardwaj]{vri18}
+Mukundan,~V.; Bhardwaj,~A. A Model for Negative Ion Chemistry in Titan's
+  Ionosphere. \emph{The Astrophysical Journal} \textbf{2018}, \emph{856},
+  168\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Maier(1997)]{mai97}
+Maier,~J.~P. Electronic spectroscopy of carbon chains. \emph{Chem. Soc. Rev.}
+  \textbf{1997}, \emph{26}, 21--28\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Fortenberry \latin{et~al.}(2010)Fortenberry, King, Stanton, and
+  Crawford]{for10}
+Fortenberry,~R.~C.; King,~R.~A.; Stanton,~J.~F.; Crawford,~T.~D. A benchmark
+  study of the vertical electronic spectra of the linear chain radicals C2H and
+  C4H. \emph{The Journal of Chemical Physics} \textbf{2010}, \emph{132},
+  144303\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Curl \latin{et~al.}(1985)Curl, Carrick, and Merer]{cur85}
+Curl,~R.~F.; Carrick,~P.~G.; Merer,~A.~J. Rotational analysis of the
+  Ã ← X̃ system of C2H. \emph{The Journal of Chemical Physics}
+  \textbf{1985}, \emph{82}, 3479--3486\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tarroni and Carter(2003)Tarroni, and Carter]{tar03}
+Tarroni,~R.; Carter,~S. Theoretical calculation of vibronic levels of C2H and
+  C2D to 10 000 cm−1. \emph{The Journal of Chemical Physics}
+  \textbf{2003}, \emph{119}, 12878--12889\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhou \latin{et~al.}(2007)Zhou, Garand, and Neumark]{zho07}
+Zhou,~J.; Garand,~E.; Neumark,~D.~M. Slow electron velocity-map imaging
+  spectroscopy of the C4H− and C4D− anions. \emph{The Journal of Chemical
+  Physics} \textbf{2007}, \emph{127}, 154320\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Linnartz \latin{et~al.}(1999)Linnartz, Motylewski, Vaizert, Maier,
+  Apponi, McCarthy, Gottlieb, and Thaddeus]{lin99}
+Linnartz,~H.; Motylewski,~T.; Vaizert,~O.; Maier,~J.; Apponi,~A.; McCarthy,~M.;
+  Gottlieb,~C.; Thaddeus,~P. Electronic Ground and Excited State Spectroscopy
+  of C6H and C6D. \emph{Journal of Molecular Spectroscopy} \textbf{1999},
+  \emph{197}, 1--11\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Taylor \latin{et~al.}(1998)Taylor, Xu, and Neumark]{tay98}
+Taylor,~T.~R.; Xu,~C.; Neumark,~D.~M. Photoelectron spectra of the C2nH−
+  (n=1–4) and C2nD− (n=1–3) anions. \emph{The Journal of Chemical
+  Physics} \textbf{1998}, \emph{108}, 10018--10026\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Heikkil{\"a}} \latin{et~al.}(1999){Heikkil{\"a}}, {Johansson}, and
+  {Olofsson}]{hei99}
+{Heikkil{\"a}},~A.; {Johansson},~L.~E.~B.; {Olofsson},~H. {Molecular abundance
+  variations in the Magellanic Clouds}. \emph{\aap} \textbf{1999}, \emph{344},
+  817--847\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Cochran \latin{et~al.}(1964)Cochran, Adrian, and Bowers]{coc64}
+Cochran,~E.~L.; Adrian,~F.~J.; Bowers,~V.~A. ESR Study of Ethynyl and Vinyl
+  Free Radicals. \emph{The Journal of Chemical Physics} \textbf{1964},
+  \emph{40}, 213--220\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jinguji \latin{et~al.}(1985)Jinguji, McDowell, and Shimokoshi]{jin85}
+Jinguji,~M.; McDowell,~C.; Shimokoshi,~K. High-resolution ESR spectrum of the
+  ethynyl radical in an argon matrix at 4.2 K. \emph{Journal of Molecular
+  Structure} \textbf{1985}, \emph{130}, 317--326\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Brown and Evenson(1988)Brown, and Evenson]{bro88}
+Brown,~J.~M.; Evenson,~K.~M. The far-infrared laser magnetic resonance spectrum
+  of vibrationally excited C2H. \emph{Journal of Molecular Spectroscopy}
+  \textbf{1988}, \emph{131}, 161--171\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Pfelzer \latin{et~al.}(1996)Pfelzer, Havenith, Perić, Mürtz, and
+  Urban]{pfe96}
+Pfelzer,~C.; Havenith,~M.; Perić,~M.; Mürtz,~P.; Urban,~W. Faraday Laser
+  Magnetic Resonance Spectroscopy of Vibrationally Excited C2H. \emph{Journal
+  of Molecular Spectroscopy} \textbf{1996}, \emph{176}, 28--37\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Schmidt \latin{et~al.}(1998)Schmidt, Perić, Mürtz, Wienkoop,
+  Havenith, and Urban]{sch98}
+Schmidt,~C.; Perić,~M.; Mürtz,~P.; Wienkoop,~M.; Havenith,~M.; Urban,~W.
+  Faraday Laser Magnetic Resonance Spectroscopy of Vibrationally Excited C2D.
+  \emph{Journal of Molecular Spectroscopy} \textbf{1998}, \emph{190},
+  112--124\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Sastry} \latin{et~al.}(1981){Sastry}, {Helminger}, {Charo}, {Herbst},
+  and {De Lucia}]{sas81}
+{Sastry},~K.~V.~L.~N.; {Helminger},~P.; {Charo},~A.; {Herbst},~E.; {De
+  Lucia},~F.~C. {Laboratory millimeter and submillimeter spectrum of CCH}.
+  \emph{\apjl} \textbf{1981}, \emph{251}, L119\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{Gottlieb} \latin{et~al.}(1983){Gottlieb}, {Gottlieb}, and
+  {Thaddeus}]{got83}
+{Gottlieb},~C.~A.; {Gottlieb},~E.~W.; {Thaddeus},~P. {Laboratory and
+  astronomical measurement of the millimeter wave spectrum of the ethynyl
+  radical CCH}. \emph{\apj} \textbf{1983}, \emph{264}, 740--745\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Endo \latin{et~al.}(1989)Endo, Kanamori, and Hirota]{end89}
+Endo,~Y.; Kanamori,~H.; Hirota,~E. Millimeter- and submillimeter-wave spectra
+  of the vibrationally excited CCD radical. \emph{Chemical Physics Letters}
+  \textbf{1989}, \emph{160}, 280--284\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{M{\"u}ller} \latin{et~al.}(2000){M{\"u}ller}, {Klaus}, and
+  {Winnewisser}]{mul00}
+{M{\"u}ller},~H.~S.~P.; {Klaus},~T.; {Winnewisser},~G. {Submillimeter-wave
+  spectrum of the ethynyl radical, CCH, up to 1 THz}. \emph{\aap}
+  \textbf{2000}, \emph{357}, L65--L67\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Shepherd and Graham(1987)Shepherd, and Graham]{she87}
+Shepherd,~R.~A.; Graham,~W. R.~M. FTIR study of D and 13C substituted C2H in
+  solid argon. \emph{The Journal of Chemical Physics} \textbf{1987}, \emph{86},
+  2600--2605\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jacox and Olson(1987)Jacox, and Olson]{jac87}
+Jacox,~M.~E.; Olson,~W.~B. The Ã 2Π–X̃ 2Σ+ transition of HC2
+  isolated in solid argon. \emph{The Journal of Chemical Physics}
+  \textbf{1987}, \emph{86}, 3134--3142\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Forney \latin{et~al.}(1995)Forney, Jacox, and Thompson]{for95}
+Forney,~D.; Jacox,~M.; Thompson,~W. The Infrared and Near-Infrared Spectra of
+  HCC and DCC Trapped in Solid Neon. \emph{Journal of Molecular Spectroscopy}
+  \textbf{1995}, \emph{170}, 178--214\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Vervloet and Herman(1988)Vervloet, and Herman]{ver88}
+Vervloet,~M.; Herman,~M. Fourier transform emission spectroscopy of C2H.
+  \emph{Chemical Physics Letters} \textbf{1988}, \emph{144}, 48--50\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hsu \latin{et~al.}(1993)Hsu, Lin, Papoušek, and Tsai]{hsu93}
+Hsu,~Y.; Lin,~J.~J.; Papoušek,~D.; Tsai,~J. The low‐lying bending
+  vibrational levels of the CCH (X̃ 2Σ+) radical studied by laser‐induced
+  fluorescence. \emph{The Journal of Chemical Physics} \textbf{1993},
+  \emph{98}, 6690--6696\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hsu \latin{et~al.}(1995)Hsu, Shiu, and Lin]{hsu95}
+Hsu,~Y.; Shiu,~Y.; Lin,~C. Laser‐induced fluorescence spectroscopy of CCH
+  (X̃ 2Σ+) in vibrationally excited levels up to 4500 cm−1. \emph{The
+  Journal of Chemical Physics} \textbf{1995}, \emph{103}, 5919--5930\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Chiang and Hsu(1999)Chiang, and Hsu]{chi99}
+Chiang,~W.-Y.; Hsu,~Y.-C. Laser spectroscopy of CCH in the 36 600–39 700
+  cm−1 region. \emph{The Journal of Chemical Physics} \textbf{1999},
+  \emph{111}, 1454--1461\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
 \bibitem[Ervin and Lineberger(1991)Ervin, and Lineberger]{erv91}
 Ervin,~K.~M.; Lineberger,~W.~C. Photoelectron spectra of dicarbon(1-) and
   ethynyl(1-). \emph{The Journal of Physical Chemistry} \textbf{1991},
   \emph{95}, 1167--1177\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Perić \latin{et~al.}(1990)Perić, Peyerimhoff, and Buenker]{per90}
+Perić,~M.; Peyerimhoff,~S.~D.; Buenker,~R.~J. Ab initio investigation of the
+  vibronic structure of the C2H spectrum. \emph{Molecular Physics}
+  \textbf{1990}, \emph{71}, 693--719\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Perić \latin{et~al.}(1991)Perić, Reuter, and Peyerimhoff]{per91}
+Perić,~M.; Reuter,~W.; Peyerimhoff,~S.~D. Ab initio investigation of the
+  vibronic structure in the C2H spectrum: Spin-orbit splitting of the vibronic
+  levels. \emph{Journal of Molecular Spectroscopy} \textbf{1991}, \emph{148},
+  201--212\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Perić \latin{et~al.}(1991)Perić, Peyerimhoff, and Buenker]{per91b}
+Perić,~M.; Peyerimhoff,~S.~D.; Buenker,~R.~J. Ab initio investigation of the
+  vibronic structure in the C2H spectrum: Calculation of vibronic energies and
+  wavefunctions for various isotopomers. \emph{Journal of Molecular
+  Spectroscopy} \textbf{1991}, \emph{148}, 180--200\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Perić \latin{et~al.}(1991)Perić, Engels, and Peyerimhoff]{per91c}
+Perić,~M.; Engels,~B.; Peyerimhoff,~S.~D. Ab initio investigation of the
+  vibronic structure of the C2H spectrum: Computation of the vibronically
+  averaged values for the hyperfine coupling constants. \emph{Journal of
+  Molecular Spectroscopy} \textbf{1991}, \emph{150}, 70--85\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Perić(1992)]{per92}
+Perić,~P. S. . B.~R.,~M. Analysis and predictions of the vibronic spectrum of
+  the ethynyl radical C2H by ab initio methods. \emph{Z Phys D - Atoms,
+  Molecules and Clusters} \textbf{1992}, \emph{24}, 177--198\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Carter \latin{et~al.}(2000)Carter, Handy, Puzzarini, Tarroni, and
+  Palmieri]{car00}
+Carter,~S.; Handy,~N.~C.; Puzzarini,~C.; Tarroni,~R.; Palmieri,~P. A
+  variational method for the calculation of spin-rovibronic energy levels of
+  triatomic molecules with three interacting electronic states. \emph{Molecular
+  Physics} \textbf{2000}, \emph{98}, 1697--1712\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stanton(2021)]{sta21}
+Stanton,~J.~F. Why the CC Stretch in HCC Is So Anharmonic. \emph{The Journal of
+  Physical Chemistry A} \textbf{2021}, \emph{125}, 7694--7698\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -61,13 +586,6 @@ Pacher,~T.; Cederbaum,~L.~S.; Köppel,~H. \emph{Advances in Chemical Physics};
 Stanton,~J.~F. Quantitative vibronic coupling calculations. The visible
   spectrum of propadienylidene. \emph{Faraday Discuss.} \textbf{2011},
   \emph{150}, 331--343\relax
-\mciteBstWouldAddEndPuncttrue
-\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
-{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
-\EndOfBibitem
-\bibitem[Stanton(2021)]{sta21}
-Stanton,~J.~F. Why the CC Stretch in HCC Is So Anharmonic. \emph{The Journal of
-  Physical Chemistry A} \textbf{2021}, \emph{125}, 7694--7698\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -107,16 +625,6 @@ Weichman,~M.~L.; Cheng,~L.; Kim,~J.~B.; Stanton,~J.~F.; Neumark,~D.~M.
   radical: Slow electron velocity-map imaging (SEVI) spectra and
   Köppel-Domcke-Cederbaum (KDC) vibronic Hamiltonian calculations. \emph{The
   Journal of Chemical Physics} \textbf{2017}, \emph{146}, 224309\relax
-\mciteBstWouldAddEndPuncttrue
-\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
-{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
-\EndOfBibitem
-\bibitem[Carter \latin{et~al.}(2000)Carter, Handy, Puzzarini, Tarroni, and
-  Palmieri]{car00}
-Carter,~S.; Handy,~N.~C.; Puzzarini,~C.; Tarroni,~R.; Palmieri,~P. A
-  variational method for the calculation of spin-rovibronic energy levels of
-  triatomic molecules with three interacting electronic states. \emph{Molecular
-  Physics} \textbf{2000}, \emph{98}, 1697--1712\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax

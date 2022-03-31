@@ -5,49 +5,86 @@ The style file: achemso.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: acs-Aug2021-CH2-.bib
 Database file #2: 2022C2H.bib.bib
-Warning--I didn't find a database entry for "tar03"
+Warning--I didn't find a database entry for "dou97"
+Warning--I didn't find a database entry for "tar03.tar04"
 Warning--I didn't find a database entry for "pya16"
 Warning--I didn't find a database entry for "law19"
+Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
+while executing---line 1694 of file achemso.bst
+Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
+while executing---line 1694 of file achemso.bst
+Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
+while executing---line 1694 of file achemso.bst
+Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
+while executing---line 1694 of file achemso.bst
+Too many commas in name 1 of "Perić, M., Peyerimhoff, S.D. & Buenker, R.J" for entry per92
+while executing---line 1694 of file achemso.bst
+Too many commas in name 1 of "Perić, M., Peyerimhoff, S.D. & Buenker, R.J" for entry per92
+while executing---line 1694 of file achemso.bst
 achemso 2018/02/05 v3.11a
-You've used 17 entries,
+Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
+while executing---line 1700 of file achemso.bst
+Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
+while executing---line 1700 of file achemso.bst
+Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
+while executing---line 1700 of file achemso.bst
+Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
+while executing---line 1700 of file achemso.bst
+Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
+while executing---line 1700 of file achemso.bst
+Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
+while executing---line 1700 of file achemso.bst
+Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
+while executing---line 1700 of file achemso.bst
+Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
+while executing---line 1700 of file achemso.bst
+Too many commas in name 1 of "Perić, M., Peyerimhoff, S.D. & Buenker, R.J" for entry per92
+while executing---line 1700 of file achemso.bst
+Too many commas in name 1 of "Perić, M., Peyerimhoff, S.D. & Buenker, R.J" for entry per92
+while executing---line 1700 of file achemso.bst
+Too many commas in name 1 of "Perić, M., Peyerimhoff, S.D. & Buenker, R.J" for entry per92
+while executing---line 1700 of file achemso.bst
+Too many commas in name 1 of "Perić, M., Peyerimhoff, S.D. & Buenker, R.J" for entry per92
+while executing---line 1700 of file achemso.bst
+You've used 74 entries,
             2536 wiz_defined-function locations,
-            891 strings with 10714 characters,
-and the built_in function-call counts, 6419 in all, are:
-= -- 510
-> -- 373
-< -- 10
-+ -- 147
-- -- 130
-* -- 681
-:= -- 856
-add.period$ -- 30
-call.type$ -- 17
+            1322 strings with 25150 characters,
+and the built_in function-call counts, 27568 in all, are:
+= -- 2246
+> -- 1622
+< -- 25
++ -- 634
+- -- 560
+* -- 3064
+:= -- 3689
+add.period$ -- 144
+call.type$ -- 74
 change.case$ -- 4
 chr.to.int$ -- 2
-cite$ -- 17
-duplicate$ -- 355
-empty$ -- 445
-format.name$ -- 147
-if$ -- 1271
+cite$ -- 74
+duplicate$ -- 1519
+empty$ -- 1856
+format.name$ -- 654
+if$ -- 5363
 int.to.chr$ -- 0
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 124
-num.names$ -- 48
-pop$ -- 35
+newline$ -- 466
+num.names$ -- 219
+pop$ -- 139
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 19
+skip$ -- 76
 stack$ -- 0
-substring$ -- 371
-swap$ -- 383
-text.length$ -- 34
+substring$ -- 1577
+swap$ -- 1641
+text.length$ -- 148
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 110
+type$ -- 509
 warning$ -- 0
-while$ -- 63
+while$ -- 281
 width$ -- 0
-write$ -- 234
-(There were 3 warnings)
+write$ -- 979
+(There were 18 error messages)
