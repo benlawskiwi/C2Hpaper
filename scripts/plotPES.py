@@ -20,9 +20,12 @@ plt.xticks([23000,24000,25000,26000,27000,28000])
 ax.set_xticklabels(['23000','24000','25000','26000','27000','28000'],fontsize=14)
 plt.minorticks_on()
 ax.tick_params(width=1.5)
+plt.xlabel('Binding Energy (cm$^{-1}$)',fontsize=14)
+plt.annotate(r'$\tilde{X}$ $^2\Sigma^+$',(24400,0.825),ha='center',fontsize=14)
+plt.annotate(r'$\tilde{A}$ $^2\Pi$',(27800,0.43),ha='center',fontsize=14)
 plt.setp(ax.spines.values(), linewidth=1.5)
 plt.legend(loc=1,fontsize=14,frameon=False)
-plt.subplots_adjust(top = 1, bottom = 0.1, right = 0.95, left = 0.05, 
+plt.subplots_adjust(top = 1, bottom = 0.12, right = 0.95, left = 0.05, 
             hspace = 0, wspace = 0)
 
 plt.savefig('Fig1c.pdf',bbbox_inches='tight')

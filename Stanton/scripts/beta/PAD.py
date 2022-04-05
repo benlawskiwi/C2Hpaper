@@ -18,7 +18,7 @@ with open('beta-raw.json') as json_file:
     data = json.load(json_file)
     
 peaks = [211,0,210,310,210310,230310,'G','H','I','J','K','B1','B2','B3']
-col = ['C1','C1','C1','C1','C1','C1','C0','C0','C0','C0','C0','C3','C3','C3']
+col = ['C0','C0','C0','C0','C0','C0','C1','C1','C1','C1','C1','C3','C3','C3']
 
 width = 3.487
 height = width/1.4
@@ -112,9 +112,9 @@ for k in data:
         ddba.append(k['Error'])
 
 
-plt.errorbar(xeKE,xb,yerr=xerr,fmt='o',markersize=6,color='C1',elinewidth=0.5,mfc='white',label=r'$\tilde{X}\,^2\Sigma^+$')
-plt.errorbar(xhteKE,xhtb,yerr=xhterr,fmt='d',markersize=6,color='C2',elinewidth=0.5,mfc='white',label=r'$\tilde{X}\,^2\Sigma^+ - $HT')
-plt.errorbar(aeKE,ab,yerr=aerr,fmt='s',markersize=6,color='C0',elinewidth=0.5,mfc='white',label=r'$\tilde{A}\,^2\Pi$')
+plt.errorbar(xeKE,xb,yerr=xerr,fmt='o',markersize=6,color='C0',elinewidth=0.5,mfc='white',label=r'$\tilde{X}\,^2\Sigma^+$')
+plt.errorbar(xhteKE,xhtb,yerr=xhterr,fmt='d',markersize=6,color='C4',elinewidth=0.5,mfc='white',label=r'$\tilde{X}\,^2\Sigma^+ - $HT')
+plt.errorbar(aeKE,ab,yerr=aerr,fmt='s',markersize=6,color='C1',elinewidth=0.5,mfc='white',label=r'$\tilde{A}\,^2\Pi$')
 
 grid = np.arange(0,1.7,0.01)
 
@@ -131,7 +131,7 @@ A2 = grid[-1]
 #plt.errorbar(dea,dba,yerr=ddba,fmt='s',markersize=8,color='C0',mfc='white',label=r'C$_2$D $^2\Pi$')
 
 #plt.annotate(r'$A$ = 1.5(4) eV$^{-1}$',(1.15,1.200),color='C1',fontsize=13)
-plt.annotate(r'$A_1$ = 0.66(4) eV$^{-1}$',(1.15,0.18),color='C0',fontsize=13)
+plt.annotate(r'$A_1$ = 0.66(4) eV$^{-1}$',(1.15,0.18),color='C1',fontsize=13)
 #plt.annotate(r'$A$ = 0.66(4) eV$^{-1}$',(1.45,-0.68),color='C0',fontsize=10)
 
 plt.annotate(r'f = 0.9',(A2+0.05,A1),va='center',fontsize=12)

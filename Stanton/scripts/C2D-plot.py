@@ -69,7 +69,7 @@ plt.annotate(r'$2^1_03^1_0$',(1952,0.125),ha='center')
 plt.annotate(r'$2^3_03^1_0$',(2607,0.125),ha='center')
 plt.annotate(r'a',(3376,0.201),ha='center')
 plt.annotate(r'b',(3468,0.320),ha='center')
-plt.annotate(r'c',(3798,0.859),ha='center')
+plt.annotate(r'd',(3798,0.859),ha='center')
 #plt.annotate(r'd',(4028,0.228),ha='center')
 #plt.annotate(r'e',(4118,0.287),ha='center')
 

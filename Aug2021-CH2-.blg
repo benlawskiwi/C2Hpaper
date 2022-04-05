@@ -1,90 +1,87 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Aug2021-CH2-.aux
 The style file: achemso.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: acs-Aug2021-CH2-.bib
-Database file #2: 2022C2H.bib.bib
-Warning--I didn't find a database entry for "dou97"
-Warning--I didn't find a database entry for "tar03.tar04"
+Database file #2: 2022C2H.bib
 Warning--I didn't find a database entry for "pya16"
-Warning--I didn't find a database entry for "law19"
 Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
-while executing---line 1694 of file achemso.bst
+while executing---line 1696 of file achemso.bst
 Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
-while executing---line 1694 of file achemso.bst
+while executing---line 1696 of file achemso.bst
 Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
-while executing---line 1694 of file achemso.bst
+while executing---line 1696 of file achemso.bst
 Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
-while executing---line 1694 of file achemso.bst
+while executing---line 1696 of file achemso.bst
 Too many commas in name 1 of "Perić, M., Peyerimhoff, S.D. & Buenker, R.J" for entry per92
-while executing---line 1694 of file achemso.bst
+while executing---line 1696 of file achemso.bst
 Too many commas in name 1 of "Perić, M., Peyerimhoff, S.D. & Buenker, R.J" for entry per92
-while executing---line 1694 of file achemso.bst
-achemso 2018/02/05 v3.11a
+while executing---line 1696 of file achemso.bst
+achemso 2019-02-14 v3.12a
 Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
-while executing---line 1700 of file achemso.bst
+while executing---line 1702 of file achemso.bst
 Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
-while executing---line 1700 of file achemso.bst
+while executing---line 1702 of file achemso.bst
 Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
-while executing---line 1700 of file achemso.bst
+while executing---line 1702 of file achemso.bst
 Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
-while executing---line 1700 of file achemso.bst
+while executing---line 1702 of file achemso.bst
 Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
-while executing---line 1700 of file achemso.bst
+while executing---line 1702 of file achemso.bst
 Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
-while executing---line 1700 of file achemso.bst
+while executing---line 1702 of file achemso.bst
 Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
-while executing---line 1700 of file achemso.bst
+while executing---line 1702 of file achemso.bst
 Too many commas in name 1 of "Fulara, J., Lessen, D., Freivogel, P., Maier J. P." for entry ful93
-while executing---line 1700 of file achemso.bst
+while executing---line 1702 of file achemso.bst
 Too many commas in name 1 of "Perić, M., Peyerimhoff, S.D. & Buenker, R.J" for entry per92
-while executing---line 1700 of file achemso.bst
+while executing---line 1702 of file achemso.bst
 Too many commas in name 1 of "Perić, M., Peyerimhoff, S.D. & Buenker, R.J" for entry per92
-while executing---line 1700 of file achemso.bst
+while executing---line 1702 of file achemso.bst
 Too many commas in name 1 of "Perić, M., Peyerimhoff, S.D. & Buenker, R.J" for entry per92
-while executing---line 1700 of file achemso.bst
+while executing---line 1702 of file achemso.bst
 Too many commas in name 1 of "Perić, M., Peyerimhoff, S.D. & Buenker, R.J" for entry per92
-while executing---line 1700 of file achemso.bst
-You've used 74 entries,
-            2536 wiz_defined-function locations,
-            1322 strings with 25150 characters,
-and the built_in function-call counts, 27568 in all, are:
-= -- 2246
-> -- 1622
-< -- 25
-+ -- 634
-- -- 560
-* -- 3064
-:= -- 3689
-add.period$ -- 144
-call.type$ -- 74
+while executing---line 1702 of file achemso.bst
+You've used 83 entries,
+            2538 wiz_defined-function locations,
+            1390 strings with 27317 characters,
+and the built_in function-call counts, 30990 in all, are:
+= -- 2526
+> -- 1819
+< -- 28
++ -- 711
+- -- 628
+* -- 3444
+:= -- 4148
+add.period$ -- 162
+call.type$ -- 83
 change.case$ -- 4
 chr.to.int$ -- 2
-cite$ -- 74
-duplicate$ -- 1519
-empty$ -- 1856
-format.name$ -- 654
-if$ -- 5363
+cite$ -- 83
+duplicate$ -- 1702
+empty$ -- 2090
+format.name$ -- 733
+if$ -- 6030
 int.to.chr$ -- 0
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 466
-num.names$ -- 219
-pop$ -- 139
+newline$ -- 520
+num.names$ -- 246
+pop$ -- 156
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 76
+skip$ -- 85
 stack$ -- 0
-substring$ -- 1577
-swap$ -- 1641
-text.length$ -- 148
+substring$ -- 1801
+swap$ -- 1838
+text.length$ -- 166
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 509
+type$ -- 572
 warning$ -- 0
-while$ -- 281
+while$ -- 314
 width$ -- 0
-write$ -- 979
+write$ -- 1096
 (There were 18 error messages)

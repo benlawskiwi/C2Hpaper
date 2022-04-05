@@ -38,8 +38,8 @@ for i in range(0,np.size(c)):
 plt.plot(x,y,'k',label=r'C$_2$H$^-$ PES')
 plt.xlim(-630,4225)
 
-plt.plot((0,0),(0,0),'C0',label=r'$\Sigma$ Symmetry')
-plt.plot((0,0),(0,0),'C1',label=r'$\Pi$ Symmetry')
+plt.plot((0,0),(0,0),'C1',label=r'$\Sigma$ Symmetry')
+plt.plot((0,0),(0,0),'C0',label=r'$\Pi$ Symmetry')
 plt.legend(loc=9,fontsize=10,frameon=False)
 
 ax.spines['top'].set_visible(False)
