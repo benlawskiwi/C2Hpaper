@@ -8,7 +8,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{83}
+\begin{mcitethebibliography}{85}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -705,6 +705,23 @@ Laws,~B.~A.; Cavanagh,~S.~J.; Lewis,~B.~R.; Gibson,~S.~T. Wigner Near-Threshold
   Effects in the Photoelectron Angular Distribution of NO2–. \emph{The
   Journal of Physical Chemistry A} \textbf{2019}, \emph{123},
   10418--10425\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hanstorp \latin{et~al.}(1989)Hanstorp, Bengtsson, and Larson]{han89}
+Hanstorp,~D.; Bengtsson,~C.; Larson,~D.~J. Angular distributions in
+  photodetachment from ${\mathrm{O}}^{\mathrm{\ensuremath{-}}}$. \emph{Phys.
+  Rev. A} \textbf{1989}, \emph{40}, 670--675\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sanov \latin{et~al.}(2013)Sanov, Grumbling, Goebbert, and
+  Culberson]{san13}
+Sanov,~A.; Grumbling,~E.~R.; Goebbert,~D.~J.; Culberson,~L.~M. Photodetachment
+  anisotropy for mixed s-p states: 8/3 and other fractions. \emph{The Journal
+  of Chemical Physics} \textbf{2013}, \emph{138}, 054311\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
