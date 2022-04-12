@@ -8,7 +8,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{85}
+\begin{mcitethebibliography}{86}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -584,6 +584,14 @@ Stanton,~J.~F. Why the CC Stretch in HCC Is So Anharmonic. \emph{The Journal of
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
+\bibitem[Gulania and Krylov(2021)Gulania, and Krylov]{gul21}
+Gulania,~S.; Krylov,~A.~I. Dissociative electron attachment in C2H via
+  electronic resonances. \emph{Molecular Physics} \textbf{2021}, \emph{119},
+  e1979262\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
 \bibitem[Hickstein \latin{et~al.}(2019)Hickstein, Gibson, Yurchak, Das, and
   Ryazanov]{hic19}
 Hickstein,~D.~D.; Gibson,~S.~T.; Yurchak,~R.; Das,~D.~D.; Ryazanov,~M. A direct
@@ -689,6 +697,17 @@ Sharp-Williams,~E.~N.; Roberts,~M.~A.; Nesbitt,~D.~J. {Dark state vibronic
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
+\bibitem[DeVine \latin{et~al.}(2017)DeVine, Weichman, Laws, Chang, Babin,
+  Balerdi, Xie, Malbon, Lineberger, Yarkony, Field, Gibson, Ma, Guo, and
+  Neumark]{dev17}
+DeVine,~J.~A.; Weichman,~M.~L.; Laws,~B.; Chang,~J.; Babin,~M.~C.; Balerdi,~G.;
+  Xie,~C.; Malbon,~C.~L.; Lineberger,~W.~C.; Yarkony,~D.~R. \latin{et~al.}
+  Encoding of vinylidene isomerization in its anion photoelectron spectrum.
+  \emph{Science} \textbf{2017}, \emph{358}, 336--339\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
 \bibitem[Khuseynov \latin{et~al.}(2014)Khuseynov, Blackstone, Culberson, and
   Sanov]{khu14}
 Khuseynov,~D.; Blackstone,~C.~C.; Culberson,~L.~M.; Sanov,~A. Photoelectron
@@ -732,17 +751,6 @@ Cavanagh,~S.~J.; Gibson,~S.~T.; Gale,~M.~N.; Dedman,~C.~J.; Roberts,~E.~H.;
   Lewis,~B.~R. {High resolution velocity-map imaging photoelectron spectroscopy
   of the O$^-$ fine-structure transitions}. \emph{Physical Review A}
   \textbf{2007}, \emph{76}, 052708\relax
-\mciteBstWouldAddEndPuncttrue
-\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
-{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
-\EndOfBibitem
-\bibitem[DeVine \latin{et~al.}(2017)DeVine, Weichman, Laws, Chang, Babin,
-  Balerdi, Xie, Malbon, Lineberger, Yarkony, Field, Gibson, Ma, Guo, and
-  Neumark]{dev17}
-DeVine,~J.~A.; Weichman,~M.~L.; Laws,~B.; Chang,~J.; Babin,~M.~C.; Balerdi,~G.;
-  Xie,~C.; Malbon,~C.~L.; Lineberger,~W.~C.; Yarkony,~D.~R. \latin{et~al.}
-  Encoding of vinylidene isomerization in its anion photoelectron spectrum.
-  \emph{Science} \textbf{2017}, \emph{358}, 336--339\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax

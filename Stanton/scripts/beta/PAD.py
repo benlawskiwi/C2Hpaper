@@ -134,8 +134,8 @@ A2 = grid[-1]
 plt.annotate(r'$A_1$ = 0.66(4) eV$^{-1}$',(1.15,0.18),color='C1',fontsize=13)
 #plt.annotate(r'$A$ = 0.66(4) eV$^{-1}$',(1.45,-0.68),color='C0',fontsize=10)
 
-plt.annotate(r'f = 0.9',(A2+0.05,A1),va='center',fontsize=12)
-plt.annotate(r'f = 0.1',(A2+0.05,A2-0.1),va='center',fontsize=12)
+plt.annotate(r'$\gamma_p$ = 0.9',(A2+0.05,A1),va='center',fontsize=12)
+plt.annotate(r'$\gamma_p$ = 0.1',(A2+0.05,A2-0.1),va='center',fontsize=12)
 
 plt.xlabel('Electron Kinetic Energy (eV)',fontsize=14)
 plt.ylabel(r'Anisotropy ($\beta$)',fontsize=14)

@@ -7,6 +7,7 @@ def Gauss (E0,FWHM,E):
 FWHM = 80
 #FWHM = 80
 amp = 1
+e0 = 1e7/266-2.969*8065.74
 
 fn1 = '../C2H_all.dat'
 fn2 = '../C2H_ANU_PES/C2H-266nm.dat'
@@ -33,8 +34,12 @@ spec = np.zeros(np.size(Ev))
 
 for i in range(0,np.size(a)):
     aa = a[i]
+    KEw = e0 - aa
+    FWHM = KEw*0.004*2
     if a[i] > cut:
         aa = a[i]-ofs
+    if a[i] < 1700:
+        FWHMa = 120
     spec += b[i]*amp*Gauss(aa,FWHM,Ev)
     #plt.plot((aa,aa),(0,-b[i]),'C0')
 
