@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.26)  12 APR 2022 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.26)  13 APR 2022 12:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,8 +429,7 @@ File: figures/Fig1.pdf Graphic file (type pdf)
 <use figures/Fig1.pdf>
 Package pdftex.def Info: figures/Fig1.pdf  used on input line 60.
 (pdftex.def)             Requested size: 375.80574pt x 193.79625pt.
- [5]
-[6 <./figures/Fig1.pdf>] [7]
+ [5 <./figures/Fig1.pdf>] [6] [7]
 Overfull \hbox (12.7967pt too wide) in paragraph at lines 89--91
 \T1/cmr/m/n/12 tion. $\OML/cmm/m/it/12 ^^X$ \T1/cmr/m/n/12 rep-re-sents the ele
 c-tronic states used in the ex-pan-sion ($\OML/cmm/m/it/12 ^^X \OT1/cmr/m/n/12 
@@ -472,10 +471,10 @@ Package pdftex.def Info: figures/plotBeta.pdf  used on input line 237.
 l [20] [21] [22] [23] [24] [25] [26] [27]
 [28]) [29] (./Aug2021-CH2-.aux) ) 
 Here is how much of TeX's memory you used:
- 7775 strings out of 480608
- 129360 string characters out of 5903630
- 410497 words of memory out of 5000000
- 23539 multiletter control sequences out of 15000+600000
+ 7774 strings out of 480608
+ 129347 string characters out of 5903630
+ 410579 words of memory out of 5000000
+ 23538 multiletter control sequences out of 15000+600000
  550716 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,18n,100p,1695b,591s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -503,7 +502,7 @@ fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb
 sr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr
 /local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/l
 ocal/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Aug2021-CH2-.pdf (29 pages, 1477411 bytes).
+Output written on Aug2021-CH2-.pdf (29 pages, 1475978 bytes).
 PDF statistics:
  622 PDF objects out of 1000 (max. 8388607)
  231 compressed objects within 3 object streams
