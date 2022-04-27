@@ -8,7 +8,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{86}
+\begin{mcitethebibliography}{87}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -702,6 +702,14 @@ DeVine,~J.~A.; Weichman,~M.~L.; Laws,~B.; Chang,~J.; Babin,~M.~C.; Balerdi,~G.;
   Xie,~C.; Malbon,~C.~L.; Lineberger,~W.~C.; Yarkony,~D.~R. \latin{et~al.}
   Encoding of vinylidene isomerization in its anion photoelectron spectrum.
   \emph{Science} \textbf{2017}, \emph{358}, 336--339\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Simmons \latin{et~al.}(2012)Simmons, Ichino, and Stanton]{sim12}
+Simmons,~C.~S.; Ichino,~T.; Stanton,~J.~F. The $\nu$3 Fundamental in NO$_3$ Has
+  Been Seen Near 1060 cm$^{-1}$, Albeit Some Time Ago. \emph{The Journal of
+  Physical Chemistry Letters} \textbf{2012}, \emph{3}, 1946--1950\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax

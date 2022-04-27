@@ -1,56 +1,56 @@
-This is BibTeX, Version 0.99d (TeX Live 2020)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Aug2021-CH2-.aux
 The style file: achemso.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: acs-Aug2021-CH2-.bib
-Database file #2: 2022C2H.bib
+Database file #2: 2022C2H.bib.bib
 Name 1 in "Perić, M., and Peyerimhoff, S.D. and Buenker, R.J" has a comma at the end for entry per92
-while executing---line 1696 of file achemso.bst
-achemso 2019-02-14 v3.12a
+while executing---line 1694 of file achemso.bst
+achemso 2018/02/05 v3.11a
 Name 1 in "Perić, M., and Peyerimhoff, S.D. and Buenker, R.J" has a comma at the end for entry per92
-while executing---line 1702 of file achemso.bst
+while executing---line 1700 of file achemso.bst
 Name 1 in "Perić, M., and Peyerimhoff, S.D. and Buenker, R.J" has a comma at the end for entry per92
-while executing---line 1702 of file achemso.bst
-You've used 86 entries,
-            2538 wiz_defined-function locations,
-            1406 strings with 27532 characters,
-and the built_in function-call counts, 32211 in all, are:
-= -- 2621
-> -- 1898
+while executing---line 1700 of file achemso.bst
+You've used 87 entries,
+            2536 wiz_defined-function locations,
+            1414 strings with 27795 characters,
+and the built_in function-call counts, 32577 in all, are:
+= -- 2653
+> -- 1916
 < -- 27
-+ -- 742
-- -- 656
-* -- 3593
-:= -- 4312
-add.period$ -- 168
-call.type$ -- 86
++ -- 749
+- -- 662
+* -- 3634
+:= -- 4360
+add.period$ -- 170
+call.type$ -- 87
 change.case$ -- 4
 chr.to.int$ -- 2
-cite$ -- 86
-duplicate$ -- 1771
-empty$ -- 2165
-format.name$ -- 766
-if$ -- 6261
+cite$ -- 87
+duplicate$ -- 1790
+empty$ -- 2192
+format.name$ -- 773
+if$ -- 6333
 int.to.chr$ -- 0
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 538
-num.names$ -- 255
-pop$ -- 161
+newline$ -- 544
+num.names$ -- 258
+pop$ -- 163
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 88
+skip$ -- 89
 stack$ -- 0
-substring$ -- 1867
-swap$ -- 1917
-text.length$ -- 172
+substring$ -- 1895
+swap$ -- 1936
+text.length$ -- 174
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 593
+type$ -- 600
 warning$ -- 0
-while$ -- 324
+while$ -- 328
 width$ -- 0
-write$ -- 1135
+write$ -- 1148
 (There were 3 error messages)
