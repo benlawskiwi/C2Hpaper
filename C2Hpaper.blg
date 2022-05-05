@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: C2Hpaper.aux
+The style file: achemso.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: acs-C2Hpaper.bib
+Database file #2: 2022C2H.bib.bib
+Name 1 in "Peri\'{c}, M., and Peyerimhoff, S.D. and Buenker, R.J" has a comma at the end for entry per92
+while executing---line 1694 of file achemso.bst
+achemso 2018/02/05 v3.11a
+Name 1 in "Peri\'{c}, M., and Peyerimhoff, S.D. and Buenker, R.J" has a comma at the end for entry per92
+while executing---line 1700 of file achemso.bst
+Name 1 in "Peri\'{c}, M., and Peyerimhoff, S.D. and Buenker, R.J" has a comma at the end for entry per92
+while executing---line 1700 of file achemso.bst
+You've used 89 entries,
+            2536 wiz_defined-function locations,
+            1428 strings with 28219 characters,
+and the built_in function-call counts, 33309 in all, are:
+= -- 2707
+> -- 1967
+< -- 27
++ -- 769
+- -- 680
+* -- 3718
+:= -- 4461
+add.period$ -- 174
+call.type$ -- 89
+change.case$ -- 4
+chr.to.int$ -- 2
+cite$ -- 89
+duplicate$ -- 1833
+empty$ -- 2236
+format.name$ -- 793
+if$ -- 6471
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 556
+num.names$ -- 264
+pop$ -- 167
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 91
+stack$ -- 0
+substring$ -- 1923
+swap$ -- 1985
+text.length$ -- 178
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 614
+warning$ -- 0
+while$ -- 335
+width$ -- 0
+write$ -- 1173
+(There were 3 error messages)
