@@ -1,0 +1,110 @@
+\documentclass[journal=jacsat,manuscript=suppinfo]{achemso}
+%\usepackage{scicite}
+\usepackage[sort&compress, numbers]{natbib}
+\usepackage{times}
+\usepackage{amssymb}
+\usepackage{subfigure}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{upgreek}
+\usepackage{gensymb}
+\usepackage[colorlinks]{hyperref}
+%\newcommand{\hah}[1]{\textcolor{magenta}{#1}}
+\newcommand{\tws}[1]{\textcolor{red}{#1}}
+\usepackage[version=4]{mhchem}
+\usepackage{amsmath,amsfonts,amssymb,dcolumn,lscape,alltt,graphicx,chemarr}
+\usepackage[english]{babel}
+\SectionNumbersOn
+\usepackage{bm}
+\usepackage[T1]{fontenc}
+\usepackage{chemstyle}
+% NB added command for in line cite
+\newcommand{\onlinecite}[1]{\hspace{-1 ex} \nocite{#1}\citenum{#1}}
+% 2 column equations
+%\usepackage{widetext, widetable}
+%
+\author{Benjamin~A.~Laws}
+\email{b.laws@unsw.edu.au}
+\affiliation{School of Chemistry, University of New South Wales, Sydney NSW 2052, Australia}
+\alsoaffiliation{Research School of Physics, The Australian
+	National University, Canberra ACT 2601, Australia}
+\author{Zachariah~D.~Levey} 
+\affiliation{School of Chemistry, University of New South Wales, Sydney NSW 2052, Australia}
+\author{Andrei M. Sanov}
+\affiliation{Department of Chemistry and Biochemistry, The University of Arizona, Tucson, Arizona 85721, United States}
+\author{John F. Stanton}
+\affiliation{Department of Chemistry, University of Florida, Gainesville, Florida 32611, United States}
+\author{Timothy~W.~Schmidt} 
+\affiliation{School of Chemistry, University of New South Wales, Sydney NSW 2052, Australia}
+\author{Stephen~T.~Gibson}
+\affiliation{Research School of Physics, The Australian
+	National University, Canberra ACT 2601, Australia}
+\title{Velocity Map Imaging Spectroscopy of C$_2$H$^-$ and C$_2$D$^-$: a benchmark study of vibronic coupling interactions}
+\abbreviations{PES,PAD,EA,eKE,FWHM,VMI}
+%\DeclareUnicodeCharacter{2192}{-}
+
+\begin{document}
+
+\tableofcontents
+	
+
+\section{C$_2$H$^-$ Spectral Assignments}
+Spectral assignments for all peaks resolved in the photoelectron spectra of C$_2$H$^-$ from this work are presented in Table~\ref{tab:1}. Peaks are labelled with respect to the photoelectron spectrum of C$_2$H$^-$ at 300~nm in Figure~\ref{fig:1}. The experimental binding energy of each transition is given, alongside the anisotropy ($+/-$), the corresponding vibronic symmetry, the calculated energy from Ref.~\onlinecite{tar03}. Assignments are given as $\tilde{X}(v_1,v_2,v_3)\tilde{A}(v_1,v_2,v_3)$ where superscripts represent hot-band transitions.
+
+\begin{table*}
+	\caption{Peak positions (cm$^{-1}$), and assignments for the C$_2$H$^-$ photoelectron spectra from this work. The sign of the anisotropy parameter is shown for each transition, along with it's vibronic symmetry, and the calculated position from Ref.~\cite{tar03}.} \label{tab:1}
+	\begin{tabular}{c c c c c c c c c}
+		\hline Peak & eBE (cm$^{-1}$) & $v$ (cm$^{-1}$) & $\beta$ & Symmetry & $A_{\text{SO}}\,^a$ & $v_{\text{calc}}\,^b$ & \multicolumn{2}{c}{Assignment}  \\ 
+		& & & & & & & $\tilde{X}$ &$\tilde{A}$ \\ \hline \hline
+		& 23 591 & -231 & + & $\Sigma^+$ & & & $2^2_2$ & --\\
+		& 23 685 & -137 &  + & $\Sigma^+$ & & & $2^1_1$ & --\\
+		& 23 823 & 0 & + & $\Sigma^+$ & -- & 0 & $0^0_0$ & --\\
+		& 24 184 & 361 & $-$ & $\Pi$ & -0.35$^{c}$&371 & $2^1_0$ & -- \\
+		& 24 630 & 807 & $+$ & $\Sigma^+$ & -- & 794 & $2^2_0$ & --\\
+		& 25 663 & 1840 & $+$ & $\Sigma^+$ & -- & 1838 & $3^1_0$ & -- \\
+		& 25 916 & 2093 & $-$ & $\Pi$ & -1.02$^{d}$ & 2096 & $2^1_03^10$ & -- \\
+		& 25 993 & 2170 & $-$ & $\Pi$ & -0.66 & 2166 & $2^5_0$ & -- \\
+		& 26 362 & 2539 & $+$ & $\Sigma^+$ & & 2536 & $2^203^1_0$ & -- \\
+		& 26 757 &  2934 & $-$ & $\Pi$ & -1.52$^{e}$ & 2933 & $2^3_03^10$ &-- \\
+		& 26 929 & 3106 & $-$ & $\Pi$ & -0.52 & 3104 & $2^7_0$ & -- \\
+		& 27 175 & 3352 & + & $\Sigma^+$ & -- & 3371 & $2^43^1$ & --\\
+		a & 27 430 & 3607 & $-$ & $\Pi$ & -7.22$^{f}$ & 3604 & $2^1_03^2_0/1^1_02^1_0$ & $0^0_0$ \\
+		b & 27 515 & 3692 & $-$ & $\Pi$ & -5.41$^{g}$ & 3690 & $1^1_02^1_0/2^1_03^2_0$ & $0^0_0$ \\
+		c & 27 612 & 3788 & $-$ & $\Pi$ & -2.51 & 3790 & $2^5_03^1_0$ & $0^0_0$ \\
+		d & 27 851 & 4028 & $-$ & $\Pi$ & -2.22 & 4011 & $2^9_0/2^5_03^1_0$ & $0^0_0$ \\
+		e & 27 941 & 4118 & $-$ & $\Pi$ & -3.28 & 4093 & $2^9_0$ & $0^0_0$ \\
+		f & 28 200 & 4377 & $+$ & $\Sigma^+$ & & 4375 & $2^603^1_0$ & -- \\
+		g & 28 349 & 4526 & $+$ & $\Sigma^+$ & -- & 4524 & $2^{10}_0$ & -- \\
+		h  & 28 423 & 4600 & $-$ & $\Pi$ & & 4593 & $2^33^2$ & $0^0_0$ \\
+		i & 28 562 & 4739 & $-$ & $\Pi$ & & 4702 & $2^73^1$ & $2^10$ \\
+		j & 28 714 & 4891 & $-$ & $\Pi$ & & 4879 & $2^73^1$ & -- \\
+		k   & 28 834 & 5011 & $-$ & $\Pi$ & & 5004 &$2^{11}$ & -- \\  
+		l & 29 049 & 5226 & $-$ & $\Pi$ & & 5222 & $2^1_03^3_0$ & $3^1_0$ \\
+		m* & 29 227 & 5404 & + & $\Sigma^+$ & -- & 5406 & $2^{12}$ & $2^1_0$\\
+		n & 29 283 & 5460 & $-$ & $\Pi$ & & 5445  & $2^5_03^2_0$ & $3^1_0$ \\
+		o & 29 465 & 5642 & $-$ & $\Pi$ & & 5630  & $2^9_03^1_0$ & $3^1_0$ \\
+		p  & 29 740 & 5917 & $-$ & $\Pi$ & & 5914 & $2^{13}$ & --\\
+		q & 29 844 & 6021 & + & $\Sigma^+$ & & 6054 & $2^63^2/2^23^3$ & --\\
+		r & 30 021 & 6198 & $-$ & $\Pi$ & & 6200 & $2^33^3$ & $2^2$\\
+		s & 30 086 & 6263 & $-$ & $\Pi$ & & 6266 & $1^12^7$ & --\\
+	\end{tabular}
+	
+	\raggedright
+	$^*$ transition only partially resolved in photoelectron spectrum. \\
+	$^a$ from infra-red measurements of Refs.~\onlinecite{chi99} and~\onlinecite{yen95}, onless otherwise indicated.\\
+	$^b$ from calculations of Ref.~\onlinecite{tar03}\\
+	$^c$ Ref.~\onlinecite{kan88}\\
+	$^d$ Ref.~\onlinecite{yen93}\\
+	$^e$ Ref.~\onlinecite{yan93}\\
+	$^f$ Ref.~\onlinecite{yan87}\\
+	$^g$ Ref.~\onlinecite{cur85}
+\end{table*}
+
+Additional mass spectra are presented in Fig.~\ref{fig:S1}, to highlight the role of the CH radical in the formation of phenalenyl. Fig.~\ref{fig:S1}(a) and (b) show the mass spectrum (on and off resonance) when neat Ar gas is passed through the high voltage discharge. from a 1\% mixture of CH$_4$ in Ar gas passed through the HV discharge. The bottom plots, Fig.~\ref{fig:S1} (c) and (d) show the resulting mass spectrum when a 1\% mixture of CH$_4$ in Ar gas is used instead. A clear increase in both the resonant and non-resonant signal is observed when CH$_4$ is included in the gas mixture, confirming that the CH radicals formed in the discharge are involved in the formation of phenalenyl.
+
+
+
+%\newpage
+%\bibliography{sup-PhenRad}
+
+\end{document} 

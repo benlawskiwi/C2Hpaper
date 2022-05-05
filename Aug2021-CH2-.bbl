@@ -8,7 +8,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{87}
+\begin{mcitethebibliography}{89}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -26,12 +26,20 @@
   {\relax}
   {\relax}
 
-\bibitem[Frenklach \latin{et~al.}(1985)Frenklach, Clary, Gardiner, and
-  Stein]{fre85}
-Frenklach,~M.; Clary,~D.~W.; Gardiner,~W.~C.; Stein,~S.~E. Detailed kinetic
-  modeling of soot formation in shock-tube pyrolysis of acetylene.
-  \emph{Symposium (International) on Combustion} \textbf{1985}, \emph{20}, 887
-  -- 901, Twentieth Symposium (International) on Combustion\relax
+\bibitem[Kiefer \latin{et~al.}(1990)Kiefer, Von~Drasek, and Von~Drasek]{kie90}
+Kiefer,~J.~H.; Von~Drasek,~W.~A.; Von~Drasek,~W.~A. The mechanism of the
+  homogeneous pyrolysis of acetylene. \emph{International Journal of Chemical
+  Kinetics} \textbf{1990}, \emph{22}, 747--786\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kiefer \latin{et~al.}(1992)Kiefer, Sidhu, Kern, Xie, Chen, and
+  Harding]{kie92}
+Kiefer,~J.~H.; Sidhu,~S.~S.; Kern,~R.~D.; Xie,~K.; Chen,~H.; Harding,~L.~B. The
+  Homogeneous Pyrolysis of Acetylene II: The High Temperature Radical Chain
+  Mechanism. \emph{Combustion Science and Technology} \textbf{1992}, \emph{82},
+  101--130\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -153,8 +161,8 @@ Fulara,~J.; Lessen,~D.; Freivogel,~P.; Maier,~P. Laboratory evidence for highly
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Fulara and Krełowski(2000)Fulara, and Krełowski]{ful00}
-Fulara,~J.; Krełowski,~J. Origin of diffuse interstellar bands: spectroscopic
+\bibitem[Fulara and Krelowski(2000)Fulara, and Krelowski]{ful00}
+Fulara,~J.; Krelowski,~J. Origin of diffuse interstellar bands: spectroscopic
   studies of their possible carriers. \emph{New Astronomy Reviews}
   \textbf{2000}, \emph{44}, 581--597\relax
 \mciteBstWouldAddEndPuncttrue
@@ -185,19 +193,19 @@ McCarthy,~M.~C.; Gottlieb,~C.~A.; Gupta,~H.; Thaddeus,~P. Laboratory and
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[{Cernicharo, J.} \latin{et~al.}(2007){Cernicharo, J.}, {Gu\'elin, M.},
-  {Ag\'undez, M.}, {Kawaguchi, K.}, {McCarthy, M.}, and {Thaddeus, P.}]{cer07}
-{Cernicharo, J.},; {Gu\'elin, M.},; {Ag\'undez, M.},; {Kawaguchi, K.},;
-  {McCarthy, M.},; {Thaddeus, P.}, Astronomical detection of C$_4$H$^-$, the
-  second interstellar anion*. \emph{A\&A} \textbf{2007}, \emph{467},
+\bibitem[Cernicharo \latin{et~al.}(2007)Cernicharo, Gu\'elin, Ag\'undez,
+  Kawaguchi, McCarthy, and Thaddeus]{cer07}
+Cernicharo,~J.; Gu\'elin,~M.; Ag\'undez,~M.; Kawaguchi,~K.; McCarthy,~M.;
+  Thaddeus,~P. Astronomical detection of C$_4$H$^-$, the second interstellar
+  anion*. \emph{Astronomy \& Astropysics} \textbf{2007}, \emph{467},
   L37--L40\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Brünken \latin{et~al.}(2007)Brünken, Gupta, Gottlieb, McCarthy, and
-  Thaddeus]{bru07}
-Brünken,~S.; Gupta,~H.; Gottlieb,~C.~A.; McCarthy,~M.~C.; Thaddeus,~P.
+\bibitem[Br\"{u}nken \latin{et~al.}(2007)Br\"{u}nken, Gupta, Gottlieb,
+  McCarthy, and Thaddeus]{bru07}
+Br\"{u}nken,~S.; Gupta,~H.; Gottlieb,~C.~A.; McCarthy,~M.~C.; Thaddeus,~P.
   Detection of the Carbon Chain Negative Ion C$_8$H$^-$ in {TMC}-1. \emph{The
   Astrophysical Journal} \textbf{2007}, \emph{664}, L43--L46\relax
 \mciteBstWouldAddEndPuncttrue
@@ -391,22 +399,22 @@ Brown,~J.~M.; Evenson,~K.~M. The far-infrared laser magnetic resonance spectrum
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Pfelzer \latin{et~al.}(1996)Pfelzer, Havenith, Perić, Mürtz, and
-  Urban]{pfe96}
-Pfelzer,~C.; Havenith,~M.; Perić,~M.; Mürtz,~P.; Urban,~W. Faraday Laser
-  Magnetic Resonance Spectroscopy of Vibrationally Excited C$_2$H.
+\bibitem[Pfelzer \latin{et~al.}(1996)Pfelzer, Havenith, Peri\'{c}, M\"{u}rtz,
+  and Urban]{pfe96}
+Pfelzer,~C.; Havenith,~M.; Peri\'{c},~M.; M\"{u}rtz,~P.; Urban,~W. Faraday
+  Laser Magnetic Resonance Spectroscopy of Vibrationally Excited C$_2$H.
   \emph{Journal of Molecular Spectroscopy} \textbf{1996}, \emph{176},
   28--37\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Schmidt \latin{et~al.}(1998)Schmidt, Perić, Mürtz, Wienkoop,
+\bibitem[Schmidt \latin{et~al.}(1998)Schmidt, Peri\'{c}, M\"{u}rtz, Wienkoop,
   Havenith, and Urban]{sch98}
-Schmidt,~C.; Perić,~M.; Mürtz,~P.; Wienkoop,~M.; Havenith,~M.; Urban,~W.
-  Faraday Laser Magnetic Resonance Spectroscopy of Vibrationally Excited
-  C$_2$D. \emph{Journal of Molecular Spectroscopy} \textbf{1998}, \emph{190},
-  112--124\relax
+Schmidt,~C.; Peri\'{c},~M.; M\"{u}rtz,~P.; Wienkoop,~M.; Havenith,~M.;
+  Urban,~W. Faraday Laser Magnetic Resonance Spectroscopy of Vibrationally
+  Excited C$_2$D. \emph{Journal of Molecular Spectroscopy} \textbf{1998},
+  \emph{190}, 112--124\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -488,7 +496,7 @@ Hsu,~Y.; Lin,~J.~J.; Papoušek,~D.; Tsai,~J. The low‐lying bending
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
 \bibitem[Hsu \latin{et~al.}(1995)Hsu, Shiu, and Lin]{hsu95}
-Hsu,~Y.; Shiu,~Y.; Lin,~C. Laser‐induced fluorescence spectroscopy of CCH
+Hsu,~Y.; Shiu,~Y.; Lin,~C. Laser-induced fluorescence spectroscopy of CCH
   ($\tilde{X}^2 \Sigma^+$) in vibrationally excited levels up to 4500
   cm$^{-1}$. \emph{The Journal of Chemical Physics} \textbf{1995}, \emph{103},
   5919--5930\relax
@@ -512,16 +520,18 @@ Ervin,~K.~M.; Lineberger,~W.~C. Photoelectron spectra of dicarbon(1-) and
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Perić \latin{et~al.}(1990)Perić, Peyerimhoff, and Buenker]{per90}
-Perić,~M.; Peyerimhoff,~S.~D.; Buenker,~R.~J. Ab initio investigation of the
-  vibronic structure of the C$_2$H spectrum. \emph{Molecular Physics}
+\bibitem[Peri\'{c} \latin{et~al.}(1990)Peri\'{c}, Peyerimhoff, and
+  Buenker]{per90}
+Peri\'{c},~M.; Peyerimhoff,~S.~D.; Buenker,~R.~J. Ab initio investigation of
+  the vibronic structure of the C$_2$H spectrum. \emph{Molecular Physics}
   \textbf{1990}, \emph{71}, 693--719\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Perić \latin{et~al.}(1991)Perić, Reuter, and Peyerimhoff]{per91}
-Perić,~M.; Reuter,~W.; Peyerimhoff,~S.~D. Ab initio investigation of the
+\bibitem[Peri\'{c} \latin{et~al.}(1991)Peri\'{c}, Reuter, and
+  Peyerimhoff]{per91}
+Peri\'{c},~M.; Reuter,~W.; Peyerimhoff,~S.~D. Ab initio investigation of the
   vibronic structure in the C$_2$H spectrum: Spin-orbit splitting of the
   vibronic levels. \emph{Journal of Molecular Spectroscopy} \textbf{1991},
   \emph{148}, 201--212\relax
@@ -529,17 +539,19 @@ Perić,~M.; Reuter,~W.; Peyerimhoff,~S.~D. Ab initio investigation of the
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Perić \latin{et~al.}(1991)Perić, Peyerimhoff, and Buenker]{per91b}
-Perić,~M.; Peyerimhoff,~S.~D.; Buenker,~R.~J. Ab initio investigation of the
-  vibronic structure in the C$_2$H spectrum: Calculation of vibronic energies
-  and wavefunctions for various isotopomers. \emph{Journal of Molecular
-  Spectroscopy} \textbf{1991}, \emph{148}, 180--200\relax
+\bibitem[Peri\'{c} \latin{et~al.}(1991)Peri\'{c}, Peyerimhoff, and
+  Buenker]{per91b}
+Peri\'{c},~M.; Peyerimhoff,~S.~D.; Buenker,~R.~J. Ab initio investigation of
+  the vibronic structure in the C$_2$H spectrum: Calculation of vibronic
+  energies and wavefunctions for various isotopomers. \emph{Journal of
+  Molecular Spectroscopy} \textbf{1991}, \emph{148}, 180--200\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Perić \latin{et~al.}(1991)Perić, Engels, and Peyerimhoff]{per91c}
-Perić,~M.; Engels,~B.; Peyerimhoff,~S.~D. Ab initio investigation of the
+\bibitem[Peri\'{c} \latin{et~al.}(1991)Peri\'{c}, Engels, and
+  Peyerimhoff]{per91c}
+Peri\'{c},~M.; Engels,~B.; Peyerimhoff,~S.~D. Ab initio investigation of the
   vibronic structure of the C$_2$H spectrum: Computation of the vibronically
   averaged values for the hyperfine coupling constants. \emph{Journal of
   Molecular Spectroscopy} \textbf{1991}, \emph{150}, 70--85\relax
@@ -547,8 +559,9 @@ Perić,~M.; Engels,~B.; Peyerimhoff,~S.~D. Ab initio investigation of the
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Perić \latin{et~al.}(1992)Perić, Peyerimhoff, and Buenker]{per92}
-Perić,~M.; Peyerimhoff,~S.; Buenker,~R. Analysis and predictions of the
+\bibitem[Peri\'{c} \latin{et~al.}(1992)Peri\'{c}, Peyerimhoff, and
+  Buenker]{per92}
+Peri\'{c},~M.; Peyerimhoff,~S.; Buenker,~R. Analysis and predictions of the
   vibronic spectrum of the ethynyl radical C$_2$H by ab initio methods. \emph{Z
   Phys D - Atoms, Molecules and Clusters} \textbf{1992}, \emph{24},
   177--198\relax
@@ -607,8 +620,8 @@ K\"{o}uppel,~H.; Domcke,~W.; Cederbaum,~L.~S. \emph{Advances in Chemical
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Domcke \latin{et~al.}(1981)Domcke, Köppel, and Cederbaum]{dom81}
-Domcke,~W.; Köppel,~H.; Cederbaum,~L. Spectroscopic effects of conical
+\bibitem[Domcke \latin{et~al.}(1981)Domcke, K\"{o}ppel, and Cederbaum]{dom81}
+Domcke,~W.; K\"{o}ppel,~H.; Cederbaum,~L. Spectroscopic effects of conical
   intersections of molecular potential energy surfaces. \emph{Molecular
   Physics} \textbf{1981}, \emph{43}, 851--875\relax
 \mciteBstWouldAddEndPuncttrue
@@ -727,7 +740,7 @@ Khuseynov,~D.; Blackstone,~C.~C.; Culberson,~L.~M.; Sanov,~A. Photoelectron
 \EndOfBibitem
 \bibitem[Laws \latin{et~al.}(2019)Laws, Cavanagh, Lewis, and Gibson]{law19}
 Laws,~B.~A.; Cavanagh,~S.~J.; Lewis,~B.~R.; Gibson,~S.~T. Wigner Near-Threshold
-  Effects in the Photoelectron Angular Distribution of NO2–. \emph{The
+  Effects in the Photoelectron Angular Distribution of NO$_2^-$. \emph{The
   Journal of Physical Chemistry A} \textbf{2019}, \emph{123},
   10418--10425\relax
 \mciteBstWouldAddEndPuncttrue
@@ -770,8 +783,8 @@ Dedman,~C.~J.; Roberts,~E.~H.; Gibson,~S.~T.; Lewis,~B.~R. Fast 1 kV
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
 \bibitem[Gascooke \latin{et~al.}(2017)Gascooke, Gibson, and Lawrance]{gas17}
-Gascooke,~J.~R.; Gibson,~S.~T.; Lawrance,~W.~D. A “circularisation” method
-  to repair deformations and determine the centre of velocity map images.
+Gascooke,~J.~R.; Gibson,~S.~T.; Lawrance,~W.~D. A circularisation method to
+  repair deformations and determine the centre of velocity map images.
   \emph{The Journal of Chemical Physics} \textbf{2017}, \emph{147},
   013924\relax
 \mciteBstWouldAddEndPuncttrue
@@ -782,6 +795,14 @@ Gascooke,~J.~R.; Gibson,~S.~T.; Lawrance,~W.~D. A “circularisation” method
 Hansen,~E.~W.; Law,~P.-L. Recursive methods for computing the Abel transform
   and its inverse. \emph{Journal of the Optical Society of America A}
   \textbf{1985}, \emph{2}, 510--520\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Laws \latin{et~al.}(2019)Laws, Lewis, Gibson, and Field]{law19b}
+Laws,~B.~A.; Lewis,~B.~R.; Gibson,~S.~T.; Field,~R.~W. The dicarbon bonding
+  puzzle viewed with photoelectron imaging. \emph{Nature Communications}
+  \textbf{2019}, \emph{10}, 5199\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
