@@ -140,39 +140,64 @@ When the potential in Eq.~(\ref{eq:calc1}) is diagonalized, the adiabatic states
 \begin{table}
 	\caption{Parameters for the quasidiabatic Hamiltonian Eq.~(\ref{eq:calc1}) determined using CFOUR and the quasidiabatic ansatz. Units are in cm$^{-1}$.}
 	\label{tab:1}
-	\begin{tabular}{c |c c c c| c c c c }
-		 & \multicolumn{4}{c}{C$_2$H}     & \multicolumn{4}{c}{C$_2$D}  \\ \hline
-		  & Anion & $\tilde{X}^2\Sigma^+$ & $\tilde{A}^2\Pi (a')$ & $\tilde{A}^2\Pi (a'')$ & Anion & $\tilde{X}^2\Sigma^+$ & $\tilde{A}^2\Pi (a')$ & $\tilde{A}^2\Pi (a'')$ \\
-		 \hline\hline
-		 $\Delta$E & 0 & 22431.21 &  26543.67 & 26543.67 & 0&	22431.21 & 26543.67	& 26543.67\\
-		 F$_1$ & 0	& -211.28 & 286.9 &	286.9 & 0& -596.04& 641.6 & 641.6\\
-		 F$_3$ & 0 & -1515.21 & 1257.07 & 1257.07 & 0 & -1401.53 & 1115.17 & 1115.17\\
-		 F$_{2a}$ & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-		 F$_{2b}$ & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
-         F$_{11}$ & 3424.32 & 3487.03 & 3482.16 & 3482.16 & 2611.42 & 2636.57 & 2681.25 & 2681.25\\
-         F$_{13}$ & 0.00 & -28.32 & 31.46 & 31.46 & 0.00 & -48.38 & 55.40 & 55.40\\
-         F$_{33}$ & 1894.71 & 1830.83 & 2099.57 & 2042.21 & 1792.49 & 1747.62 & 1914.39 & 1914.39\\
-         F$_{2a2a}$ & 607.09 & 87.57 & 1883.48 & 658.96 & 481.89 & 120.09 & 1503.88 & 473.55\\
-         F$_{2b2b}$ & 607.09 & 87.57 & 658.96 & 1883.48 & 481.89 & 120.09 & 473.55 & 1503.88\\
-         $\lambda$ &  & & -1185.26 &  &  & & -1014.58 &  \\
-         \end{tabular}
+%	\begin{tabular}{c |c c c c| c c c c }
+%		 & \multicolumn{4}{c}{C$_2$H}     & \multicolumn{4}{c}{C$_2$D}  \\ \hline
+%		  & Anion & $\tilde{X}^2\Sigma^+$ & $\tilde{A}^2\Pi (a')$ & $\tilde{A}^2\Pi (a'')$ & Anion & $\tilde{X}^2\Sigma^+$ & $\tilde{A}^2\Pi (a')$ & $\tilde{A}^2\Pi (a'')$ \\
+%		 \hline\hline
+%		 $\Delta$E & 0 & 22431.21 &  26543.67 & 26543.67 & 0&	22431.21 & 26543.67	& 26543.67\\
+%		 F$_1$ & 0	& -211.28 & 286.9 &	286.9 & 0& -596.04& 641.6 & 641.6\\
+%		 F$_3$ & 0 & -1515.21 & 1257.07 & 1257.07 & 0 & -1401.53 & 1115.17 & 1115.17\\
+%		 F$_{2a}$ & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+%		 F$_{2b}$ & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+ %        F$_{11}$ & 3424.32 & 3487.03 & 3482.16 & 3482.16 & 2611.42 & 2636.57 & 2681.25 & 2681.25\\
+%         F$_{13}$ & 0.00 & -28.32 & 31.46 & 31.46 & 0.00 & -48.38 & 55.40 & 55.40\\
+ %        F$_{33}$ & 1894.71 & 1830.83 & 2099.57 & 2042.21 & 1792.49 & 1747.62 & 1914.39 & 1914.39\\
+  %       F$_{2a2a}$ & 607.09 & 87.57 & 1883.48 & 658.96 & 481.89 & 120.09 & 1503.88 & 473.55\\
+   %      F$_{2b2b}$ & 607.09 & 87.57 & 658.96 & 1883.48 & 481.89 & 120.09 & 473.55 & 1503.88\\
+    %     $\lambda$ &  & & -1185.26 &  &  & & -1014.58 &  \\
+     %    \end{tabular}
+     \begin{tabular}{c | c c c c | c c c c} 
+     	\hline
+     	& \multicolumn{4}{c}{C2H} & \multicolumn{4}{c}{C2D}\\
+     	\hline
+     	& Anion & $\tilde{X}^2\Sigma^+$ & $\tilde{A}^2\Pi (a')$ & $\tilde{A}^2\Pi (a'')$ & Anion & $\tilde{X}^2\Sigma^+$ & $\tilde{A}^2\Pi (a')$ & $\tilde{A}^2\Pi (a'')$  \\
+     	\hline
+     	$\Delta_0$ & 0& 22431.21&  26543.67& 26543.67& 0 & 22431.21& 26543.67& 26543.67 \\
+     	F$_1$ &  0& -211.28& 286.90& 286.90& 0& -596.04& 641.6& 641.6\\
+     	F$_3$ &  0& -1515.21&  1257.07& 1257.07& 0& -1401.53& 1115.17& 1115.17\\
+     	F$_{2a}$& 0 & 0& 0& 0& 0& 0& 0&0 \\
+     	F$_{2b}$&  0& 0& 0& 0& 0& 0& 0&0 \\
+     	F$_{11}$& 3424.32 &  3487.03& 3482.16& 3482.16& 2611.42&  2636.57& 2681.25& 2681.25\\
+     	F$_{13}$&  0 & -28.32& 31.46& 31.46& 0& -48.38& 55.40& 55.40\\
+     	F$_{33}$& 1894.71 & 1830.83& 2042.21& 2042.21& 1792.49&  1747.62& 1914.39& 1914.39\\
+     	f$_{22}$& 607.09&  87.57& -& -& 481.89&  120.09& -& -\\
+     	F$_{22}$& 607.09 & 770.78& -& -& 481.89& 620.70& -& -\\
+     	f$_{2a2a}$& - &- & 1883.48& 658.96& -& -& 1503.88& 473.55\\
+     	f$_{2b2b}$& - &- & 658.96& 1883.48& -& -& 473.55& 1503.88\\
+     	F$_{2a2a}$& -& -& 1200.27& 658.96& -& -& 1003.27& 473.55\\
+     	F$_{2b2b}$& -& -& 658.96& 1200.27& -& -& 473.55& 1003.27\\
+     	&&&&&&&& \\
+     	$\lambda$& & & -1185.26& & & & -1014.58& \\
+     	$\eta$ & & & -270.66& & & & -264.86& \\
+     	
+     \end{tabular}
 \end{table}
 
 \subsection{Simulated Spectra}
 The above method was employed to simulate the photoelectron spectrum of C$_2$H$^-$, with the calculated transitions shown in Figure~\ref{fig:3}(a) alongside the experimental data at 355~nm. %Calculated transitions with $\Sigma$ symmetry are in blue, and transitions with $\Pi$ symmetry are in orange. 
 On the $\tilde{X} ^2\Sigma^+$ surface, below 3,600~cm$^{-1}$, there is excellent agreement in both the transition positions and intensities between the simulated and experimental spectra. This includes the HT coupled (2$^{n+1}$) transitions with $\Pi$ symmetry, which would normally be missing from a simulation using the standard \emph{ab-initio} approaches. 
 
-The positions of the calculated levels for the $\tilde{A}^2\Pi$ state have been shifted by 1,220~cm$^{-1}$ to account for the EOMIP-CCSDT calculations overestimating the effective Term energy. The experimental data show that the electronic coupling interactions induce a splitting of the $\tilde{A} ^2\Pi$ state origin over 5 vibronic levels, spaced by $\sim 95~$cm$^{-1}$ ($a-e$). This splitting is also observed in the calculated spectrum, which correctly predicts 5 prominent transitions in this region. The relative intensities between the calculated transitions are also in good agreement with the experimental data. Peak $d$ is slightly underestimated; however the relative intensity difference between peaks $d$ and $e$ may be partly explained by the Wigner threshold law~\cite{wig48}, which will reduce the intensity of peak e in the experimental spectrum due to its proximity to the detachment threshold. The simulated spectrum also slightly underestimates the splitting between the vibronic levels, which may be linked to the overestimation of the calculated gap between the $^2\Sigma$ and $^2\Pi$ surfaces.
+The positions of the calculated levels for the $\tilde{A}^2\Pi$ state have been shifted by 1,220~cm$^{-1}$ to account for the EOMIP-CCSDT calculations overestimating the effective Term energy. The experimental data show that the electronic coupling interactions induce a splitting of the $\tilde{A} ^2\Pi$ state origin over 5 vibronic levels, spaced by $\sim 95~$cm$^{-1}$ ($a-e$). This splitting is also observed in the calculated spectrum, which correctly predicts 5 prominent transitions in this region. The relative intensities between the calculated transitions are also in good agreement with the experimental data. Peak $d$ is slightly overestimated; however the relative intensity difference between peaks may be partly explained by the Wigner threshold law~\cite{wig48}, which will reduce the intensity of peaks $d$ and $e$ in the experimental spectrum due to their proximity to the detachment threshold. The simulated spectrum also slightly underestimates the splitting between the vibronic levels, which may be linked to the overestimation of the calculated gap between the $^2\Sigma$ and $^2\Pi$ surfaces.
 
 \begin{figure}[th!]
 	\includegraphics[width=0.6\textwidth]{figures/Fig5.pdf}
-	\caption{(a) Experimental photoelectron spectrum of C$_2$H$^-$ at 355~nm, compared with the simulated spectrum, calculated using the quasidiabatic ansatz. Transitions with $\Sigma$ symmetry are shown in blue, and those with $\Pi$ symmetry are shown in orange. (b) Experimental photoelectron spectrum of C$_2$D$^-$ at 355~nm, compared to the simulated spectrum. The labelling of peaks near the $\tilde{A}$ origin correspond to transitions identified in Table~S1.}
+	\caption{(a) Experimental photoelectron spectrum of C$_2$H$^-$ at 355~nm, compared with the simulated spectrum, calculated using the quasidiabatic ansatz. Transitions with $\Sigma$ symmetry are shown in blue, and those with $\Pi$ symmetry are shown in orange. (b) Experimental photoelectron spectrum of C$_2$D$^-$ at 355~nm, compared to the simulated spectrum. The labelling of peaks near the $\tilde{A}$ origin correspond to transitions identified in Tables~S1 and~S2.}
 	\label{fig:3}
 \end{figure}
 
-The photoelectron spectrum of C$_2$D$^-$ was also examined using the same approach, with the calculated transitions shown in Figure~\ref{fig:3}(b) alongside the 355~nm experimental data. Again, there is excellent agreement in the intensity and calculated positions of the transitions on the $\tilde{X} ^2\Sigma^+$ state surface, including the HT coupled levels. Near the $\tilde{A} ^2\Pi$ state origin, deuteration has a large impact on the experimental photoelectron spectrum. Instead of the 5 evenly split levels observed in C$_2$H, a single dominant peak ($d$) is now observed near $\sim3,845$~cm$^{-1}$ alongside a collection of weaker peaks ($a-c$) centred around 3,400~cm$^{-1}$. Based on previous spin-orbit splitting measurements, peak d is expected to have significant $\tilde{A} ^2\Pi$ character, with peaks a-c commonly assigned to vibronic levels with predominantly HT coupled $\tilde{X} ^2\Sigma^+$ character~\cite{yan87,hsu95,chi99,wil11}. This suggests that deuteration effectively dampens the coupling interaction between the surfaces, as has been observed in the vinylidene photoelectron spectrum~\cite{dev17}.
+The photoelectron spectrum of C$_2$D$^-$ was also examined using the same approach, with the calculated transitions shown in Figure~\ref{fig:3}(b) alongside the 355~nm experimental data. Again, there is excellent agreement in the intensity and calculated positions of the transitions on the $\tilde{X} ^2\Sigma^+$ state surface, including the HT coupled levels. Near the $\tilde{A} ^2\Pi$ state origin, deuteration has a large impact on the experimental photoelectron spectrum. Instead of the 5 evenly split levels observed in C$_2$H, a single dominant peak ($e$) is now observed near $\sim3,845$~cm$^{-1}$ alongside a collection of weaker peaks ($a-d$) centred around 3,400~cm$^{-1}$. Based on previous spin-orbit splitting measurements, peak d is expected to have significant $\tilde{A} ^2\Pi$ character, with peaks $a-d$ commonly assigned to vibronic levels with predominantly HT coupled $\tilde{X} ^2\Sigma^+$ character~\cite{yan87,hsu95,chi99,wil11}. This suggests that deuteration effectively dampens the coupling interaction between the surfaces, as has been observed in the vinylidene photoelectron spectrum~\cite{dev17}.
 
-The simulated spectrum reproduces the large change observed for the deuterated species. The calculated intensity pattern of the vibronic levels around the $\tilde{A} ^2\Pi$ origin is also a good match to the experimental data, with a single intense transition observed near peak d, and 3 prominent transitions predicted around the experimental peaks $a-c$. The calculated splitting between the levels is also similar, however the relative intensity of peak $d$ appears to be underestimated. %The results from Figure~\ref{fig:C2H-plot} confirm that the quasiadiabtic approach is able to accurately describe the vibronic interactions between the $\Sigma$ and $\Pi$ surfaces, including deuteration effects.      
+The simulated spectrum reproduces the large change observed for the deuterated species. The calculated intensity pattern of the vibronic levels around the $\tilde{A} ^2\Pi$ origin is also a good match to the experimental data, with a single intense transition observed near peak $e$, and 3 prominent transitions predicted around the experimental peaks $a-d$. The calculated splitting between the levels is also similar. %however the relative intensity of peak $d$ appears to be underestimated. %The results from Figure~\ref{fig:C2H-plot} confirm that the quasiadiabtic approach is able to accurately describe the vibronic interactions between the $\Sigma$ and $\Pi$ surfaces, including deuteration effects.      
 
 \begin{figure}[th!]
 	\includegraphics[width=0.6\textwidth]{figures/266-plot.pdf}
@@ -229,7 +254,7 @@ From Eq.~(\ref{eq:beta-sp}) it can be seen that detachment from a pure $s$ orbit
 
 The sign (+/-) of $\beta$ can be used to assign each accessed vibronic level to either the $^2\Sigma^+$ or $^2\Pi$ vibronic symmetry respectively. This is particularly useful around the $\tilde{A} ^2\Pi$ origin, where the two states overlap. It is important to note that the HT coupled transitions on the $\tilde{X} ^2\Sigma^+$ surface have negative anisotropies and $\Pi$ symmetry. 
 
-A plot of the anisotropy parameters for C$_2$H$^-$ detachment at 300~nm, represented as $\beta\times I$, is presented in Figure~\ref{fig:6}, alongside the experimental spectrum. Plotting $\beta\times I$ allows the sign (+/-) of each individual transition to be easily identified, even for partially resolved peaks. All of the transitions above the $\tilde{A} ^2\Pi$ origin have a negative anisotropy, except for peak $f$, which was not assigned in previous experiments. The positive anisotropy supports our assignment of this peak to the highly excited $\Sigma$ transition $\tilde{X}(0,6,1$), where $\tilde{X}(v_1,v_2,v_3)$. The nearby peaks $h$ and $i$  are assigned to the admixed $\Pi$ transitions $\tilde{X}(0,3,2)\tilde{A}(0,0,0)$ and $\tilde{X}(0,7,1)\tilde{A}(010)$, which agrees with previous assignments~\cite{zho07,tar03}. Peak $j$ was tentatively assigned to the $\Sigma$ transition $\tilde{X}(1,4,0$) previously~\cite{zho07}, however Figure~\ref{fig:6} shows peak $j$ has $\Pi$ symmetry. Therefore, we assign $j$ to the highly excited HT coupled $\Pi$ transition $\tilde{X}(0,7,1)$. The other dominant peaks in this region, $l$, $n$, and $o$, represent admixed $\Pi$ transitions involving the $\tilde{A}(0,0,1)$ vibrational level of the excited state. The complete assignments for all resolved peaks in the C$_2$H$^-$ and C$_2$D$^-$ photoelectron spectra from this work are presented in the Supplementary Materials Table~S1.
+A plot of the anisotropy parameters for C$_2$H$^-$ detachment at 300~nm, represented as $\beta\times I$, is presented in Figure~\ref{fig:6}, alongside the experimental spectrum. Plotting $\beta\times I$ allows the sign (+/-) of each individual transition to be easily identified, even for partially resolved peaks. All of the transitions above the $\tilde{A} ^2\Pi$ origin have a negative anisotropy, except for peak $f$, which was not assigned in previous experiments. The positive anisotropy supports our assignment of this peak to the highly excited $\Sigma$ transition $\tilde{X}(0,6,1$), where $\tilde{X}(v_1,v_2,v_3)$. The nearby peaks $h$ and $i$  are assigned to the admixed $\Pi$ transitions $\tilde{X}(0,3,2)\tilde{A}(0,0,0)$ and $\tilde{X}(0,7,1)\tilde{A}(0,1,0)$, which agrees with previous assignments~\cite{zho07,tar03}. Peak $j$ was tentatively assigned to the $\Sigma$ transition $\tilde{X}(1,4,0$) previously~\cite{zho07}, however Figure~\ref{fig:6} shows peak $j$ has $\Pi$ symmetry. Therefore, we assign $j$ to the highly excited HT coupled $\Pi$ transition $\tilde{X}(0,7,1)$. The other dominant peaks in this region, $l$, $n$, and $o$, represent admixed $\Pi$ transitions involving the $\tilde{A}(0,0,1)$ vibrational level of the excited state. The complete assignments for all resolved peaks in the C$_2$H$^-$ and C$_2$D$^-$ photoelectron spectra from this work are presented in the Supplementary Materials Table~S1.
 
 \begin{figure}[th!]
 	\includegraphics[width=0.6\textwidth]{figures/plotBeta.pdf}

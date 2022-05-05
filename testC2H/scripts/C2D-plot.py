@@ -34,6 +34,8 @@ for i in range(0,np.size(a)):
     plt.plot((aa,aa),(0,-b[i]),'C1')
     if aa == 0:
         plt.plot((aa,aa),(0,-b[i]),'C0')
+    #if aa == 4745.70365733937-ofs:
+    #    plt.plot((aa,aa),(0,-b[i]),'C0')
     if aa == 1744.01312140007:
         plt.plot((aa,aa),(0,-b[i]),'w',lw='1.5')
         plt.plot((aa-20,aa-20),(0,-b[i]),'C0')
@@ -79,9 +81,12 @@ plt.annotate(r'$2^1_0$',(278,0.10),ha='center')
 plt.annotate(r'$3^1_0$',(1740,0.19),ha='center')
 plt.annotate(r'$2^1_03^1_0$',(1952,0.125),ha='center')
 plt.annotate(r'$2^3_03^1_0$',(2607,0.125),ha='center')
-plt.annotate(r'a',(3376,0.201),ha='center')
-plt.annotate(r'b',(3468,0.320),ha='center')
-plt.annotate(r'd',(3798,0.859),ha='center')
+plt.annotate(r'a',(27253-EA,0.11),ha='center')
+plt.annotate(r'b',(3376,0.201),ha='center')
+plt.annotate(r'c',(3468,0.320),ha='center')
+plt.annotate(r'e',(3798,0.859),ha='center')
+plt.annotate(r'd',(27571-EA,0.0859),ha='center')
+plt.annotate(r'f',(27898-EA,0.159),ha='center')
 #plt.annotate(r'd',(4028,0.228),ha='center')
 #plt.annotate(r'e',(4118,0.287),ha='center')
 

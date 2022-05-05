@@ -1,58 +1,49 @@
-This is BibTeX, Version 0.99d (TeX Live 2020)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: suppInfo.aux
 The style file: achemso.bst
-I found no \bibdata command---while reading file suppInfo.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--I didn't find a database entry for "achemso-control"
-Warning--I didn't find a database entry for "tar03"
-Warning--I didn't find a database entry for "chi99"
-Warning--I didn't find a database entry for "yen95"
-Warning--I didn't find a database entry for "kan88"
-Warning--I didn't find a database entry for "yen93"
-Warning--I didn't find a database entry for "yan93"
-Warning--I didn't find a database entry for "yan87"
-Warning--I didn't find a database entry for "cur85"
-achemso 2019-02-14 v3.12a
-You've used 0 entries,
-            2538 wiz_defined-function locations,
-            752 strings with 6419 characters,
-and the built_in function-call counts, 75 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 12
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+Database file #1: acs-suppInfo.bib
+Database file #2: sup-C2H.bib
+achemso 2018/02/05 v3.11a
+You've used 2 entries,
+            2536 wiz_defined-function locations,
+            757 strings with 6623 characters,
+and the built_in function-call counts, 536 in all, are:
+= -- 44
+> -- 15
+< -- 3
++ -- 7
+- -- 5
+* -- 44
+:= -- 68
+add.period$ -- 2
+call.type$ -- 2
+change.case$ -- 4
+chr.to.int$ -- 1
+cite$ -- 2
+duplicate$ -- 28
+empty$ -- 41
+format.name$ -- 7
+if$ -- 100
 int.to.chr$ -- 0
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 28
-num.names$ -- 0
-pop$ -- 0
+newline$ -- 34
+num.names$ -- 3
+pop$ -- 2
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 0
+skip$ -- 2
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 38
+swap$ -- 21
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 0
+type$ -- 11
 warning$ -- 0
-while$ -- 0
+while$ -- 6
 width$ -- 0
-write$ -- 28
-(There was 1 error message)
+write$ -- 41
