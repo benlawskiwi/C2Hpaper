@@ -49,7 +49,7 @@ plt.yticks([])
 plt.xticks([23000,24000,25000,26000,27000,28000])
 ax.set_xticklabels(['23000','24000','25000','26000','27000','28000'],fontsize=14)
 plt.minorticks_on()
-plt.xlabel('Excitation Energy (cm$^{-1}$)',fontsize=14)
+plt.xlabel('Binding Energy (cm$^{-1}$)',fontsize=14)
 ax.tick_params(width=1.5)
 plt.setp(ax.spines.values(), linewidth=1.5)
 
@@ -72,6 +72,6 @@ plt.annotate(r'f',(27898,0.159),ha='center')
 #plt.annotate(r'd',(4028,0.228),ha='center')
 #plt.annotate(r'e',(4118,0.287),ha='center')
 
-plt.savefig('SM2-plot.pdf', dpi=600,bbox_inches='tight')
+plt.savefig('FigS2.eps', dpi=600,bbox_inches='tight')
 plt.show()
 

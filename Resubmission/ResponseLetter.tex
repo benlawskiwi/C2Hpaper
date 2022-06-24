@@ -1,0 +1,194 @@
+\documentclass[a4paper,12pt]{letter}
+\usepackage{fancyhdr,color,graphicx,afterpage,enumitem}
+\usepackage[top=50mm,head=40mm,bottom=40mm,foot=30mm,left=20mm,right=20mm]{geometry}
+\usepackage{tabularx}
+\usepackage{sansmathfonts}
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+\renewcommand{\headrule}{
+\vskip-13ex \hrule width\headwidth height\headrulewidth \vskip-\headrulewidth}
+%== adjust line position -13.ex by trial an error, if # of lines in 
+%== the header boxes below is changed 
+\rhead{
+ \begin{minipage}[t]{.4\textwidth}
+  \raggedleft
+   \includegraphics[width=.5\textwidth]{unsw}\vspace*{1ex}\ \\
+   \begin{footnotesize}
+   \begin{sf}
+   \begin{tabular}{l@{\ :\ }l}
+    T& +61 2 9065 4259\\
+    E& B.Laws@unsw.edu.au\\
+    \multicolumn{2}{l}{research.unsw.edu.au/people/dr-ben-laws}
+   \end{tabular}
+  \end{sf}
+  \end{footnotesize}
+ \end{minipage}
+}
+\lhead{
+ \begin{minipage}[t]{.6\textwidth}
+  \begin{footnotesize}
+  \begin{sf}
+  \raggedright
+  {\textsc\textbf{UNSW FACULTY OF SCIENCE}}
+  \vspace*{2ex}\ \\
+          \textbf{Dr Benjamin A. Laws}\\
+          Postdoctoral Fellow\\
+          Molecular Photonics Laboratories\\
+          School of Chemistry\\
+          The University of New South Wales\\
+          Sydney NSW 2052 Australia\\
+  \end{sf}
+  \end{footnotesize}
+ \end{minipage}
+}
+\cfoot{}
+\lfoot{}
+\rfoot{}
+\setlength{\parskip}{1em}
+\pagestyle{plain}
+% =============== Add your input below =================================
+\address{\vspace*{-5ex}\ \\
+} 
+\signature{\sf \vspace*{-8ex}Dr Benjamin A. Laws.}
+\begin{document}
+\begin{sf}
+%\date{ }                  % comment this line to specify today's date
+\begin{letter}{%
+Prof. Xueming Yang\\
+The Journal of Chemical Physics
+}
+\opening{Dear Editor,}
+\thispagestyle{fancy}
+
+The following manuscript was submitted on 23rd May 2022 to be considered for publication in
+The Journal of Chemical Physics:
+
+\begin{tabularx}{.95\textwidth}{ll}
+	Title: & \hspace*{.4em}\mbox{\it Velocity-Map Imaging Spectroscopy of C$_2$H$^-$ and C$_2$D$^-$: a benchmark study} \\ & \hspace*{.4em}\mbox{\it of vibronic coupling interactions}\\
+\end{tabularx}
+
+
+\vspace*{-5ex}\ \\
+
+Thank you for considering our work for publication in The Journal of Chemical Physics. We would also like to thank the reviewers for their positive and constructive feedback. We have made all of the requested changes to our manuscript based on the reviewers comments, as outlined below. The key changes have been to reorder the structure of the manuscript, as requested by Reviewer \#2, to highlight the new and important results from this work. We have also included Dyson orbital calculations as requested by Reviewer \#1 to enhance our discussion of the photoelectron anisotropies.
+
+Below are our responses to the comments made by each Reviewer:  
+
+
+\begin{verbatim}
+----------------------------------------------------------------------
+Reviewer #1  
+----------------------------------------------------------------------
+\end{verbatim}
+\vspace*{-2ex}
+\emph{This is a nice study illustrating spectroscopic signatures of vibronic couplings in photodetachment spectroscopy. The experiment is carefully analyzed and supported by high-level electronic structure calculations. The paper is well written and suitable to the JCP readership. The agreement between theory and experiment is inspiring!}
+
+\emph{I have only minor optimal suggestions:}
+
+\emph{1. I would comment on recent photodetachment studies of isolelectronic (or similar) species, i.e., CN- and CH2CN- by Mabbs and coworkers.}
+
+The paper on the photoelectron anisotropy of isoelectronic CN$^-$ by Mabbs and coworkers is now cited on page 18 of the manuscript. We comment on the similarities between C$_2$H$^-$ and CN$^-$ with the statement `This makes the near threshold anisotropy behaviour highly sensitive to the exact amount of $p$ orbital character included in the orbital, an effect that has also been observed in NO$_2^-$ and the isoelectronic CN$^-$.'
+
+\emph{2. To illustrate the nature of the electronic states, it would be useful to add a figure with the respective Dyson orbitals, such as those from Ref. 66 (can even borrow the figure from this work). The orbitals will be particularly relevant for the discussion of PADs on pages 15-16. 	Also, the authors may want to comment that relative positions of Sigma and Pi states depend on the chain length. This has been extensively discussed for the isolectronic HCxN- species.}
+
+We have included new Dyson orbital calculations, with the Dyson orbitals representing each transition now included in Figure 5 on page 17. We have added a discussion of these orbitals on page 17-18. `The Dyson orbital representation of the C$_2$H$^-$ $\tilde{X}^1\Sigma^+\rightarrow\tilde{X}^2\Sigma^+$ transition, calculated at the EOM-CCSD/aug-cc-pVTZ level, is shown in Fig.5(b)' $\dots$ `the cylindrical symmetry of the molecule introduces some $p$ character into the predominantly $s-$like Dyson orbital (Fig.~5(b)) which becomes significant near threshold due to the centrifugal detachment barrier.'
+
+The relative position of Sigma and Pi states for different chain lengths is discussed in the introduction on page 3: `In C$_4$H the $^2\Sigma^+$ and $^2\Pi$ states are nearly degenerate, resulting in even stronger coupling, while in C$_6$H and C$_8$H the ordering of the states swaps, with a ground $^2\Pi$ state and a low lying excited $^2\Sigma^+$ state.'
+
+\emph{3. Line above Eq. 2: do you mean CH4- or is it a typo?}
+
+This should be C$_4$H$^-$. We have included a space between the $^-$ and the following citation to make this clear.
+
+\emph{4. Comp. details and below (e.g., p.14): please specify that it is EOM-IP-CCSDT with closed-shell anionic reference that was used and say a few words why it is a good method. Also, please specify which level of excitation was used in the EOM part -- 1h and 2h1p or also 3h2p. Also, adding a coupe of references to EOM theory would be useful for the readers.}
+
+We have included these details on page 6: `The equation-of-motion ionised-potential coupled-cluster singles, doubles, and triples (EOM-IP-CCSDT) level of theory with an atomic natural orbital basis set of quadruple-zeta quality (ANO2) was used on a closed-shell anionic reference to perform geometry optimisations and frequency calculations (including 1h + 2h1p + 3h2p excitations).' 
+
+We have also added a statement on why EOM is a good method for this problem, along with references on EOM theory: `EOM is a highly accurate and robust framework that provides access to different types of target electronic states, including ionised states, making it well suited to the study of photodetachment.' (J. Chem Phys. {\bf154} 114115 (2021), J. Chem. Theory Comput. {\bf18} 1748 (2022), and Rev. Mod. Phys. {\bf79} 291 (2007))
+
+\emph{5. Page 9 'introduced' or 'developed' would be a better word than 'advocated'.}
+
+We have replaced the word `advocated' with `introduced' on page 7.
+
+\emph{6. Discussion of s\&p model can be enhanced by calculating beta from the respective Dyson orbitals.}
+
+We have included new Dyson orbital calculations, with the resulting anisotropy curves included in Figure 5 on page 17. These results are discussed alongside the s\&p model on page 18: `The corresponding anisotropy curve was calculated using ezDyson software, and is shown in blue in Fig.~5(a) alongside the experimental data. Figure~5 shows that above threshold there is excellent agreement between the experimental anisotropies, the mixed $sp$ model (Eq.~11), and the calculated anisotropies (Eq.~14)' $\dots$ `Again the calculated anisotropy curve (shown in orange in Fig.~5(a)) appears a good match to the $sp$ model (Eq.~11) and the experimental data, however it underestimates the amount of $s$ orbital character.'
+
+\emph{7. I understand the vibronic Hamiltonian part and state mixing, but it was no clear how electronic factors entering the photodetachment cross-sections were computed. Did the authors used Dyson orbitals and plane waves? Please clarify. Also, a brief explanation of what xsim module of CFOUR does.}
+
+In this simulation the transition moment of the two ionisation processes are assumed to be equal, they are not calculated from the Dyson orbitals. We have added this explanation along with a description of the xsim module on page 10: `The xsim module projects the Hamiltonian (Eq.~5) onto a vibrational basis, which is then diagonalised using Lanczos algorithm to calculate transition energies and intensities that map to the measured photoelectron spectrum. In this simulation the transition moments for the two ionisation processes are assumed to be equal.' 
+
+\emph{8. I am confused how Fig. 5 was generated. Some explanations are needed.}
+
+Figure 5 includes the experimental anisotropy parameters, for each prominent transition and at each wavelength measured. Each data point is obtained by plotting the integrated radial intensity of each peak against P$_2(\cos\theta)$ for 5$^\circ$ slices around the velocity-mapped image. This explanation is now included on page 16: `For each prominent transition in the photoelectron spectrum of C$_2$H$^-$ in Fig.~1 the corresponding anisotropy parameter may be calculated by fitting Eq.~(10) to a plot of the integrated radial intensity (across the peak) versus angle, as (for a single quadrant of the electron image) the intensity variation is linear in $P_2(\cos\theta)$ with a slope equal to $\beta\times$intercept.'
+\vspace*{1ex}
+\begin{verbatim}
+----------------------------------------------------------------------
+Reviewer #2  
+----------------------------------------------------------------------
+\end{verbatim}
+\vspace*{-2ex}
+\emph{The work by Laws and coworkers has some highly-useful results for the classification of the problematic C2H radical's vibronic spectrum. The agreement between theory and experiment is exceptional. Hence, the science is sound, but I have some concerns about the presentation. Most notably, the paper is thin on discussion of results unique to this work. I have outlined this in more detail below, there are really only 2ish pages (out of 18) with useful discussion about the novel results from this study. Yes, this molecule has been examined in detail for years, but the new data have vital information in there that is not clearly communicated. Frankly, the entire purpose of the manuscript is summarized with Figure 4. I strongly support the science, but the sophomoric writing needs to be tightened up for this to be publishable.}
+
+We have restructured the manuscript based on the comments from Reviewer \#2 below. We have tightened up the writing as suggested, to focus on the new results arising from this work. This includes expanding on the discussion on the electron anisotropy (pages 16-18) following from  recommendations by Reviewer \#1.
+
+\emph{The abstract contents are poor. It gives no data about what was learned only about what was done. It's methodology and not results. Ultimately, the most important findings need to be what the abstract gives the reader.}
+
+This is a good point. We have rewritten the abstract to discuss the key results from this work instead of the methodology: `High-resolution velocity-map imaged photoelectron spectra of the ethynyl anions C$_2$H$^-$ and C$_2$D$^-$ are measured at photon wavelengths between $355-266$~nm, to investigate the complex interactions between the close lying $\tilde{X} ^2\Sigma^+$ and $\tilde{A} ^2\Pi$ electronic states. An indicative kinetic energy resolution of 0.4\%, together with full angular dependence of the fast electrons, provides a detailed description of the vibronically coupled structure. It is demonstrated that a modest quadratic vibronic coupling model, parametrized by the quasidiabatic ansatz, is sufficient to accurately recreate all of the observed vibronic interactions. Simulated spectra are shown to be in excellent agreement with the experimental data, verifying the proposed model, providing a framework that may be used to accurately simulate spectra of larger C$_{2n}$H monohydride carbon chains. New spectral assignments are supported by experimental electron anisotropy measurements and Dyson orbital calculations.'
+
+\emph{The authors should also note that C2H is one of the most abundant molecules observed in the ISM or CSM.}
+
+This statement is included on page 3: `C$_2$H is reported to be one of the most abundant molecules in the ISM, and is the most thoroughly studied of the C$_{2n}$H species.'
+
+\emph{There are a few typos in the text such as the following sentence on p. 6: "Below 27,000 cm-1 binding energy, corresponding to the X $^2\Sigma^+$ surface ,the C2H-". There should be a "the" in front of 27,000 and the comma should be shifted in "surface, the" towards the end. On p. 7, "is the quanta of bending excitation" should be either "are the quanta" or "is the quantum" not the mixed form currently given. In the sentence immediately after, "however" is not a conjunction but should be used to start a new sentence. Additionally, the tab spacing after equations should be removed as these are not new paragraphs, not even new sentences. Top of p. 15, "Applying this approach to similar systems will produce reliable predictions. . ." should be "will likely produce. . ." Also, remove the comma before the and as the following text in that sentence is a phrase and not a clause. Remove the comma in the first sentence of Section IV. Also, remove the comma on p. 18 in the sentence "Photoelectron anisotropy parameters were also measured for dominant transitions, at a range of wavelengths."}
+
+All of the above typos have been fixed.
+
+\emph{Section III is arranged strangely. The first subsection is largely a rehash of the experimental methodology with a mention of what the spectrum looks like. Section III.A does not introduce any new information but is a restatement of what is already known about C2H and is more fitting for the introduction. Section III.B has a few results sprinkled in, but this is more computational and theoretical approach explanations. Besides Figure 1 and Table 1, there are almost no results given in Section III until the first full paragraph of p. 12.}
+
+We have made all of the restructuring recommendations above, which has helped tighten up the writing and put the emphasis back onto the new results. The first subsection of III has been removed from the Results, and combined with a condensed description of the experimental methodology on page 5. 
+
+Section III.A has been moved to the introduction on page 3 and integrated into the literature review. This is preceded by the new statement: `Zhou~\emph{et al.} measured photodetachment of C$_2$H$^-$ and C$_2$D$^-$ to both the $\tilde{X} ^2\Sigma^+$ and $\tilde{A} ^2\Pi$ surfaces using slow electron velocity-map imaging (SEVI), which revealed detailed structure around the $\tilde{A} ^2\Pi$ state origin. Comparison with calculations by Tarroni and Carter resulted in detailed spectral assignments, however this was limited by the suppression of $p-$wave structure near threshold.' These changes help define what work has previously been done.
+
+The first 3 paragraphs of Section III.B have been moved to the Methods section, to describe the theory behind the quasidiabatic ansatz. This allows the section on vibronic coupling calculations in the Results and Analysis to go directly into the parametrization, and the new values calculated in this work (Table 1). This helps put the focus back on the new results from this work. 
+
+Due to the recommended changes from Reviewer \#2 the first results from this work are now given in the first paragraph of the Results and Analysis section. This restructuring has helped make a clear distinction between the past work, and the unique results from this study.
+
+\emph{Additionally, this paragraph (first full on p. 12) does little to tie the experimental and computational results together in a tangible way. I don't disagree with any of the statements, but they do not reference data that the reader can easily find in order to verify the statements given. This should be cleaned up. The same is true for the next paragraph after involving C2D-.}
+
+These paragraphs have been rewritten to link the discussion back to the data/figures, so the reader can follow the discussion more clearly. The discussion of each feature (pages 12-13) now includes a reference to the corresponding figure, with detail on what part of the spectrum is being analysed. For example: `Figure~3(a) shows excellent agreement in both the transition positions and intensities between the calculated and experimental C$_2$H$^-$ photodetachment spectra on the $\tilde{X} ^2\Sigma^+$ surface, below $3,600~$cm$^{-1}$.' $\dots$ `Near the excited state surface (peaks $a-e$ in Fig.~3(a)) the experimental data shows that the electronic coupling interactions induce a splitting of the $\tilde{A} ^2\Pi$ state origin over 5 vibronic levels, spaced by $\sim 95~$cm$^{-1}$. This splitting is also observed in the calculated spectrum, which reproduces the 5 prominent transitions in this region. Fig.~3(a) shows that the relative intensities between the calculated transitions near $3,700~$cm$^{-1}$ are also in agreement with the experimental data.' $\dots$ `This is supported by the reduction in the calculated coupling constants $\lambda$ and $\eta$ for C$_2$D$^-$ in Table~1.'
+
+\emph{The third full paragraph on p. 12 also has necessary data but no means of pointing the reader to where they may be able to verify these statements through either tables or figures. This connection must be given.}
+
+Similar changes have been made to this paragraph (page 13) to link the discussion back to the results/figures: `The calculated transitions in Fig.~3(b) reproduce the large change observed experimentally for the deuterated species. The calculated intensity pattern of the vibronic levels around the $\tilde{A} ^2\Pi$ origin also mirrors the experimental data, with a single intense transition observed near peak $e$, and 3 prominent transitions predicted around the experimental peaks $a-d$.' Similar edits have been made throughout the transcript to ensure that the discussion of results is always linked back to the data and figures.
+
+\emph{Along this same vein, why are the data then rehashed on pp. 13-14 with new figures? This seems redundant or confusing.}
+
+We have separated Figure 3 (page 12) and Figure 4 (page 15) into separate subsections, to clarify the different information each figure portrays. Figure 3 shows the individual calculated transitions and their corresponding vibronic symmetry. This is compared to photoelectron spectra at 355~nm, close to the $\tilde{A} ^2\Pi$ origin, where high velocity resolution may be obtained. This is important for discussing the vibronic interactions, and for comparison to the electron anisotropy in section III.C. Figure 4 shows a simulated spectrum (convolved with Gaussian functions) of the excited vibronic levels of the $\tilde{A} ^2\Pi$ state. This is compared to a photoelectron spectrum at 266~nm, where more of the $\tilde{A} ^2\Pi$ surface is accessible, at the cost of lower energy resolution. This is important, to highlight the vibronic splitting also occurs away from the origin (ie the $3^1_0$ band). Showing the convolved spectrum also highlights that the discrepancies between the experiment and model are negligible compared to the experimental resolution, confirming that the accuracy of the QVC model is sufficient for direct comparisons to experimental and astronomical data.
+
+We have included statements on page 14 to highlight these points, including: `Photodetachment at 266~nm (4.66~eV) maps out more of the $\tilde{A} ^2\Pi$ potential energy surface, at the cost of lower electron velocity resolution.' $\dots$ `By showing the convolved spectrum, the suitability of the QVC model to simulate spectra capable of direct comparison to experimental or astronomical data can be examined.' 
+\vspace*{-2ex}
+\begin{verbatim}
+----------------------------------------------------------------------
+Reviewer #3  
+----------------------------------------------------------------------
+\end{verbatim}
+\vspace*{-2ex}
+\emph{This work presents a study of C2H and C2D via photodetachment of the associated anions. These are important astophysical species but represent a spectroscopic challenge with their attendant Herzberg-Teller coupling making simple harmonic assignment impractical. The interaction between the neutral sigma and pi states also represents a challenge for theory and therefore full understanding of spectra.
+	The authors present a very nice, combined theoretical and experimental study which (in addition to everything else) represents how science is supposed to work. The spectra are well presented, at good resolution (for photoelectron spectroscopy) and the simulations (at a high level of theory) nicely explain/highlight the effect of the HT coupling. The work is supported by an analysis of the photoelectron angular distributions associated with each transition, vindicating the spectral assignments.
+	Overall this is a very nice piece of work which will be an important contribution - it should be published as is (and forthwith)}
+
+We thank Reviewer \#3 for their comments.
+
+
+\vspace*{-2ex}\ \\ 
+\textbf{Statement}\\[.5ex]
+This manuscript is not being considered by any other journal.
+
+%\closing{Regards,\\
+\   
+\includegraphics[width=.2\textwidth,clip]{signatureXX}
+               \closing{Regards,}
+\end{letter}
+\end{sf}
+\end{document}

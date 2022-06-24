@@ -8,7 +8,7 @@
 \providecommand*\mcitethebibliography{\thebibliography}
 \csname @ifundefined\endcsname{endmcitethebibliography}
   {\let\endmcitethebibliography\endthebibliography}{}
-\begin{mcitethebibliography}{89}
+\begin{mcitethebibliography}{92}
 \providecommand*\natexlab[1]{#1}
 \providecommand*\mciteSetBstSublistMode[1]{}
 \providecommand*\mciteSetBstMaxWidthForm[2]{}
@@ -330,7 +330,7 @@ Tarroni,~R.; Carter,~S. Theoretical calculation of vibronic levels of C$_2$H
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Zhou \latin{et~al.}(2007)Zhou, Garand, and Neumark]{zho07}
+\bibitem[Zhou \latin{et~al.}(2007)Zhou, Garand, and Neumark]{zho07b}
 Zhou,~J.; Garand,~E.; Neumark,~D.~M. Slow electron velocity-map imaging
   spectroscopy of the C$_4$H$^-$ and C$_4$D$^-$ anions. \emph{The Journal of
   Chemical Physics} \textbf{2007}, \emph{127}, 154320\relax
@@ -487,10 +487,10 @@ Vervloet,~M.; Herman,~M. Fourier transform emission spectroscopy of C$_2$H.
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
 \bibitem[Hsu \latin{et~al.}(1993)Hsu, Lin, Papoušek, and Tsai]{hsu93}
-Hsu,~Y.; Lin,~J.~J.; Papoušek,~D.; Tsai,~J. The low‐lying bending
-  vibrational levels of the CCH ($\tilde{X}^2\Sigma^+$) radical studied by
-  laser‐induced fluorescence. \emph{The Journal of Chemical Physics}
-  \textbf{1993}, \emph{98}, 6690--6696\relax
+Hsu,~Y.; Lin,~J.~J.; Papoušek,~D.; Tsai,~J. The low-lying bending vibrational
+  levels of the CCH ($\tilde{X}^2\Sigma^+$) radical studied by laser-induced
+  fluorescence. \emph{The Journal of Chemical Physics} \textbf{1993},
+  \emph{98}, 6690--6696\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -516,6 +516,15 @@ Chiang,~W.-Y.; Hsu,~Y.-C. Laser spectroscopy of CCH in the 36,600-39,700
 Ervin,~K.~M.; Lineberger,~W.~C. Photoelectron spectra of dicarbon(1-) and
   ethynyl(1-). \emph{The Journal of Physical Chemistry} \textbf{1991},
   \emph{95}, 1167--1177\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zhou \latin{et~al.}(2007)Zhou, Garand, and Neumark]{zho07}
+Zhou,~J.; Garand,~E.; Neumark,~D.~M. Vibronic structure in C$_2$H$^-$ and
+  C$_2$D$^-$ from anion slow electron velocity-map imaging spectroscopy.
+  \emph{The Journal of Chemical Physics} \textbf{2007}, \emph{127},
+  114313\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -602,6 +611,15 @@ Gulania,~S.; Krylov,~A.~I. Dissociative electron attachment in C$_2$H via
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
+\bibitem[Buckingham \latin{et~al.}(1970)Buckingham, Orr, and Sichel]{buc70}
+Buckingham,~A.~D.; Orr,~B.~J.; Sichel,~J.~M. A Discussion on photoelectron
+  spectroscopy - angular distributions and intensity in molecular photoelectron
+  spectroscopy I. General theory for diatomic molecules. \emph{Phil. Trans. A:
+  Math. Phys. Eng. Sci.} \textbf{1970}, \emph{268}, 147--157\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
 \bibitem[Hickstein \latin{et~al.}(2019)Hickstein, Gibson, Yurchak, Das, and
   Ryazanov]{hic19}
 Hickstein,~D.~D.; Gibson,~S.~T.; Yurchak,~R.; Das,~D.~D.; Ryazanov,~M. A direct
@@ -612,9 +630,9 @@ Hickstein,~D.~D.; Gibson,~S.~T.; Yurchak,~R.; Das,~D.~D.; Ryazanov,~M. A direct
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[K\"{o}uppel \latin{et~al.}(1984)K\"{o}uppel, Domcke, and
+\bibitem[K\"{o}ppel \latin{et~al.}(1984)K\"{o}ppel, Domcke, and
   Cederbaum]{kou84}
-K\"{o}uppel,~H.; Domcke,~W.; Cederbaum,~L.~S. \emph{Advances in Chemical
+K\"{o}ppel,~H.; Domcke,~W.; Cederbaum,~L.~S. \emph{Advances in Chemical
   Physics}; {John Wiley \& Sons, Ltd}, 1984; pp 59--246\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
@@ -628,9 +646,9 @@ Domcke,~W.; K\"{o}ppel,~H.; Cederbaum,~L. Spectroscopic effects of conical
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
 \EndOfBibitem
-\bibitem[Pacher \latin{et~al.}(1993)Pacher, Cederbaum, and Köppel]{pac93}
-Pacher,~T.; Cederbaum,~L.~S.; Köppel,~H. \emph{Advances in Chemical Physics};
-  John Wiley \& Sons, Ltd, 1993; pp 293--391\relax
+\bibitem[Pacher \latin{et~al.}(1993)Pacher, Cederbaum, and K\"{o}ppel]{pac93}
+Pacher,~T.; Cederbaum,~L.~S.; K\"{o}ppel,~H. \emph{Advances in Chemical
+  Physics}; John Wiley \& Sons, Ltd, 1993; pp 293--391\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -676,8 +694,9 @@ Ichino,~T.; Gauss,~J.; Stanton,~J.~F. Quasidiabatic states described by
 Weichman,~M.~L.; Cheng,~L.; Kim,~J.~B.; Stanton,~J.~F.; Neumark,~D.~M.
   Low-lying vibronic level structure of the ground state of the methoxy
   radical: Slow electron velocity-map imaging (SEVI) spectra and
-  Köppel-Domcke-Cederbaum (KDC) vibronic Hamiltonian calculations. \emph{The
-  Journal of Chemical Physics} \textbf{2017}, \emph{146}, 224309\relax
+  K\"{o}ppel-Domcke-Cederbaum (KDC) vibronic Hamiltonian calculations.
+  \emph{The Journal of Chemical Physics} \textbf{2017}, \emph{146},
+  224309\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
@@ -693,6 +712,15 @@ Wigner,~E.~P. On the Behavior of Cross Sections Near Thresholds. \emph{Physical
 Yan,~W.-B.; Dane,~C.; Zeitz,~D.; Hall,~J.~L.; Curl,~R. Color center laser
   spectroscopy of C$_2$H and C$_2$D. \emph{Journal of Molecular Spectroscopy}
   \textbf{1987}, \emph{123}, 486--495\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stephens \latin{et~al.}(1988)Stephens, Yan, Richnow, Solka, and
+  Curl]{ste88}
+Stephens,~J.; Yan,~W.-B.; Richnow,~M.~L.; Solka,~H.; Curl,~R. Infrared kinetic
+  spectroscopy of C$_2$H and C$_2$D. \emph{Journal of Molecular Structure}
+  \textbf{1988}, \emph{190}, 41 -- 60\relax
 \mciteBstWouldAddEndPuncttrue
 \mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
 {\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax

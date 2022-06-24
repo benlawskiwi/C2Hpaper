@@ -6,6 +6,9 @@ from matplotlib.ticker import (MultipleLocator, FormatStrFormatter,
                                AutoMinorLocator)
 
 
+aa1,bb1 = np.loadtxt('betaS.txt',usecols=(0,4),unpack=True)
+aa2,bb2 = np.loadtxt('betaP.txt',usecols=(0,4),unpack=True)
+
 
 def bet(E,A,f):
     Z = (8*(1-f))/(3*f)
@@ -131,14 +134,14 @@ A2 = grid[-1]
 #plt.errorbar(dea,dba,yerr=ddba,fmt='s',markersize=8,color='C0',mfc='white',label=r'C$_2$D $^2\Pi$')
 
 #plt.annotate(r'$A$ = 1.5(4) eV$^{-1}$',(1.15,1.200),color='C1',fontsize=13)
-plt.annotate(r'$A_1$ = 0.66(4) eV$^{-1}$',(1.15,0.18),color='C1',fontsize=13)
+plt.annotate(r'$A_1$ = 0.66(4) eV$^{-1}$',(1.15,0.18),color='k',fontsize=13)
 #plt.annotate(r'$A$ = 0.66(4) eV$^{-1}$',(1.45,-0.68),color='C0',fontsize=10)
 
 plt.annotate(r'$\gamma_p$ = 0.9',(A2+0.05,A1),va='center',fontsize=12)
 plt.annotate(r'$\gamma_p$ = 0.1',(A2+0.05,A2-0.1),va='center',fontsize=12)
 
 plt.xlabel('Electron Kinetic Energy (eV)',fontsize=14)
-plt.ylabel(r'Anisotropy ($\beta$)',fontsize=14)
+plt.ylabel(r'Anisotropy Parameter ($\beta$)',fontsize=14)
 
 plt.xticks([0,0.5,1,1.5],[0.0,0.5,1.0,1.5],fontsize=13)
 plt.yticks([-1,0,1,2],[-1.0,0.0,1.0,2.0],fontsize=13)
@@ -154,6 +157,9 @@ ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 plt.setp(ax.spines.values(), linewidth=1.5)
 
-plt.savefig("PAD.pdf", dpi=400, bbbox_inches="tight")
+plt.plot(aa1-3,bb1*0.93)
+plt.plot((aa2-3)/2,bb2*0.9)
+
+plt.savefig("Fig5.eps", dpi=400, bbbox_inches="tight")
 #plt.legend()
 plt.show()

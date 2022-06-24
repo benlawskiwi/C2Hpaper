@@ -12,45 +12,45 @@ Name 1 in "Peri\'{c}, M., and Peyerimhoff, S.D. and Buenker, R.J" has a comma at
 while executing---line 1700 of file achemso.bst
 Name 1 in "Peri\'{c}, M., and Peyerimhoff, S.D. and Buenker, R.J" has a comma at the end for entry per92
 while executing---line 1700 of file achemso.bst
-You've used 89 entries,
+You've used 92 entries,
             2536 wiz_defined-function locations,
-            1428 strings with 28219 characters,
-and the built_in function-call counts, 33309 in all, are:
-= -- 2707
-> -- 1967
+            1449 strings with 28944 characters,
+and the built_in function-call counts, 34404 in all, are:
+= -- 2796
+> -- 2031
 < -- 27
-+ -- 769
-- -- 680
-* -- 3718
-:= -- 4461
-add.period$ -- 174
-call.type$ -- 89
++ -- 794
+- -- 702
+* -- 3842
+:= -- 4608
+add.period$ -- 180
+call.type$ -- 92
 change.case$ -- 4
 chr.to.int$ -- 2
-cite$ -- 89
-duplicate$ -- 1833
-empty$ -- 2236
-format.name$ -- 793
-if$ -- 6471
+cite$ -- 92
+duplicate$ -- 1894
+empty$ -- 2310
+format.name$ -- 818
+if$ -- 6683
 int.to.chr$ -- 0
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 556
-num.names$ -- 264
-pop$ -- 167
+newline$ -- 574
+num.names$ -- 273
+pop$ -- 173
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 91
+skip$ -- 94
 stack$ -- 0
-substring$ -- 1923
-swap$ -- 1985
-text.length$ -- 178
+substring$ -- 1985
+swap$ -- 2050
+text.length$ -- 184
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 614
+type$ -- 635
 warning$ -- 0
-while$ -- 335
+while$ -- 346
 width$ -- 0
-write$ -- 1173
+write$ -- 1212
 (There were 3 error messages)

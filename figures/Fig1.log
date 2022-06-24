@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  19 OCT 2021 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  23 JUN 2022 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -180,72 +180,82 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 6.
-<Fig1-C2H-3DVMI.png, id=1, 240.6591pt x 240.6591pt>
-File: Fig1-C2H-3DVMI.png Graphic file (type png)
-<use Fig1-C2H-3DVMI.png>
-Package pdftex.def Info: Fig1-C2H-3DVMI.png  used on input line 9.
-(pdftex.def)             Requested size: 170.71492pt x 170.71652pt.
-<Fig4-slices.pdf, id=3, 334.24875pt x 286.06876pt>
-File: Fig4-slices.pdf Graphic file (type pdf)
-<use Fig4-slices.pdf>
-Package pdftex.def Info: Fig4-slices.pdf  used on input line 9.
-(pdftex.def)             Requested size: 166.22632pt x 142.26378pt.
-File: Fig4-slices.pdf Graphic file (type pdf)
-<use Fig4-slices.pdf>
-Package pdftex.def Info: Fig4-slices.pdf  used on input line 14.
-(pdftex.def)             Requested size: 166.22632pt x 142.26378pt.
-File: Fig4-slices.pdf Graphic file (type pdf)
-<use Fig4-slices.pdf>
-Package pdftex.def Info: Fig4-slices.pdf  used on input line 14.
-(pdftex.def)             Requested size: 166.22632pt x 142.26378pt.
+
+
+! LaTeX Error: File `Fig1VMI' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...degraphics[height=5.5cm]{Fig1VMI}\\[0.1cm]}
+                                                  % \\
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `Fig1c' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \includegraphics[height=6cm]{Fig1c}}
+                                         %\\[0.1cm]}%\\[1cm]
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 Package textpos Warning: environment textblock* not in vertical mode. 
 (textpos)                Environment textblock* should not have any text
 (textpos)                or printable material appearing before it.
-(textpos)                Alignment may work out wrongly. on input line 16.
+(textpos)                Alignment may work out wrongly. on input line 15.
 
 
-Overfull \hbox (554.00081pt too wide) in paragraph at lines 6--16
+Overfull \hbox (274.00038pt too wide) in paragraph at lines 6--15
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--16
+Underfull \hbox (badness 10000) in paragraph at lines 6--15
 
  []
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 16.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 15.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-Underfull \hbox (badness 10000) detected at line 20
+Underfull \hbox (badness 10000) detected at line 19
 
  []
 
 
-Overfull \hbox (554.00081pt too wide) detected at line 20
+Overfull \hbox (274.00038pt too wide) detected at line 19
 [][]
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Fig1-C2H-3DVMI.png> <./F
-ig4-slices.pdf>] (./Fig1.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Fig1.aux) ) 
 Here is how much of TeX's memory you used:
- 2049 strings out of 494847
- 31125 string characters out of 6179079
- 83288 words of memory out of 5000000
- 5358 multiletter control sequences out of 15000+600000
+ 2053 strings out of 494847
+ 30964 string characters out of 6179079
+ 82288 words of memory out of 5000000
+ 5350 multiletter control sequences out of 15000+600000
  5400 words of font info for 16 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 39i,19n,56p,230b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/b
-ase/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Fig1.pdf (1 page, 191156 bytes).
+ 39i,15n,56p,230b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/
+texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/f
+onts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on Fig1.pdf (1 page, 4184 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 13 PDF objects out of 1000 (max. 8388607)
+ 8 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

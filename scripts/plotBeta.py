@@ -45,7 +45,7 @@ for i in range(0,np.size(b)):
     spec+= by[i]*amp*Gauss(xx[i],FWHM,Ev)
 
 plt.plot(x,y,'k',label='C$_2$H$^-$ at 300nm')
-plt.plot(Ev,spec,'C3',label = r'Anisotropy ($\beta\times$I)')
+plt.plot(Ev,spec,'C3',label = r'Anisotropy $\beta\times$I')
 
 #Plotting
 plt.xlim(15000,27000)
@@ -70,8 +70,8 @@ ax.spines['top'].set_visible(False)
 #ax.spines['left'].set_visible(False)
 ax.spines['right'].set_visible(False)
 plt.setp(ax.spines.values(), linewidth=1.5)
-plt.xlabel('Binding Energy (cm$^{-1}$)',fontsize=14)
-plt.ylabel(r'Anisotropy ($\beta\times$I)',fontsize=14)
+plt.xlabel('Electron Binding Energy (cm$^{-1}$)',fontsize=14)
+plt.ylabel(r'Intensity (arb. u.)',fontsize=14)
 plt.legend(loc='upper right',fontsize=10,frameon=False)
 #ax.set_xticklabels(np.arange(6000,20000,2000),fontsize=14)
 ax.set_xticks([16223.15,19887.95,23552.75,27217.55])
@@ -79,6 +79,6 @@ ax.set_xticklabels([24000,26000,28000,30000],fontsize=14)
 ax.set_yticklabels([-0.2,-0.1,0.0,0.1,0.2,0.3,0.4,0.5,0.6],fontsize=14)
 plt.minorticks_on()
 
-plt.savefig('plotBeta.pdf', dpi=600,bbox_inches='tight')
+plt.savefig('plotBeta.eps', dpi=600,bbox_inches='tight')
 
 plt.show()

@@ -1,0 +1,1225 @@
+%merlin.mbs aipnum4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (1) range
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{91}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Kiefer}, \citenamefont {Von~Drasek},\ and\
+  \citenamefont {Von~Drasek}(1990)}]{kie90}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont
+  {Kiefer}}, \bibinfo {author} {\bibfnamefont {W.~A.}\ \bibnamefont
+  {Von~Drasek}}, \ and\ \bibinfo {author} {\bibfnamefont {W.~A.}\ \bibnamefont
+  {Von~Drasek}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {The
+  mechanism of the homogeneous pyrolysis of acetylene},}\ }\href {\doibase
+  https://doi.org/10.1002/kin.550220710} {\bibfield  {journal} {\bibinfo
+  {journal} {International Journal of Chemical Kinetics}\ }\textbf {\bibinfo
+  {volume} {22}},\ \bibinfo {pages} {747--786} (\bibinfo {year}
+  {1990})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kiefer}\ \emph {et~al.}(1992)\citenamefont {Kiefer},
+  \citenamefont {Sidhu}, \citenamefont {Kern}, \citenamefont {Xie},
+  \citenamefont {Chen},\ and\ \citenamefont {Harding}}]{kie92}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont
+  {Kiefer}}, \bibinfo {author} {\bibfnamefont {S.~S.}\ \bibnamefont {Sidhu}},
+  \bibinfo {author} {\bibfnamefont {R.~D.}\ \bibnamefont {Kern}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Xie}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Chen}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {L.~B.}\ \bibnamefont {Harding}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {The homogeneous pyrolysis of acetylene ii: The
+  high temperature radical chain mechanism},}\ }\href {\doibase
+  10.1080/00102209208951815} {\bibfield  {journal} {\bibinfo  {journal}
+  {Combustion Science and Technology}\ }\textbf {\bibinfo {volume} {82}},\
+  \bibinfo {pages} {101--130} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Boullart}\ \emph {et~al.}(1996)\citenamefont
+  {Boullart}, \citenamefont {Devriendt}, \citenamefont {Borms},\ and\
+  \citenamefont {Peeters}}]{bou96}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Boullart}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Devriendt}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Borms}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Peeters}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{Identification of the Sequence CH($^2\Pi$) +
+  C$_2$H$_2$ $\rightarrow$ C$_3$H$_2$ + H (and C$_3$H + H$_2$) Followed by
+  C$_3$H$_2$ + O $\rightarrow$ C$_2$H + HCO (or H + CO) as C$_2$H Source in
+  C$_2$H$_2$/O/H Atomic Flames}},}\ }\href {\doibase 10.1021/jp951995o}
+  {\bibfield  {journal} {\bibinfo  {journal} {The Journal of Physical
+  Chemistry}\ }\textbf {\bibinfo {volume} {100}},\ \bibinfo {pages} {998--1007}
+  (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Irvine}, \citenamefont {Ohishi},\ and\ \citenamefont
+  {Kaifu}(1991)}]{wil91}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~M.}\ \bibnamefont
+  {Irvine}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ohishi}}, \
+  and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Kaifu}},\ }\bibfield
+   {title} {\enquote {\bibinfo {title} {Chemical abundances in cold, dark
+  interstellar clouds},}\ }\href {\doibase
+  https://doi.org/10.1016/0019-1035(91)90120-I} {\bibfield  {journal} {\bibinfo
+   {journal} {Icarus}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo {pages}
+  {2--6} (\bibinfo {year} {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vuitton}\ \emph {et~al.}(2001)\citenamefont
+  {Vuitton}, \citenamefont {Scemama}, \citenamefont {Gazeau}, \citenamefont
+  {Chaquin},\ and\ \citenamefont {Bénilan}}]{vui01}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Vuitton}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Scemama}},
+  \bibinfo {author} {\bibfnamefont {M.-C.}\ \bibnamefont {Gazeau}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Chaquin}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Bénilan}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{IR and UV spectroscopic data for polyynes:
+  Predictions for long carbon chain compounds in Titan's atmosphere}},}\ }\href
+  {\doibase https://doi.org/10.1016/S0273-1177(01)00059-X} {\bibfield
+  {journal} {\bibinfo  {journal} {Advances in Space Research}\ }\textbf
+  {\bibinfo {volume} {27}},\ \bibinfo {pages} {283--288} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wilson}\ and\ \citenamefont {Atreya}(2003)}]{wil03}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Wilson}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Atreya}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Chemical sources
+  of haze formation in titan's atmosphere},}\ }\href {\doibase
+  https://doi.org/10.1016/j.pss.2003.06.003} {\bibfield  {journal} {\bibinfo
+  {journal} {Planetary and Space Science}\ }\textbf {\bibinfo {volume} {51}},\
+  \bibinfo {pages} {1017--1033} (\bibinfo {year} {2003})},\ \bibinfo {note}
+  {surfaces and Atmospheres of the Outer Planets their Satellites and Ring
+  Systems}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dobrijevic}\ \emph {et~al.}(2016)\citenamefont
+  {Dobrijevic}, \citenamefont {Loison}, \citenamefont {Hickson},\ and\
+  \citenamefont {Gronoff}}]{dob16}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Dobrijevic}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Loison}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Hickson}}, \ and\
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Gronoff}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{1D}-coupled photochemical model of
+  neutrals, cations and anions in the atmosphere of {Titan}},}\ }\href
+  {\doibase https://doi.org/10.1016/j.icarus.2015.12.045} {\bibfield  {journal}
+  {\bibinfo  {journal} {Icarus}\ }\textbf {\bibinfo {volume} {268}},\ \bibinfo
+  {pages} {313 -- 339} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jackson}\ \emph {et~al.}(1996)\citenamefont
+  {Jackson}, \citenamefont {Blunt}, \citenamefont {Lin}, \citenamefont {Green},
+  \citenamefont {Olivera}, \citenamefont {Fink}, \citenamefont {Bao},
+  \citenamefont {Urdahl}, \citenamefont {Mohammad},\ and\ \citenamefont
+  {Zahedi}}]{jac96}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~M.}\ \bibnamefont
+  {Jackson}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Blunt}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Lin}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Green}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Olivera}}, \bibinfo {author} {\bibfnamefont {W.~H.}\
+  \bibnamefont {Fink}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Bao}}, \bibinfo {author} {\bibfnamefont {R.~S.}\ \bibnamefont {Urdahl}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Mohammad}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Zahedi}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Non-adiabatic interactions in excited
+  {C$_2$H} molecules and their relationship to {C$_2$} formation in comets},}\
+  }\href {\doibase 10.1007/BF00644319} {\bibfield  {journal} {\bibinfo
+  {journal} {Astrophysics and Space Science}\ }\textbf {\bibinfo {volume}
+  {236}},\ \bibinfo {pages} {29--47} (\bibinfo {year} {1996})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Ziurys}}\ \emph {et~al.}(1982)\citenamefont
+  {{Ziurys}}, \citenamefont {{Saykally}}, \citenamefont {{Plambeck}},\ and\
+  \citenamefont {{Erickson}}}]{ziu82}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~M.}\ \bibnamefont
+  {{Ziurys}}}, \bibinfo {author} {\bibfnamefont {R.~J.}\ \bibnamefont
+  {{Saykally}}}, \bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont
+  {{Plambeck}}}, \ and\ \bibinfo {author} {\bibfnamefont {N.~R.}\ \bibnamefont
+  {{Erickson}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Detection
+  of the N=3-2 transition of CCH in Orion and determination of the molecular
+  rotational constants}},}\ }\href {\doibase 10.1086/159709} {\bibfield
+  {journal} {\bibinfo  {journal} {The Astrophysical Journal}\ }\textbf
+  {\bibinfo {volume} {254}},\ \bibinfo {pages} {94--99} (\bibinfo {year}
+  {1982})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gupta}\ \emph {et~al.}(2009)\citenamefont {Gupta},
+  \citenamefont {Gottlieb}, \citenamefont {McCarthy},\ and\ \citenamefont
+  {Thaddeus}}]{gup09}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Gupta}}, \bibinfo {author} {\bibfnamefont {C.~A.}\ \bibnamefont {Gottlieb}},
+  \bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont {McCarthy}}, \ and\
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Thaddeus}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {A survey of c$_4$h, c$_6$h, and
+  c$_6$h$^-$ with the green bank telescope},}\ }\href {\doibase
+  10.1088/0004-637x/691/2/1494} {\bibfield  {journal} {\bibinfo  {journal} {The
+  Astrophysical Journal}\ }\textbf {\bibinfo {volume} {691}},\ \bibinfo {pages}
+  {1494--1500} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Beuther}\ \emph {et~al.}(2008)\citenamefont
+  {Beuther}, \citenamefont {Semenov}, \citenamefont {Henning},\ and\
+  \citenamefont {Linz}}]{beu08}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Beuther}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Semenov}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Henning}}, \ and\
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Linz}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Ethynyl ({C$_2$H}) in massive star
+  formation: Tracing the initial conditions?}}\ }\href
+  {http://stacks.iop.org/1538-4357/675/i=1/a=L33} {\bibfield  {journal}
+  {\bibinfo  {journal} {The Astrophysical Journal Letters}\ }\textbf {\bibinfo
+  {volume} {675}},\ \bibinfo {pages} {L33} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jiang}\ \emph {et~al.}(2015)\citenamefont {Jiang},
+  \citenamefont {Liu}, \citenamefont {Zhang}, \citenamefont {Wang},
+  \citenamefont {Zhang}, \citenamefont {Li}, \citenamefont {Gao},\ and\
+  \citenamefont {Gu}}]{jia15}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.-J.}\ \bibnamefont
+  {Jiang}}, \bibinfo {author} {\bibfnamefont {H.~B.}\ \bibnamefont {Liu}},
+  \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont {Zhang}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Wang}}, \bibinfo {author}
+  {\bibfnamefont {Z.-Y.}\ \bibnamefont {Zhang}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Li}}, \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {Gao}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {Q.}~\bibnamefont {Gu}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{{SMA} Observations of C$_2$H in High-Mass Star-Forming Regions}},}\ }\href
+  {\doibase 10.1088/0004-637x/808/2/114} {\bibfield  {journal} {\bibinfo
+  {journal} {The Astrophysical Journal}\ }\textbf {\bibinfo {volume} {808}},\
+  \bibinfo {pages} {114} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Douglas}(1977)}]{dou77}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Douglas}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Origin of
+  diffuse interstellar lines},}\ }\href
+  {https://www.nature.com/articles/269130a0} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature}\ }\textbf {\bibinfo {volume} {269}},\ \bibinfo {pages}
+  {130--132} (\bibinfo {year} {1977})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fulara}\ \emph {et~al.}(1993)\citenamefont {Fulara},
+  \citenamefont {Lessen}, \citenamefont {Freivogel},\ and\ \citenamefont
+  {Maier}}]{ful93}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Fulara}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Lessen}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Freivogel}}, \ and\
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Maier}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Laboratory evidence for highly
+  unsaturated hydrocarbons as carriers of some of the diffuse interstellar
+  bands},}\ }\href {https://www.nature.com/articles/366439a0} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {366}},\
+  \bibinfo {pages} {439--441} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Watson}}(1994)}]{wat94}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~K.}\ \bibnamefont
+  {{Watson}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Homologous
+  Series of Diffuse Interstellar Bands}},}\ }\href {\doibase 10.1086/175030}
+  {\bibfield  {journal} {\bibinfo  {journal} {The Astrophysical Journal}\
+  }\textbf {\bibinfo {volume} {437}},\ \bibinfo {pages} {678} (\bibinfo {year}
+  {1994})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fulara}\ and\ \citenamefont
+  {Krelowski}(2000)}]{ful00}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Fulara}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Krelowski}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Origin of
+  diffuse interstellar bands: spectroscopic studies of their possible
+  carriers},}\ }\href {\doibase https://doi.org/10.1016/S1387-6473(00)00108-1}
+  {\bibfield  {journal} {\bibinfo  {journal} {New Astronomy Reviews}\ }\textbf
+  {\bibinfo {volume} {44}},\ \bibinfo {pages} {581--597} (\bibinfo {year}
+  {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schmidt Timothy~W.}(2005)}]{sch05}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~R.~G.}\
+  \bibnamefont {Schmidt Timothy~W.}},\ }\bibfield  {title} {\enquote {\bibinfo
+  {title} {The optical spectroscopy of extraterrestrial molecules.}}\ }\href
+  {https://www.publish.csiro.au/ch/Fulltext/CH04269#R14} {\bibfield  {journal}
+  {\bibinfo  {journal} {Australian Journal of Chemistry}\ }\textbf {\bibinfo
+  {volume} {58}},\ \bibinfo {pages} {69--81} (\bibinfo {year}
+  {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Millar}, \citenamefont {Walsh},\ and\ \citenamefont
+  {Field}(2017)}]{mil17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~J.}\ \bibnamefont
+  {Millar}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Walsh}}, \
+  and\ \bibinfo {author} {\bibfnamefont {T.~A.}\ \bibnamefont {Field}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Negative ions in space},}\
+  }\href {\doibase 10.1021/acs.chemrev.6b00480} {\bibfield  {journal} {\bibinfo
+   {journal} {Chemical Reviews}\ }\textbf {\bibinfo {volume} {117}},\ \bibinfo
+  {pages} {1765--1795} (\bibinfo {year} {2017})},\ \bibinfo {note} {pMID:
+  28112897}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {McCarthy}\ \emph {et~al.}(2006)\citenamefont
+  {McCarthy}, \citenamefont {Gottlieb}, \citenamefont {Gupta},\ and\
+  \citenamefont {Thaddeus}}]{mcc06}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont
+  {McCarthy}}, \bibinfo {author} {\bibfnamefont {C.~A.}\ \bibnamefont
+  {Gottlieb}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Gupta}}, \
+  and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Thaddeus}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Laboratory and Astronomical
+  Identification of the Negative Molecular Ion C$_6$H$^-$}},}\ }\href {\doibase
+  10.1086/510238} {\bibfield  {journal} {\bibinfo  {journal} {The Astrophysical
+  Journal}\ }\textbf {\bibinfo {volume} {652}},\ \bibinfo {pages} {L141--L144}
+  (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cernicharo}\ \emph {et~al.}(2007)\citenamefont
+  {Cernicharo}, \citenamefont {Gu\'elin}, \citenamefont {Ag\'undez},
+  \citenamefont {Kawaguchi}, \citenamefont {McCarthy},\ and\ \citenamefont
+  {Thaddeus}}]{cer07}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Cernicharo}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Gu\'elin}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ag\'undez}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Kawaguchi}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {McCarthy}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Thaddeus}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{Astronomical detection of C$_4$H$^-$, the
+  second interstellar anion*}},}\ }\href {\doibase 10.1051/0004-6361:20077415}
+  {\bibfield  {journal} {\bibinfo  {journal} {Astronomy \& Astropysics}\
+  }\textbf {\bibinfo {volume} {467}},\ \bibinfo {pages} {L37--L40} (\bibinfo
+  {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Br\"{u}nken}\ \emph {et~al.}(2007)\citenamefont
+  {Br\"{u}nken}, \citenamefont {Gupta}, \citenamefont {Gottlieb}, \citenamefont
+  {McCarthy},\ and\ \citenamefont {Thaddeus}}]{bru07}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Br\"{u}nken}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Gupta}},
+  \bibinfo {author} {\bibfnamefont {C.~A.}\ \bibnamefont {Gottlieb}}, \bibinfo
+  {author} {\bibfnamefont {M.~C.}\ \bibnamefont {McCarthy}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Thaddeus}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{Detection of the Carbon Chain Negative Ion
+  C$_8$H$^-$ in {TMC}-1}},}\ }\href {\doibase 10.1086/520703} {\bibfield
+  {journal} {\bibinfo  {journal} {The Astrophysical Journal}\ }\textbf
+  {\bibinfo {volume} {664}},\ \bibinfo {pages} {L43--L46} (\bibinfo {year}
+  {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Remijan}\ \emph {et~al.}(2007)\citenamefont
+  {Remijan}, \citenamefont {Hollis}, \citenamefont {Lovas}, \citenamefont
+  {Cordiner}, \citenamefont {Millar}, \citenamefont {Markwick-Kemper},\ and\
+  \citenamefont {Jewell}}]{rem07}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Remijan}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Hollis}},
+  \bibinfo {author} {\bibfnamefont {F.~J.}\ \bibnamefont {Lovas}}, \bibinfo
+  {author} {\bibfnamefont {M.~A.}\ \bibnamefont {Cordiner}}, \bibinfo {author}
+  {\bibfnamefont {T.~J.}\ \bibnamefont {Millar}}, \bibinfo {author}
+  {\bibfnamefont {A.~J.}\ \bibnamefont {Markwick-Kemper}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {P.~R.}\ \bibnamefont {Jewell}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{Detection of C$_8$H$^-$ and Comparison with
+  C$_8$H toward {IRC} $+$10 216}},}\ }\href {\doibase 10.1086/520704}
+  {\bibfield  {journal} {\bibinfo  {journal} {The Astrophysical Journal}\
+  }\textbf {\bibinfo {volume} {664}},\ \bibinfo {pages} {L47--L50} (\bibinfo
+  {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cordiner}\ \emph {et~al.}(2013)\citenamefont
+  {Cordiner}, \citenamefont {Buckle}, \citenamefont {Wirström}, \citenamefont
+  {Olofsson},\ and\ \citenamefont {Charnley}}]{cor13}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {Cordiner}}, \bibinfo {author} {\bibfnamefont {J.~V.}\ \bibnamefont
+  {Buckle}}, \bibinfo {author} {\bibfnamefont {E.~S.}\ \bibnamefont
+  {Wirström}}, \bibinfo {author} {\bibfnamefont {A.~O.~H.}\ \bibnamefont
+  {Olofsson}}, \ and\ \bibinfo {author} {\bibfnamefont {S.~B.}\ \bibnamefont
+  {Charnley}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{On the
+  Ubiquity of Molecular Anions in the Dense Interstellar Medium}},}\ }\href
+  {\doibase 10.1088/0004-637x/770/1/48} {\bibfield  {journal} {\bibinfo
+  {journal} {The Astrophysical Journal}\ }\textbf {\bibinfo {volume} {770}},\
+  \bibinfo {pages} {48} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sakai}\ \emph {et~al.}(2010)\citenamefont {Sakai},
+  \citenamefont {Shiino}, \citenamefont {Hirota}, \citenamefont {Sakai},\ and\
+  \citenamefont {Yamamoto}}]{sak10}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Sakai}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Shiino}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Hirota}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Sakai}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Yamamoto}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {{Long Carbon-Chain Molecules and their Anions in the
+  Starless Core LUPUS-1A}},}\ }\href {\doibase 10.1088/2041-8205/718/2/l49}
+  {\bibfield  {journal} {\bibinfo  {journal} {The Astrophysical Journal}\
+  }\textbf {\bibinfo {volume} {718}},\ \bibinfo {pages} {L49--L52} (\bibinfo
+  {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sakai}, \citenamefont {Sakai},\ and\ \citenamefont
+  {Yamamoto}(2007)}]{sak07}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Sakai}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Sakai}}, \ and\
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Yamamoto}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Tentative detection of c$_4$h$^-$ toward
+  the low-mass protostar {IRAS} 04368$+$2557 in l1527},}\ }\href {\doibase
+  10.1086/527376} {\bibfield  {journal} {\bibinfo  {journal} {The Astrophysical
+  Journal}\ }\textbf {\bibinfo {volume} {673}},\ \bibinfo {pages} {L71--L74}
+  (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Herbst}\ and\ \citenamefont {Osamura}(2008)}]{her08}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Herbst}}\ and\ \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Osamura}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Calculations on
+  the formation rates and mechanisms for {CnH} anions in interstellar and
+  circumstellar media},}\ }\href {\doibase 10.1086/587803} {\bibfield
+  {journal} {\bibinfo  {journal} {The Astrophysical Journal}\ }\textbf
+  {\bibinfo {volume} {679}},\ \bibinfo {pages} {1670--1679} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bastian}\ \emph {et~al.}(2019)\citenamefont
+  {Bastian}, \citenamefont {Michaelsen}, \citenamefont {Meyer},\ and\
+  \citenamefont {Wester}}]{bas19}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Bastian}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Michaelsen}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Meyer}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Wester}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{Anionic Carbon Chain Growth in Reactions of
+  C$_2^-$, C$_4^-$, C$_6^-$, C$_2$H$^-$, C$_4$H$^-$, and C$_6$H$^-$ with
+  C$_2$H$_2$}},}\ }\href {\doibase 10.3847/1538-4357/ab2042} {\bibfield
+  {journal} {\bibinfo  {journal} {The Astrophysical Journal}\ }\textbf
+  {\bibinfo {volume} {878}},\ \bibinfo {pages} {162} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vuitton}\ \emph {et~al.}(2009)\citenamefont
+  {Vuitton}, \citenamefont {Lavvas}, \citenamefont {Yelle}, \citenamefont
+  {Galand}, \citenamefont {Wellbrock}, \citenamefont {Lewis}, \citenamefont
+  {Coates},\ and\ \citenamefont {Wahlund}}]{vui09}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Vuitton}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Lavvas}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Yelle}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Galand}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Wellbrock}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Lewis}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Coates}}, \ and\ \bibinfo {author} {\bibfnamefont {J.-E.}\
+  \bibnamefont {Wahlund}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {{Negative ion chemistry in Titan's upper atmosphere}},}\ }\href {\doibase
+  https://doi.org/10.1016/j.pss.2009.04.004} {\bibfield  {journal} {\bibinfo
+  {journal} {Planetary and Space Science}\ }\textbf {\bibinfo {volume} {57}},\
+  \bibinfo {pages} {1558--1572} (\bibinfo {year} {2009})},\ \bibinfo {note}
+  {surfaces and Atmospheres of the Outer Planets, Their Satellites and Ring
+  Systems: Part V}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Desai}\ \emph {et~al.}(2017)\citenamefont {Desai},
+  \citenamefont {Coates}, \citenamefont {Wellbrock}, \citenamefont {Vuitton},
+  \citenamefont {Crary}, \citenamefont {Gonz{\'{a}}lez-Caniulef}, \citenamefont
+  {Shebanits}, \citenamefont {Jones}, \citenamefont {Lewis}, \citenamefont
+  {Waite}, \citenamefont {Cordiner}, \citenamefont {Taylor}, \citenamefont
+  {Kataria}, \citenamefont {Wahlund}, \citenamefont {Edberg},\ and\
+  \citenamefont {Sittler}}]{des17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~T.}\ \bibnamefont
+  {Desai}}, \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont {Coates}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Wellbrock}}, \bibinfo
+  {author} {\bibfnamefont {V.}~\bibnamefont {Vuitton}}, \bibinfo {author}
+  {\bibfnamefont {F.~J.}\ \bibnamefont {Crary}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Gonz{\'{a}}lez-Caniulef}}, \bibinfo
+  {author} {\bibfnamefont {O.}~\bibnamefont {Shebanits}}, \bibinfo {author}
+  {\bibfnamefont {G.~H.}\ \bibnamefont {Jones}}, \bibinfo {author}
+  {\bibfnamefont {G.~R.}\ \bibnamefont {Lewis}}, \bibinfo {author}
+  {\bibfnamefont {J.~H.}\ \bibnamefont {Waite}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Cordiner}}, \bibinfo {author}
+  {\bibfnamefont {S.~A.}\ \bibnamefont {Taylor}}, \bibinfo {author}
+  {\bibfnamefont {D.~O.}\ \bibnamefont {Kataria}}, \bibinfo {author}
+  {\bibfnamefont {J.-E.}\ \bibnamefont {Wahlund}}, \bibinfo {author}
+  {\bibfnamefont {N.~J.~T.}\ \bibnamefont {Edberg}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {E.~C.}\ \bibnamefont {Sittler}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Carbon chain anions and the growth of complex
+  organic molecules in titan's ionosphere},}\ }\href {\doibase
+  10.3847/2041-8213/aa7851} {\bibfield  {journal} {\bibinfo  {journal} {The
+  Astrophysical Journal}\ }\textbf {\bibinfo {volume} {844}},\ \bibinfo {pages}
+  {L18} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mukundan}\ and\ \citenamefont
+  {Bhardwaj}(2018)}]{vri18}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Mukundan}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Bhardwaj}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A model for
+  negative ion chemistry in {Titan's} ionosphere},}\ }\href {\doibase
+  10.3847/1538-4357/aab1f5} {\bibfield  {journal} {\bibinfo  {journal} {The
+  Astrophysical Journal}\ }\textbf {\bibinfo {volume} {856}},\ \bibinfo {pages}
+  {168} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Maier}(1997)}]{mai97}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {Maier}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Electronic
+  spectroscopy of carbon chains},}\ }\href {\doibase 10.1039/CS9972600021}
+  {\bibfield  {journal} {\bibinfo  {journal} {Chemical Society Reviews}\
+  }\textbf {\bibinfo {volume} {26}},\ \bibinfo {pages} {21--28} (\bibinfo
+  {year} {1997})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fortenberry}\ \emph {et~al.}(2010)\citenamefont
+  {Fortenberry}, \citenamefont {King}, \citenamefont {Stanton},\ and\
+  \citenamefont {Crawford}}]{for10}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~C.}\ \bibnamefont
+  {Fortenberry}}, \bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
+  {King}}, \bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont {Stanton}}, \
+  and\ \bibinfo {author} {\bibfnamefont {T.~D.}\ \bibnamefont {Crawford}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{A benchmark study of the
+  vertical electronic spectra of the linear chain radicals C$_2$H and C4H}},}\
+  }\href {\doibase 10.1063/1.3376073} {\bibfield  {journal} {\bibinfo
+  {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo {volume}
+  {132}},\ \bibinfo {pages} {144303} (\bibinfo {year} {2010})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Curl}, \citenamefont {Carrick},\ and\ \citenamefont
+  {Merer}(1985)}]{cur85}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~F.}\ \bibnamefont
+  {Curl}}, \bibinfo {author} {\bibfnamefont {P.~G.}\ \bibnamefont {Carrick}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont {Merer}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Rotational analysis of the
+  $\tilde{A}\leftarrow\tilde{X}$ system of C$_2$H}},}\ }\href {\doibase
+  10.1063/1.448927} {\bibfield  {journal} {\bibinfo  {journal} {The Journal of
+  Chemical Physics}\ }\textbf {\bibinfo {volume} {82}},\ \bibinfo {pages}
+  {3479--3486} (\bibinfo {year} {1985})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tarroni}\ and\ \citenamefont {Carter}(2003)}]{tar03}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Tarroni}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Carter}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Theoretical
+  calculation of vibronic levels of C$_2$H and C$_2$D to 10,000 cm$^{-1}$}},}\
+  }\href {\doibase 10.1063/1.1627755} {\bibfield  {journal} {\bibinfo
+  {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo {volume}
+  {119}},\ \bibinfo {pages} {12878--12889} (\bibinfo {year}
+  {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhou}, \citenamefont {Garand},\ and\ \citenamefont
+  {Neumark}(2007{\natexlab{a}})}]{zho07b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Zhou}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Garand}}, \ and\
+  \bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont {Neumark}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Slow electron velocity-map
+  imaging spectroscopy of the C$_4$H$^-$ and C$_4$D$^-$ anions}},}\ }\href
+  {\doibase 10.1063/1.2795723} {\bibfield  {journal} {\bibinfo  {journal} {The
+  Journal of Chemical Physics}\ }\textbf {\bibinfo {volume} {127}},\ \bibinfo
+  {pages} {154320} (\bibinfo {year} {2007}{\natexlab{a}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Linnartz}\ \emph {et~al.}(1999)\citenamefont
+  {Linnartz}, \citenamefont {Motylewski}, \citenamefont {Vaizert},
+  \citenamefont {Maier}, \citenamefont {Apponi}, \citenamefont {McCarthy},
+  \citenamefont {Gottlieb},\ and\ \citenamefont {Thaddeus}}]{lin99}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Linnartz}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Motylewski}}, \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Vaizert}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Maier}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Apponi}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {McCarthy}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Gottlieb}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Thaddeus}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {{Electronic Ground and Excited State Spectroscopy of
+  C$_6$H and C$_6$D}},}\ }\href {\doibase
+  https://doi.org/10.1006/jmsp.1999.7885} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Molecular Spectroscopy}\ }\textbf {\bibinfo {volume}
+  {197}},\ \bibinfo {pages} {1--11} (\bibinfo {year} {1999})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Taylor}, \citenamefont {Xu},\ and\ \citenamefont
+  {Neumark}(1998)}]{tay98}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~R.}\ \bibnamefont
+  {Taylor}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Xu}}, \ and\
+  \bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont {Neumark}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Photoelectron spectra of
+  the C$_{2n}$H$^-$ (n=1-4) and C$_{2n}$D$^-$ (n=1-3) anions}},}\ }\href
+  {\doibase 10.1063/1.476462} {\bibfield  {journal} {\bibinfo  {journal} {The
+  Journal of Chemical Physics}\ }\textbf {\bibinfo {volume} {108}},\ \bibinfo
+  {pages} {10018--10026} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Matthews}\ \emph {et~al.}(2020)\citenamefont
+  {Matthews}, \citenamefont {Cheng}, \citenamefont {Harding}, \citenamefont
+  {Lipparini}, \citenamefont {Stopkowicz}, \citenamefont {Jagau}, \citenamefont
+  {Szalay}, \citenamefont {Gauss},\ and\ \citenamefont {Stanton}}]{dev20}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont
+  {Matthews}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Cheng}},
+  \bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont {Harding}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Lipparini}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Stopkowicz}}, \bibinfo {author}
+  {\bibfnamefont {T.-C.}\ \bibnamefont {Jagau}}, \bibinfo {author}
+  {\bibfnamefont {P.~G.}\ \bibnamefont {Szalay}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Gauss}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~F.}\ \bibnamefont {Stanton}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Coupled-cluster techniques for computational
+  chemistry: The cfour program package},}\ }\href {\doibase 10.1063/5.0004837}
+  {\bibfield  {journal} {\bibinfo  {journal} {The Journal of Chemical Physics}\
+  }\textbf {\bibinfo {volume} {152}},\ \bibinfo {pages} {214108} (\bibinfo
+  {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Heikkil{\"a}}}, \citenamefont {{Johansson}},\ and\
+  \citenamefont {{Olofsson}}(1999)}]{hei99}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Heikkil{\"a}}}}, \bibinfo {author} {\bibfnamefont {L.~E.~B.}\ \bibnamefont
+  {{Johansson}}}, \ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {{Olofsson}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Molecular
+  abundance variations in the Magellanic Clouds}},}\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Astronomy $\&$ Astrophysics}\ }\textbf
+  {\bibinfo {volume} {344}},\ \bibinfo {pages} {817--847} (\bibinfo {year}
+  {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cochran}, \citenamefont {Adrian},\ and\ \citenamefont
+  {Bowers}(1964)}]{coc64}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~L.}\ \bibnamefont
+  {Cochran}}, \bibinfo {author} {\bibfnamefont {F.~J.}\ \bibnamefont {Adrian}},
+  \ and\ \bibinfo {author} {\bibfnamefont {V.~A.}\ \bibnamefont {Bowers}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{ESR Study of Ethynyl and
+  Vinyl Free Radicals}},}\ }\href {\doibase 10.1063/1.1724865} {\bibfield
+  {journal} {\bibinfo  {journal} {The Journal of Chemical Physics}\ }\textbf
+  {\bibinfo {volume} {40}},\ \bibinfo {pages} {213--220} (\bibinfo {year}
+  {1964})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jinguji}, \citenamefont {McDowell},\ and\
+  \citenamefont {Shimokoshi}(1985)}]{jin85}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Jinguji}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {McDowell}}, \
+  and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Shimokoshi}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{High-resolution ESR
+  spectrum of the ethynyl radical in an argon matrix at 4.2 K}},}\ }\href
+  {\doibase https://doi.org/10.1016/0022-2860(85)87014-9} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Molecular Structure}\ }\textbf {\bibinfo
+  {volume} {130}},\ \bibinfo {pages} {317--326} (\bibinfo {year}
+  {1985})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brown}\ and\ \citenamefont {Evenson}(1988)}]{bro88}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Brown}}\ and\ \bibinfo {author} {\bibfnamefont {K.~M.}\ \bibnamefont
+  {Evenson}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{The
+  far-infrared laser magnetic resonance spectrum of vibrationally excited
+  C$_2$H}},}\ }\href {\doibase https://doi.org/10.1016/0022-2852(88)90115-4}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Molecular
+  Spectroscopy}\ }\textbf {\bibinfo {volume} {131}},\ \bibinfo {pages}
+  {161--171} (\bibinfo {year} {1988})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pfelzer}\ \emph {et~al.}(1996)\citenamefont
+  {Pfelzer}, \citenamefont {Havenith}, \citenamefont {Peri\'{c}}, \citenamefont
+  {M\"{u}rtz},\ and\ \citenamefont {Urban}}]{pfe96}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Pfelzer}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Havenith}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Peri\'{c}}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {M\"{u}rtz}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {W.}~\bibnamefont {Urban}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{Faraday Laser Magnetic Resonance Spectroscopy
+  of Vibrationally Excited C$_2$H}},}\ }\href {\doibase
+  https://doi.org/10.1006/jmsp.1996.0058} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Molecular Spectroscopy}\ }\textbf {\bibinfo {volume}
+  {176}},\ \bibinfo {pages} {28--37} (\bibinfo {year} {1996})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Schmidt}\ \emph {et~al.}(1998)\citenamefont
+  {Schmidt}, \citenamefont {Peri\'{c}}, \citenamefont {M\"{u}rtz},
+  \citenamefont {Wienkoop}, \citenamefont {Havenith},\ and\ \citenamefont
+  {Urban}}]{sch98}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Schmidt}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Peri\'{c}}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {M\"{u}rtz}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Wienkoop}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Havenith}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Urban}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {{Faraday Laser Magnetic Resonance Spectroscopy of
+  Vibrationally Excited C$_2$D}},}\ }\href {\doibase
+  https://doi.org/10.1006/jmsp.1998.7563} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Molecular Spectroscopy}\ }\textbf {\bibinfo {volume}
+  {190}},\ \bibinfo {pages} {112--124} (\bibinfo {year} {1998})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{Sastry}}\ \emph {et~al.}(1981)\citenamefont
+  {{Sastry}}, \citenamefont {{Helminger}}, \citenamefont {{Charo}},
+  \citenamefont {{Herbst}},\ and\ \citenamefont {{De Lucia}}}]{sas81}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~V.~L.~N.}\
+  \bibnamefont {{Sastry}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Helminger}}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {{Charo}}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {{Herbst}}}, \
+  and\ \bibinfo {author} {\bibfnamefont {F.~C.}\ \bibnamefont {{De Lucia}}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Laboratory millimeter and
+  submillimeter spectrum of CCH}},}\ }\href {\doibase 10.1086/183706}
+  {\bibfield  {journal} {\bibinfo  {journal} {The Astrophysical Journal}\
+  }\textbf {\bibinfo {volume} {251}},\ \bibinfo {pages} {L119} (\bibinfo {year}
+  {1981})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Gottlieb}}, \citenamefont {{Gottlieb}},\ and\
+  \citenamefont {{Thaddeus}}(1983)}]{got83}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~A.}\ \bibnamefont
+  {{Gottlieb}}}, \bibinfo {author} {\bibfnamefont {E.~W.}\ \bibnamefont
+  {{Gottlieb}}}, \ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {{Thaddeus}}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Laboratory
+  and astronomical measurement of the millimeter wave spectrum of the ethynyl
+  radical CCH}},}\ }\href {\doibase 10.1086/160647} {\bibfield  {journal}
+  {\bibinfo  {journal} {The Astrophysical Journal}\ }\textbf {\bibinfo {volume}
+  {264}},\ \bibinfo {pages} {740--745} (\bibinfo {year} {1983})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Endo}, \citenamefont {Kanamori},\ and\ \citenamefont
+  {Hirota}(1989)}]{end89}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Endo}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Kanamori}}, \
+  and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Hirota}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Millimeter- and
+  submillimeter-wave spectra of the vibrationally excited CCD radical}},}\
+  }\href {\doibase https://doi.org/10.1016/0009-2614(89)87596-7} {\bibfield
+  {journal} {\bibinfo  {journal} {Chemical Physics Letters}\ }\textbf {\bibinfo
+  {volume} {160}},\ \bibinfo {pages} {280--284} (\bibinfo {year}
+  {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{M{\"u}ller}}, \citenamefont {{Klaus}},\ and\
+  \citenamefont {{Winnewisser}}(2000)}]{mul00}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~S.~P.}\
+  \bibnamefont {{M{\"u}ller}}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {{Klaus}}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {{Winnewisser}}},\ }\bibfield  {title} {\enquote {\bibinfo
+  {title} {{Submillimeter-wave spectrum of the ethynyl radical, CCH, up to 1
+  THz}},}\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Astronomy
+  and Astrophysics}\ }\textbf {\bibinfo {volume} {357}},\ \bibinfo {pages}
+  {L65--L67} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shepherd}\ and\ \citenamefont
+  {Graham}(1987)}]{she87}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
+  {Shepherd}}\ and\ \bibinfo {author} {\bibfnamefont {W.~R.~M.}\ \bibnamefont
+  {Graham}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{FTIR study of D
+  and 13C substituted C$_2$H in solid argon}},}\ }\href {\doibase
+  10.1063/1.452062} {\bibfield  {journal} {\bibinfo  {journal} {The Journal of
+  Chemical Physics}\ }\textbf {\bibinfo {volume} {86}},\ \bibinfo {pages}
+  {2600--2605} (\bibinfo {year} {1987})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jacox}\ and\ \citenamefont {Olson}(1987)}]{jac87}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont
+  {Jacox}}\ and\ \bibinfo {author} {\bibfnamefont {W.~B.}\ \bibnamefont
+  {Olson}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{The
+  $\tilde{A}^2\Pi-\tilde{X}^2\Sigma^+$ transition of HC$_2$ isolated in solid
+  argon}},}\ }\href {\doibase 10.1063/1.452024} {\bibfield  {journal} {\bibinfo
+   {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo {volume}
+  {86}},\ \bibinfo {pages} {3134--3142} (\bibinfo {year} {1987})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Forney}, \citenamefont {Jacox},\ and\ \citenamefont
+  {Thompson}(1995)}]{for95}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Forney}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Jacox}}, \
+  and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Thompson}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{The Infrared and
+  Near-Infrared Spectra of HCC and DCC Trapped in Solid Neon}},}\ }\href
+  {\doibase https://doi.org/10.1006/jmsp.1995.1065} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Molecular Spectroscopy}\ }\textbf {\bibinfo
+  {volume} {170}},\ \bibinfo {pages} {178--214} (\bibinfo {year}
+  {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vervloet}\ and\ \citenamefont
+  {Herman}(1988)}]{ver88}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Vervloet}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Herman}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Fourier
+  transform emission spectroscopy of C$_2$H}},}\ }\href {\doibase
+  https://doi.org/10.1016/0009-2614(88)87087-8} {\bibfield  {journal} {\bibinfo
+   {journal} {Chemical Physics Letters}\ }\textbf {\bibinfo {volume} {144}},\
+  \bibinfo {pages} {48--50} (\bibinfo {year} {1988})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hsu}\ \emph {et~al.}(1993)\citenamefont {Hsu},
+  \citenamefont {Lin}, \citenamefont {Papoušek},\ and\ \citenamefont
+  {Tsai}}]{hsu93}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Hsu}}, \bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont {Lin}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Papoušek}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Tsai}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {The low-lying bending vibrational levels
+  of the cch ($\tilde{X}^2\sigma^+$) radical studied by laser-induced
+  fluorescence},}\ }\href {\doibase 10.1063/1.464761} {\bibfield  {journal}
+  {\bibinfo  {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo
+  {volume} {98}},\ \bibinfo {pages} {6690--6696} (\bibinfo {year}
+  {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hsu}, \citenamefont {Shiu},\ and\ \citenamefont
+  {Lin}(1995)}]{hsu95}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Hsu}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Shiu}}, \ and\
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Lin}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{Laser-induced fluorescence spectroscopy
+  of CCH ($\tilde{X}^2 \Sigma^+$) in vibrationally excited levels up to 4500
+  cm$^{-1}$}},}\ }\href {\doibase 10.1063/1.470472} {\bibfield  {journal}
+  {\bibinfo  {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo
+  {volume} {103}},\ \bibinfo {pages} {5919--5930} (\bibinfo {year}
+  {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chiang}\ and\ \citenamefont {Hsu}(1999)}]{chi99}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-Y.}\ \bibnamefont
+  {Chiang}}\ and\ \bibinfo {author} {\bibfnamefont {Y.-C.}\ \bibnamefont
+  {Hsu}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Laser spectroscopy
+  of CCH in the 36,600-39,700 cm$^{-1}$ region}},}\ }\href {\doibase
+  10.1063/1.479389} {\bibfield  {journal} {\bibinfo  {journal} {The Journal of
+  Chemical Physics}\ }\textbf {\bibinfo {volume} {111}},\ \bibinfo {pages}
+  {1454--1461} (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ervin}\ and\ \citenamefont
+  {Lineberger}(1991)}]{erv91}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~M.}\ \bibnamefont
+  {Ervin}}\ and\ \bibinfo {author} {\bibfnamefont {W.~C.}\ \bibnamefont
+  {Lineberger}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Photoelectron spectra of dicarbon(1-) and ethynyl(1-)},}\ }\href {\doibase
+  10.1021/j100156a026} {\bibfield  {journal} {\bibinfo  {journal} {The Journal
+  of Physical Chemistry}\ }\textbf {\bibinfo {volume} {95}},\ \bibinfo {pages}
+  {1167--1177} (\bibinfo {year} {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhou}, \citenamefont {Garand},\ and\ \citenamefont
+  {Neumark}(2007{\natexlab{b}})}]{zho07}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Zhou}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Garand}}, \ and\
+  \bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont {Neumark}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Vibronic structure in
+  C$_2$H$^-$ and C$_2$D$^-$ from anion slow electron velocity-map imaging
+  spectroscopy}},}\ }\href {\doibase 10.1063/1.2768932} {\bibfield  {journal}
+  {\bibinfo  {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo
+  {volume} {127}},\ \bibinfo {pages} {114313} (\bibinfo {year}
+  {2007}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Peri\'{c}}, \citenamefont {Peyerimhoff},\ and\
+  \citenamefont {Buenker}(1990)}]{per90}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Peri\'{c}}}, \bibinfo {author} {\bibfnamefont {S.~D.}\ \bibnamefont
+  {Peyerimhoff}}, \ and\ \bibinfo {author} {\bibfnamefont {R.~J.}\ \bibnamefont
+  {Buenker}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Ab initio
+  investigation of the vibronic structure of the C$_2$H spectrum}},}\ }\href
+  {\doibase 10.1080/00268979000102071} {\bibfield  {journal} {\bibinfo
+  {journal} {Molecular Physics}\ }\textbf {\bibinfo {volume} {71}},\ \bibinfo
+  {pages} {693--719} (\bibinfo {year} {1990})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Peri\'{c}}, \citenamefont {Reuter},\ and\
+  \citenamefont {Peyerimhoff}(1991)}]{per91}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Peri\'{c}}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Reuter}}, \
+  and\ \bibinfo {author} {\bibfnamefont {S.~D.}\ \bibnamefont {Peyerimhoff}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Ab initio investigation of
+  the vibronic structure in the C$_2$H spectrum: Spin-orbit splitting of the
+  vibronic levels}},}\ }\href {\doibase
+  https://doi.org/10.1016/0022-2852(91)90047-E} {\bibfield  {journal} {\bibinfo
+   {journal} {Journal of Molecular Spectroscopy}\ }\textbf {\bibinfo {volume}
+  {148}},\ \bibinfo {pages} {201--212} (\bibinfo {year} {1991})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Peri\'{c}}, \citenamefont {Peyerimhoff},\ and\
+  \citenamefont {Buenker}(1991)}]{per91b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Peri\'{c}}}, \bibinfo {author} {\bibfnamefont {S.~D.}\ \bibnamefont
+  {Peyerimhoff}}, \ and\ \bibinfo {author} {\bibfnamefont {R.~J.}\ \bibnamefont
+  {Buenker}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Ab initio
+  investigation of the vibronic structure in the C$_2$H spectrum: Calculation
+  of vibronic energies and wavefunctions for various isotopomers}},}\ }\href
+  {\doibase https://doi.org/10.1016/0022-2852(91)90046-D} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Molecular Spectroscopy}\ }\textbf {\bibinfo
+  {volume} {148}},\ \bibinfo {pages} {180--200} (\bibinfo {year}
+  {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Peri\'{c}}, \citenamefont {Engels},\ and\
+  \citenamefont {Peyerimhoff}(1991)}]{per91c}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Peri\'{c}}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Engels}}, \
+  and\ \bibinfo {author} {\bibfnamefont {S.~D.}\ \bibnamefont {Peyerimhoff}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Ab initio investigation of
+  the vibronic structure of the C$_2$H spectrum: Computation of the
+  vibronically averaged values for the hyperfine coupling constants}},}\ }\href
+  {\doibase https://doi.org/10.1016/0022-2852(91)90194-F} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Molecular Spectroscopy}\ }\textbf {\bibinfo
+  {volume} {150}},\ \bibinfo {pages} {70--85} (\bibinfo {year}
+  {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Peri\'{c}}, \citenamefont {Peyerimhoff},\ and\
+  \citenamefont {Buenker}(1992)}]{per92}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Peri\'{c}}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Peyerimhoff}}, \ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Buenker}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Analysis and
+  predictions of the vibronic spectrum of the ethynyl radical C$_2$H by ab
+  initio methods}},}\ }\href
+  {https://link.springer.com/article/10.1007/BF01426704} {\bibfield  {journal}
+  {\bibinfo  {journal} {Z Phys D - Atoms, Molecules and Clusters}\ }\textbf
+  {\bibinfo {volume} {24}},\ \bibinfo {pages} {177--198} (\bibinfo {year}
+  {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Carter}\ \emph {et~al.}(2000)\citenamefont {Carter},
+  \citenamefont {Handy}, \citenamefont {Puzzarini}, \citenamefont {Tarroni},\
+  and\ \citenamefont {Palmieri}}]{car00}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Carter}}, \bibinfo {author} {\bibfnamefont {N.~C.}\ \bibnamefont {Handy}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Puzzarini}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Tarroni}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Palmieri}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {A variational method for the calculation of
+  spin-rovibronic energy levels of triatomic molecules with three interacting
+  electronic states},}\ }\href {\doibase 10.1080/00268970009483375} {\bibfield
+  {journal} {\bibinfo  {journal} {Molecular Physics}\ }\textbf {\bibinfo
+  {volume} {98}},\ \bibinfo {pages} {1697--1712} (\bibinfo {year}
+  {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tarroni}\ and\ \citenamefont {Carter}(2004)}]{tar04}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Tarroni}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Carter}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Theoretical
+  calculation of absorption intensities of {C$_2$H} and {C$_2$D}},}\ }\href
+  {\doibase 10.1080/00268970410001713254} {\bibfield  {journal} {\bibinfo
+  {journal} {Molecular Physics}\ }\textbf {\bibinfo {volume} {102}},\ \bibinfo
+  {pages} {2167--2179} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stanton}(2021)}]{sta21}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont
+  {Stanton}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Why the CC
+  Stretch in HCC Is So Anharmonic}},}\ }\href {\doibase
+  10.1021/acs.jpca.1c06372} {\bibfield  {journal} {\bibinfo  {journal} {The
+  Journal of Physical Chemistry A}\ }\textbf {\bibinfo {volume} {125}},\
+  \bibinfo {pages} {7694--7698} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gulania}\ and\ \citenamefont {Krylov}(2021)}]{gul21}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Gulania}}\ and\ \bibinfo {author} {\bibfnamefont {A.~I.}\ \bibnamefont
+  {Krylov}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Dissociative
+  electron attachment in C$_2$H via electronic resonances}},}\ }\href {\doibase
+  10.1080/00268976.2021.1979262} {\bibfield  {journal} {\bibinfo  {journal}
+  {Molecular Physics}\ }\textbf {\bibinfo {volume} {119}},\ \bibinfo {pages}
+  {e1979262} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cavanagh}\ \emph {et~al.}(2007)\citenamefont
+  {Cavanagh}, \citenamefont {Gibson}, \citenamefont {Gale}, \citenamefont
+  {Dedman}, \citenamefont {Roberts},\ and\ \citenamefont {Lewis}}]{cav07}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Cavanagh}}, \bibinfo {author} {\bibfnamefont {S.~T.}\ \bibnamefont
+  {Gibson}}, \bibinfo {author} {\bibfnamefont {M.~N.}\ \bibnamefont {Gale}},
+  \bibinfo {author} {\bibfnamefont {C.~J.}\ \bibnamefont {Dedman}}, \bibinfo
+  {author} {\bibfnamefont {E.~H.}\ \bibnamefont {Roberts}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Lewis}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {{High resolution velocity-map imaging
+  photoelectron spectroscopy of the O$^-$ fine-structure transitions}},}\
+  }\href {\doibase 10.1103/PhysRevA.76.052708} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review A}\ }\textbf {\bibinfo {volume} {76}},\ \bibinfo
+  {pages} {052708} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {DeVine}\ \emph {et~al.}(2017)\citenamefont {DeVine},
+  \citenamefont {Weichman}, \citenamefont {Laws}, \citenamefont {Chang},
+  \citenamefont {Babin}, \citenamefont {Balerdi}, \citenamefont {Xie},
+  \citenamefont {Malbon}, \citenamefont {Lineberger}, \citenamefont {Yarkony},
+  \citenamefont {Field}, \citenamefont {Gibson}, \citenamefont {Ma},
+  \citenamefont {Guo},\ and\ \citenamefont {Neumark}}]{dev17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {DeVine}}, \bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont
+  {Weichman}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Laws}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Chang}}, \bibinfo
+  {author} {\bibfnamefont {M.~C.}\ \bibnamefont {Babin}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Balerdi}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Xie}}, \bibinfo {author} {\bibfnamefont {C.~L.}\
+  \bibnamefont {Malbon}}, \bibinfo {author} {\bibfnamefont {W.~C.}\
+  \bibnamefont {Lineberger}}, \bibinfo {author} {\bibfnamefont {D.~R.}\
+  \bibnamefont {Yarkony}}, \bibinfo {author} {\bibfnamefont {R.~W.}\
+  \bibnamefont {Field}}, \bibinfo {author} {\bibfnamefont {S.~T.}\ \bibnamefont
+  {Gibson}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Ma}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Guo}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {D.~M.}\ \bibnamefont {Neumark}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Encoding of vinylidene isomerization in its
+  anion photoelectron spectrum},}\ }\href {\doibase 10.1126/science.aao1905}
+  {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo
+  {volume} {358}},\ \bibinfo {pages} {336--339} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dedman}\ \emph {et~al.}(2001)\citenamefont {Dedman},
+  \citenamefont {Roberts}, \citenamefont {Gibson},\ and\ \citenamefont
+  {Lewis}}]{ded01}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~J.}\ \bibnamefont
+  {Dedman}}, \bibinfo {author} {\bibfnamefont {E.~H.}\ \bibnamefont {Roberts}},
+  \bibinfo {author} {\bibfnamefont {S.~T.}\ \bibnamefont {Gibson}}, \ and\
+  \bibinfo {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Lewis}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{Fast 1 kV metal-oxide-semiconductor
+  field-effect transistor switch}},}\ }\href {\doibase 10.1063/1.1389488}
+  {\bibfield  {journal} {\bibinfo  {journal} {Review of Scientific
+  Instruments}\ }\textbf {\bibinfo {volume} {72}},\ \bibinfo {pages}
+  {3718--3720} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gascooke}, \citenamefont {Gibson},\ and\
+  \citenamefont {Lawrance}(2017)}]{gas17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont
+  {Gascooke}}, \bibinfo {author} {\bibfnamefont {S.~T.}\ \bibnamefont
+  {Gibson}}, \ and\ \bibinfo {author} {\bibfnamefont {W.~D.}\ \bibnamefont
+  {Lawrance}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {A
+  circularisation method to repair deformations and determine the centre of
+  velocity map images},}\ }\href {\doibase 10.1063/1.4981024} {\bibfield
+  {journal} {\bibinfo  {journal} {The Journal of Chemical Physics}\ }\textbf
+  {\bibinfo {volume} {147}},\ \bibinfo {pages} {013924} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hansen}\ and\ \citenamefont {Law}(1985)}]{han85}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~W.}\ \bibnamefont
+  {Hansen}}\ and\ \bibinfo {author} {\bibfnamefont {P.-L.}\ \bibnamefont
+  {Law}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Recursive methods
+  for computing the abel transform and its inverse},}\ }\href {\doibase
+  10.1364/JOSAA.2.000510} {\bibfield  {journal} {\bibinfo  {journal} {Journal
+  of the Optical Society of America A}\ }\textbf {\bibinfo {volume} {2}},\
+  \bibinfo {pages} {510--520} (\bibinfo {year} {1985})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hickstein}\ \emph {et~al.}(2019)\citenamefont
+  {Hickstein}, \citenamefont {Gibson}, \citenamefont {Yurchak}, \citenamefont
+  {Das},\ and\ \citenamefont {Ryazanov}}]{hic19}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~D.}\ \bibnamefont
+  {Hickstein}}, \bibinfo {author} {\bibfnamefont {S.~T.}\ \bibnamefont
+  {Gibson}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Yurchak}},
+  \bibinfo {author} {\bibfnamefont {D.~D.}\ \bibnamefont {Das}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ryazanov}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {A direct comparison of high-speed
+  methods for the numerical abel transform},}\ }\href {\doibase
+  10.1063/1.5092635} {\bibfield  {journal} {\bibinfo  {journal} {Review of
+  Scientific Instruments}\ }\textbf {\bibinfo {volume} {90}},\ \bibinfo {pages}
+  {065115} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Laws}\ \emph
+  {et~al.}(2019{\natexlab{a}})\citenamefont {Laws}, \citenamefont {Lewis},
+  \citenamefont {Gibson},\ and\ \citenamefont {Field}}]{law19b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~A.}\ \bibnamefont
+  {Laws}}, \bibinfo {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Lewis}},
+  \bibinfo {author} {\bibfnamefont {S.~T.}\ \bibnamefont {Gibson}}, \ and\
+  \bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont {Field}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {The dicarbon bonding puzzle viewed with
+  photoelectron imaging},}\ }\href {\doibase 10.1038/s41467-019-13039-y}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Communications}\ }\textbf
+  {\bibinfo {volume} {10}},\ \bibinfo {pages} {5199} (\bibinfo {year}
+  {2019}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Laws}\ \emph
+  {et~al.}(2019{\natexlab{b}})\citenamefont {Laws}, \citenamefont {Cavanagh},
+  \citenamefont {Lewis},\ and\ \citenamefont {Gibson}}]{law19}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~A.}\ \bibnamefont
+  {Laws}}, \bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont {Cavanagh}},
+  \bibinfo {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Lewis}}, \ and\
+  \bibinfo {author} {\bibfnamefont {S.~T.}\ \bibnamefont {Gibson}},\ }\bibfield
+   {title} {\enquote {\bibinfo {title} {{Wigner Near-Threshold Effects in the
+  Photoelectron Angular Distribution of NO$_2^-$}},}\ }\href {\doibase
+  10.1021/acs.jpca.9b09073} {\bibfield  {journal} {\bibinfo  {journal} {The
+  Journal of Physical Chemistry A}\ }\textbf {\bibinfo {volume} {123}},\
+  \bibinfo {pages} {10418--10425} (\bibinfo {year}
+  {2019}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Buckingham}, \citenamefont {Orr},\ and\ \citenamefont
+  {Sichel}(1970)}]{buc70}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~D.}\ \bibnamefont
+  {Buckingham}}, \bibinfo {author} {\bibfnamefont {B.~J.}\ \bibnamefont {Orr}},
+  \ and\ \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Sichel}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {A discussion on
+  photoelectron spectroscopy - angular distributions and intensity in molecular
+  photoelectron spectroscopy i. general theory for diatomic molecules},}\
+  }\href {\doibase 10.1098/rsta.1970.0068} {\bibfield  {journal} {\bibinfo
+  {journal} {Phil. Trans. A: Math. Phys. Eng. Sci.}\ }\textbf {\bibinfo
+  {volume} {268}},\ \bibinfo {pages} {147--157} (\bibinfo {year}
+  {1970})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {K\"{o}ppel}, \citenamefont {Domcke},\ and\
+  \citenamefont {Cederbaum}(1984)}]{kou84}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {K\"{o}ppel}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Domcke}},
+  \ and\ \bibinfo {author} {\bibfnamefont {L.~S.}\ \bibnamefont {Cederbaum}},\
+  }\enquote {\bibinfo {title} {Multimode molecular dynamics beyond the
+  born-oppenheimer approximation},}\ in\ \href {\doibase
+  https://doi.org/10.1002/9780470142813.ch2} {\emph {\bibinfo {booktitle}
+  {Advances in Chemical Physics}}}\ (\bibinfo  {publisher} {{John Wiley \&
+  Sons, Ltd}},\ \bibinfo {year} {1984})\ pp.\ \bibinfo {pages}
+  {59--246}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Domcke}, \citenamefont {K\"{o}ppel},\ and\
+  \citenamefont {Cederbaum}(1981)}]{dom81}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Domcke}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {K\"{o}ppel}},
+  \ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Cederbaum}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Spectroscopic effects of
+  conical intersections of molecular potential energy surfaces},}\ }\href
+  {\doibase 10.1080/00268978100101721} {\bibfield  {journal} {\bibinfo
+  {journal} {Molecular Physics}\ }\textbf {\bibinfo {volume} {43}},\ \bibinfo
+  {pages} {851--875} (\bibinfo {year} {1981})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pacher}, \citenamefont {Cederbaum},\ and\
+  \citenamefont {K\"{o}ppel}(1993)}]{pac93}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Pacher}}, \bibinfo {author} {\bibfnamefont {L.~S.}\ \bibnamefont
+  {Cederbaum}}, \ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {K\"{o}ppel}},\ }\enquote {\bibinfo {title} {Adiabatic and quasidiabatic
+  states in a gauge theoretical framework},}\ in\ \href {\doibase
+  https://doi.org/10.1002/9780470141427.ch4} {\emph {\bibinfo {booktitle}
+  {Advances in Chemical Physics}}}\ (\bibinfo  {publisher} {John Wiley \& Sons,
+  Ltd},\ \bibinfo {year} {1993})\ pp.\ \bibinfo {pages} {293--391}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Stanton}(2011)}]{sta11}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont
+  {Stanton}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Quantitative
+  vibronic coupling calculations. the visible spectrum of propadienylidene},}\
+  }\href {\doibase 10.1039/C0FD00029A} {\bibfield  {journal} {\bibinfo
+  {journal} {Faraday Discuss.}\ }\textbf {\bibinfo {volume} {150}},\ \bibinfo
+  {pages} {331--343} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ichino}\ \emph {et~al.}(2006)\citenamefont {Ichino},
+  \citenamefont {Gianola}, \citenamefont {Lineberger},\ and\ \citenamefont
+  {Stanton}}]{ich06}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Ichino}}, \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont {Gianola}},
+  \bibinfo {author} {\bibfnamefont {W.~C.}\ \bibnamefont {Lineberger}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont {Stanton}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Nonadiabatic effects in the
+  photoelectron spectrum of the pyrazolide-d3 anion: Three-state interactions
+  in the pyrazolyl-d3 radical},}\ }\href {\doibase 10.1063/1.2338043}
+  {\bibfield  {journal} {\bibinfo  {journal} {The Journal of Chemical Physics}\
+  }\textbf {\bibinfo {volume} {125}},\ \bibinfo {pages} {084312} (\bibinfo
+  {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ichino}\ \emph {et~al.}(2008)\citenamefont {Ichino},
+  \citenamefont {Wren}, \citenamefont {Vogelhuber}, \citenamefont {Gianola},
+  \citenamefont {Lineberger},\ and\ \citenamefont {Stanton}}]{ich08}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Ichino}}, \bibinfo {author} {\bibfnamefont {S.~W.}\ \bibnamefont {Wren}},
+  \bibinfo {author} {\bibfnamefont {K.~M.}\ \bibnamefont {Vogelhuber}},
+  \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont {Gianola}}, \bibinfo
+  {author} {\bibfnamefont {W.~C.}\ \bibnamefont {Lineberger}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.~F.}\ \bibnamefont {Stanton}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {The vibronic level structure of the
+  cyclopentadienyl radical},}\ }\href {\doibase 10.1063/1.2973631} {\bibfield
+  {journal} {\bibinfo  {journal} {The Journal of Chemical Physics}\ }\textbf
+  {\bibinfo {volume} {129}},\ \bibinfo {pages} {084310} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ichino}, \citenamefont {Gauss},\ and\ \citenamefont
+  {Stanton}(2009)}]{ich09}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Ichino}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Gauss}}, \
+  and\ \bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont {Stanton}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Quasidiabatic states
+  described by coupled-cluster theory},}\ }\href {\doibase 10.1063/1.3127246}
+  {\bibfield  {journal} {\bibinfo  {journal} {The Journal of Chemical Physics}\
+  }\textbf {\bibinfo {volume} {130}},\ \bibinfo {pages} {174105} (\bibinfo
+  {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Weichman}\ \emph {et~al.}(2017)\citenamefont
+  {Weichman}, \citenamefont {Cheng}, \citenamefont {Kim}, \citenamefont
+  {Stanton},\ and\ \citenamefont {Neumark}}]{wei17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont
+  {Weichman}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Cheng}},
+  \bibinfo {author} {\bibfnamefont {J.~B.}\ \bibnamefont {Kim}}, \bibinfo
+  {author} {\bibfnamefont {J.~F.}\ \bibnamefont {Stanton}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {D.~M.}\ \bibnamefont {Neumark}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Low-lying vibronic level structure of
+  the ground state of the methoxy radical: Slow electron velocity-map imaging
+  (sevi) spectra and k\"{o}ppel-domcke-cederbaum (kdc) vibronic hamiltonian
+  calculations},}\ }\href {\doibase 10.1063/1.4984963} {\bibfield  {journal}
+  {\bibinfo  {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo
+  {volume} {146}},\ \bibinfo {pages} {224309} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wigner}(1948)}]{wig48}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~P.}\ \bibnamefont
+  {Wigner}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {On the behavior
+  of cross sections near thresholds},}\ }\href {\doibase
+  10.1103/PhysRev.73.1002} {\bibfield  {journal} {\bibinfo  {journal} {Physical
+  Review}\ }\textbf {\bibinfo {volume} {73}},\ \bibinfo {pages} {1002--1009}
+  (\bibinfo {year} {1948})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yan}\ \emph {et~al.}(1987)\citenamefont {Yan},
+  \citenamefont {Dane}, \citenamefont {Zeitz}, \citenamefont {Hall},\ and\
+  \citenamefont {Curl}}]{yan87}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-B.}\ \bibnamefont
+  {Yan}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Dane}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Zeitz}}, \bibinfo {author}
+  {\bibfnamefont {J.~L.}\ \bibnamefont {Hall}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Curl}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {{Color center laser spectroscopy of C$_2$H and C$_2$D}},}\
+  }\href {\doibase https://doi.org/10.1016/0022-2852(87)90294-3} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Molecular Spectroscopy}\ }\textbf
+  {\bibinfo {volume} {123}},\ \bibinfo {pages} {486--495} (\bibinfo {year}
+  {1987})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stephens}\ \emph {et~al.}(1988)\citenamefont
+  {Stephens}, \citenamefont {Yan}, \citenamefont {Richnow}, \citenamefont
+  {Solka},\ and\ \citenamefont {Curl}}]{ste88}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Stephens}}, \bibinfo {author} {\bibfnamefont {W.-B.}\ \bibnamefont {Yan}},
+  \bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont {Richnow}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Solka}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Curl}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {{Infrared kinetic spectroscopy of C$_2$H and C$_2$D}},}\
+  }\href {\doibase https://doi.org/10.1016/0022-2860(88)80269-2} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Molecular Structure}\ }\textbf
+  {\bibinfo {volume} {190}},\ \bibinfo {pages} {41 -- 60} (\bibinfo {year}
+  {1988})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sharp-Williams}, \citenamefont {Roberts},\ and\
+  \citenamefont {Nesbitt}(2011)}]{wil11}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~N.}\ \bibnamefont
+  {Sharp-Williams}}, \bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {Roberts}}, \ and\ \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Nesbitt}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {{Dark state
+  vibronic coupling in the $\tilde{A}^2\Pi \leftarrow \tilde{X}^2\Sigma^+$ band
+  of ethynyl radical via high resolution infrared absorption spectroscopy}},}\
+  }\href {\doibase 10.1039/C1CP21523J} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Chemistry Chemical Physics}\ }\textbf {\bibinfo {volume}
+  {13}},\ \bibinfo {pages} {17474--17483} (\bibinfo {year} {2011})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Simmons}, \citenamefont {Ichino},\ and\ \citenamefont
+  {Stanton}(2012)}]{sim12}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~S.}\ \bibnamefont
+  {Simmons}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Ichino}}, \
+  and\ \bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont {Stanton}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {The $\nu$3 fundamental in
+  no$_3$ has been seen near 1060 cm$^{-1}$, albeit some time ago},}\ }\href
+  {\doibase 10.1021/jz300721b} {\bibfield  {journal} {\bibinfo  {journal} {The
+  Journal of Physical Chemistry Letters}\ }\textbf {\bibinfo {volume} {3}},\
+  \bibinfo {pages} {1946--1950} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Khuseynov}\ \emph {et~al.}(2014)\citenamefont
+  {Khuseynov}, \citenamefont {Blackstone}, \citenamefont {Culberson},\ and\
+  \citenamefont {Sanov}}]{khu14}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Khuseynov}}, \bibinfo {author} {\bibfnamefont {C.~C.}\ \bibnamefont
+  {Blackstone}}, \bibinfo {author} {\bibfnamefont {L.~M.}\ \bibnamefont
+  {Culberson}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Sanov}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Photoelectron
+  angular distributions for states of any mixed character: An
+  experiment-friendly model for atomic, molecular, and cluster anions},}\
+  }\href {\doibase 10.1063/1.4896241} {\bibfield  {journal} {\bibinfo
+  {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo {volume}
+  {141}},\ \bibinfo {pages} {124312} (\bibinfo {year} {2014})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hanstorp}, \citenamefont {Bengtsson},\ and\
+  \citenamefont {Larson}(1989)}]{han89}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Hanstorp}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Bengtsson}},
+  \ and\ \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont {Larson}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Angular distributions in
+  photodetachment from ${\mathrm{O}}^{\mathrm{\ensuremath{-}}}$}},}\ }\href
+  {\doibase 10.1103/PhysRevA.40.670} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review A}\ }\textbf {\bibinfo {volume} {40}},\ \bibinfo {pages}
+  {670--675} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sanov}\ \emph {et~al.}(2013)\citenamefont {Sanov},
+  \citenamefont {Grumbling}, \citenamefont {Goebbert},\ and\ \citenamefont
+  {Culberson}}]{san13}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Sanov}}, \bibinfo {author} {\bibfnamefont {E.~R.}\ \bibnamefont
+  {Grumbling}}, \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Goebbert}}, \ and\ \bibinfo {author} {\bibfnamefont {L.~M.}\ \bibnamefont
+  {Culberson}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Photodetachment anisotropy for mixed s-p states: 8/3 and other fractions},}\
+  }\href {\doibase 10.1063/1.4789811} {\bibfield  {journal} {\bibinfo
+  {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo {volume}
+  {138}},\ \bibinfo {pages} {054311} (\bibinfo {year} {2013})}\BibitemShut
+  {NoStop}%
+\end{thebibliography}%

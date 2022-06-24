@@ -58,6 +58,6 @@ ax.tick_params(width=1.5)
 plt.setp(ax.spines.values(), linewidth=1.5)
 
 
-plt.savefig("FigS1.pdf",dpi=300,bb_inches="tight")
+plt.savefig("FigS1.eps",dpi=600,bb_inches="tight")
 plt.show()
 

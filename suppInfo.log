@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  5 MAY 2022 15:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  23 MAY 2022 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -797,7 +797,7 @@ Package pdftex.def Info: figures/FigS2.pdf  used on input line 107.
 Here is how much of TeX's memory you used:
  15897 strings out of 494847
  290166 string characters out of 6179079
- 367179 words of memory out of 5000000
+ 367176 words of memory out of 5000000
  18981 multiletter control sequences out of 15000+600000
  587215 words of font info for 134 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
@@ -813,7 +813,7 @@ urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
 /uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on suppInfo.pdf (5 pages, 164066 bytes).
+Output written on suppInfo.pdf (5 pages, 164011 bytes).
 PDF statistics:
  161 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream

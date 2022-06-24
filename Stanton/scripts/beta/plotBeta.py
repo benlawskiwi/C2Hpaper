@@ -45,7 +45,7 @@ for i in range(0,np.size(b)):
     spec+= by[i]*amp*Gauss(xx[i],FWHM,Ev)
 
 plt.plot(hv-x,y,'k',label='C$_2$H$^-$ at 300nm')
-plt.plot(hv-Ev,spec,'C3',label = r'Anisotropy ($\beta\times$I)')
+plt.plot(hv-Ev,spec,'C3',label = r'Anisotropy $\beta\times$I')
 
 #Plotting
 plt.xlim(hv-27000,hv-15000)
@@ -71,7 +71,7 @@ ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 plt.setp(ax.spines.values(), linewidth=1.5)
 plt.xlabel('Electron Kinetic Energy (cm$^{-1}$)',fontsize=14)
-plt.ylabel(r'Anisotropy ($\beta\times$I)',fontsize=14)
+plt.ylabel(r'Intensity (arb. u.)',fontsize=14)
 plt.legend(loc='upper left',fontsize=10,frameon=False)
 ax.set_xticklabels(np.arange(6000,20000,2000),fontsize=14)
 ax.set_yticklabels([-0.2,-0.1,0.0,0.1,0.2,0.3,0.4,0.5,0.6],fontsize=14)

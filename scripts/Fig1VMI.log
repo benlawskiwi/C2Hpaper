@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  4 NOV 2021 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.15)  23 JUN 2022 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -180,24 +180,24 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 6.
-<Fig1a.pdf, id=1, 367.79195pt x 320.04352pt>
+<Fig1a.pdf, id=1, 374.84956pt x 323.93304pt>
 File: Fig1a.pdf Graphic file (type pdf)
 <use Fig1a.pdf>
 Package pdftex.def Info: Fig1a.pdf  used on input line 9.
-(pdftex.def)             Requested size: 196.1915pt x 170.71652pt.
-<Fig1b.pdf, id=2, 375.46123pt x 320.04352pt>
+(pdftex.def)             Requested size: 197.55396pt x 170.71652pt.
+<Fig1b.pdf, id=2, 385.07527pt x 323.93304pt>
 File: Fig1b.pdf Graphic file (type pdf)
 <use Fig1b.pdf>
 Package pdftex.def Info: Fig1b.pdf  used on input line 9.
-(pdftex.def)             Requested size: 200.28253pt x 170.71652pt.
+(pdftex.def)             Requested size: 202.94315pt x 170.71652pt.
 File: Fig1a.pdf Graphic file (type pdf)
 <use Fig1a.pdf>
 Package pdftex.def Info: Fig1a.pdf  used on input line 14.
-(pdftex.def)             Requested size: 163.49011pt x 142.26378pt.
+(pdftex.def)             Requested size: 164.62544pt x 142.26378pt.
 File: Fig1a.pdf Graphic file (type pdf)
 <use Fig1a.pdf>
 Package pdftex.def Info: Fig1a.pdf  used on input line 14.
-(pdftex.def)             Requested size: 163.49011pt x 142.26378pt.
+(pdftex.def)             Requested size: 164.62544pt x 142.26378pt.
 
 Overfull \hbox (544.0008pt too wide) in paragraph at lines 6--20
 [][] 
@@ -224,7 +224,7 @@ Here is how much of TeX's memory you used:
  59 hyphenation exceptions out of 8191
  39i,19n,56p,233b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Fig1VMI.pdf (1 page, 571938 bytes).
+Output written on Fig1VMI.pdf (1 page, 571931 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
