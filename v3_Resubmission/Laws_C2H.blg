@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Laws_C2H.aux
+The style file: aipnum4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: Laws_C2HNotes.bib
+Database file #2: Laws_C2H.bib
+control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
+control{aip41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{0}, control.pages{1}, control.year{N/A}, control.eprint{N/A}, 
+Warning--jnrlst (dependency: not reversed) set 1
+Name 1 in "Peri\'{c}, M., and Peyerimhoff, S.D. and Buenker, R.J" has a comma at the end for entry per92
+while executing---line 3259 of file aipnum4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs aipnum4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (0) allowed
+Control: page (1) range
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+Name 1 in "Peri\'{c}, M., and Peyerimhoff, S.D. and Buenker, R.J" has a comma at the end for entry per92
+while executing---line 3465 of file aipnum4-1.bst
+Name 1 in "Peri\'{c}, M., and Peyerimhoff, S.D. and Buenker, R.J" has a comma at the end for entry per92
+while executing---line 3465 of file aipnum4-1.bst
+Name 1 in "Peri\'{c}, M., and Peyerimhoff, S.D. and Buenker, R.J" has a comma at the end for entry per92
+while executing---line 3465 of file aipnum4-1.bst
+Name 1 in "Peri\'{c}, M., and Peyerimhoff, S.D. and Buenker, R.J" has a comma at the end for entry per92
+while executing---line 3465 of file aipnum4-1.bst
+You've used 100 entries,
+            5918 wiz_defined-function locations,
+            2372 strings with 42199 characters,
+and the built_in function-call counts, 134152 in all, are:
+= -- 7814
+> -- 5031
+< -- 851
++ -- 1514
+- -- 1299
+* -- 22617
+:= -- 12932
+add.period$ -- 196
+call.type$ -- 100
+change.case$ -- 495
+chr.to.int$ -- 100
+cite$ -- 100
+duplicate$ -- 11918
+empty$ -- 9572
+format.name$ -- 2620
+if$ -- 26502
+int.to.chr$ -- 3
+int.to.str$ -- 107
+missing$ -- 1549
+newline$ -- 346
+num.names$ -- 294
+pop$ -- 4306
+preamble$ -- 1
+purify$ -- 490
+quote$ -- 0
+skip$ -- 3924
+stack$ -- 0
+substring$ -- 3508
+swap$ -- 12450
+text.length$ -- 534
+text.prefix$ -- 0
+top$ -- 10
+type$ -- 1620
+warning$ -- 1
+while$ -- 411
+width$ -- 0
+write$ -- 937
+(There were 5 error messages)
